@@ -2,7 +2,7 @@
 
 /obj/item/food/pancakes
 	name = "pancake"
-	desc = "A fluffy pancake. The softer, superior relative of the waffle."
+	desc = "Пышная оладья, мягкий и воздушный родственник венских вафель и тонких блинов."
 	icon_state = "pancakes_1"
 	inhand_icon_state = null
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 2)
@@ -16,7 +16,7 @@
 
 /obj/item/food/pancakes/raw
 	name = "goopy pancake"
-	desc = "A barely cooked mess that some may mistake for a pancake. It longs for the griddle."
+	desc = "Сырое, жидкое нечто, которое можно принять за оладью. Поджарьте её на гриддле."
 	icon_state = "rawpancakes_1"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("milky batter" = 1)
@@ -46,17 +46,17 @@
 		return ..()
 	if(newresult)
 		qdel(garnish)
-		to_chat(user, span_notice("You add [garnish] to [src]."))
+		to_chat(user, span_notice("Вы добавляете немного [garnish.declent_ru(GENITIVE)] на [src.declent_ru(ACCUSATIVE)]."))
 		AddComponent(/datum/component/grillable, cook_result = newresult)
 
 /obj/item/food/pancakes/raw/examine(mob/user)
 	. = ..()
 	if(name == initial(name))
-		. += span_notice("You can modify the pancake by adding <b>blueberries</b> or <b>chocolate</b> before finishing the griddle.")
+		. += span_notice("Вы можете добавить немного <b>черники</b> или <b>шоколада</b>, пока оладья выпекается.")
 
 /obj/item/food/pancakes/blueberry
 	name = "blueberry pancake"
-	desc = "A fluffy and delicious blueberry pancake."
+	desc = "Пышная и вкусная оладья с черникой."
 	icon_state = "bbpancakes_1"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 6,
@@ -68,7 +68,7 @@
 
 /obj/item/food/pancakes/chocolatechip
 	name = "chocolate chip pancake"
-	desc = "A fluffy and delicious chocolate chip pancake."
+	desc = "Пышная и вкусная оладья с кусочками шоколада."
 	icon_state = "ccpancakes_1"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 6,
@@ -104,28 +104,28 @@
 		if(0)
 			desc = initial(desc)
 		if(1 to 2)
-			desc = "A stack of fluffy pancakes."
+			desc = "Стопка пышных оладий."
 		if(3 to 6)
-			desc = "A fat stack of fluffy pancakes!"
+			desc = "Большая стопка пышных оладий!"
 		if(7 to 9)
-			desc = "A grand tower of fluffy, delicious pancakes!"
+			desc = "Очень большая стопка пышных и вкусных оладий!"
 		if(PANCAKE_MAX_STACK to INFINITY)
-			desc = "A massive towering spire of fluffy, delicious pancakes. It looks like it could tumble over!"
+			desc = "Колоссальная башня из пышных и очень вкусных оладий. Кажется, она рухнет в любой момент!"
 	. = ..()
 	if (pancakeCount)
 		for(var/obj/item/food/pancakes/ING in contents)
-			ingredients_listed += "[ING.name], "
-		. += "It contains [contents.len?"[ingredients_listed]":"no ingredient, "]on top of a [initial(name)]."
+			ingredients_listed += "[ING.declent_ru(ACCUSATIVE)], "
+		. += "Вы видите [contents.len?"[ingredients_listed]и конечно же,":"только"] [declent_ru_initial(src::name, ACCUSATIVE, name)]."
 
 /obj/item/food/pancakes/attackby(obj/item/item, mob/living/user, list/modifiers, list/attack_modifiers)
 	if(istype(item, /obj/item/food/pancakes))
 		var/obj/item/food/pancakes/pancake = item
 		if((contents.len >= PANCAKE_MAX_STACK) || ((pancake.contents.len + contents.len) > PANCAKE_MAX_STACK))
-			to_chat(user, span_warning("You can't add that many pancakes to [src]!"))
+			to_chat(user, span_warning("Нельзя сделать [src.declent_ru(ACCUSATIVE)] ещё выше!"))
 		else
 			if(!user.transferItemToLoc(pancake, src))
 				return
-			to_chat(user, span_notice("You add the [pancake] to the [src]."))
+			to_chat(user, span_notice("Вы кладете [pancake.declent_ru(ACCUSATIVE)] на вершину [src.declent_ru(GENITIVE)]."))
 			pancake.name = initial(pancake.name)
 			contents += pancake
 			update_snack_overlays(pancake)

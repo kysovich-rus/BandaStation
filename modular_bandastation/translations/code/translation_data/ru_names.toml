@@ -7153,15 +7153,6 @@ instrumental = "соком \"Уэллчирс\""
 prepositional = "соке \"Уэллчирс\""
 gender = "male"
 
-["canned air"]
-nominative = "консервированный воздух"
-genitive = "консервированного воздуха"
-dative = "консервированному воздуху"
-accusative = "консервированный воздух"
-instrumental = "консервированным воздухом"
-prepositional = "консервированном воздухе"
-gender = "male"
-
 ["Carp Lite"]
 nominative = "светлое пиво \"Карп\""
 genitive = "светлого пива \"Карп\""
@@ -14469,6 +14460,307 @@ dative = "жвачке со стимуляторами"
 accusative = "жвачку со стимуляторами"
 instrumental = "жвачкой со стимуляторами"
 prepositional = "жвачке со стимуляторами"
+gender = "female"
+
+# MARK: Food - Packaged
+
+["canned air"]
+nominative = "консервированный воздух"
+genitive = "консервированного воздуха"
+dative = "консервированному воздуху"
+accusative = "консервированный воздух"
+instrumental = "консервированным воздухом"
+prepositional = "консервированном воздухе"
+gender = "male"
+
+["tin of beans"]
+nominative = "консервированные бобы"
+genitive = "консервированных бобов"
+dative = "консервированным бобам"
+accusative = "консервированные бобы"
+instrumental = "консервированными бобами"
+prepositional = "консервированных бобах"
+gender = "plural"
+
+["canned peaches"]
+nominative = "консервированные персики"
+genitive = "консервированных персиков"
+dative = "консервированным персикам"
+accusative = "консервированные персики"
+instrumental = "консервированными персиками"
+prepositional = "консервированных персиках"
+gender = "plural"
+
+["maintenance peaches"]
+nominative = "залежалые консервированные персики"
+genitive = "залежалых консервированных персиков"
+dative = "залежалых консервированным персикам"
+accusative = "залежалые консервированные персики"
+instrumental = "залежалыми консервированными персиками"
+prepositional = "залежалых консервированных персиках"
+gender = "plural"
+
+["canned San Marzano tomatoes"]
+nominative = "консервированные томаты 'Сан-Марцано'"
+genitive = "консервированных томатов 'Сан-Марцано'"
+dative = "консервированным томатам 'Сан-Марцано'"
+accusative = "консервированные томаты 'Сан-Марцано'"
+instrumental = "консервированными томатами 'Сан-Марцано'"
+prepositional = "консервированных томатах 'Сан-Марцано'"
+gender = "plural"
+
+["canned pine nuts"]
+nominative = "консервированные кедровые орехи"
+genitive = "консервированных кедровых орехов"
+dative = "консервированным кедровым орехам"
+accusative = "консервированные кедровые орехи"
+instrumental = "консервированными кедровыми орехами"
+prepositional = "консервированных кедровых орехах"
+gender = "plural"
+
+["dog eat dog envirochow"]
+nominative = "собачьи консервы"
+genitive = "собачьих консервов"
+dative = "собачьим консервам"
+accusative = "собачьи консервы"
+instrumental = "собачьими консервами"
+prepositional = "собачьих консервах"
+gender = "plural"
+
+["canned squid ink"]
+nominative = "консервированные чернила кальмара"
+genitive = "консервированных чернил кальмара"
+dative = "консервированным чернилам кальмара"
+accusative = "консервированные чернила кальмара"
+instrumental = "консервированными чернилами кальмара"
+prepositional = "консервированных чернилах кальмара"
+gender = "plural"
+
+["can of CHAP"]
+nominative = "банка CHAP"
+genitive = "банки CHAP"
+dative = "банке CHAP"
+accusative = "банки CHAP"
+instrumental = "банкой CHAP"
+prepositional = "банке CHAP"
+gender = "female"
+
+["slice of chap"]
+nominative = "кусок свиной ветчины"
+genitive = "куска свиной ветчины"
+dative = "куске свиной ветчины"
+accusative = "кусок свиной ветчины"
+instrumental = "куском свиной ветчины"
+prepositional = "куске свиной ветчины"
+gender = "female"
+
+["grilled slice of chap"]
+nominative = "кусок жареной свиной ветчины"
+genitive = "куска жареной свиной ветчины"
+dative = "куске жареной свиной ветчины"
+accusative = "кусок жареной свиной ветчины"
+instrumental = "куском жареной свиной ветчины"
+prepositional = "куске жареной свиной ветчины"
+gender = "female"
+
+["Ready-Donk: Bachelor Chow"]
+nominative = "Рэди-Донк: Рацион Холостяка"
+genitive = "Рэди-Донка: Рациона Холостяка"
+dative = "Рэди-Донку: Рациону Холостяка"
+accusative = "Рэди-Донк: Рацион Холостяка"
+instrumental = "Рэди-Донком: Рационом Холостяка"
+prepositional = "Рэди-Донке: Рационе Холостяка"
+gender = "male"
+
+["warm Ready-Donk: Bachelor Chow"]
+nominative = "горячий Рэди-Донк: Рацион холостяка"
+genitive = "горячего Рэди-Донка: Рацион холостяка"
+dative = "горячему Рэди-Донку: Рацион холостяка"
+accusative = "горячий Рэди-Донк: Рацион холостяка"
+instrumental = "горячим Рэди-Донком: Рацион холостяка"
+prepositional = "горячем Рэди-Донке: Рацион холостяка"
+gender = "male"
+
+["Ready-Donk: Donk-a-Roni"]
+nominative = "Рэди-Донк: Донкароны"
+genitive = "Рэди-Донка: Донкароны"
+dative = "Рэди-Донку: Донкароны"
+accusative = "Рэди-Донк: Донкароны"
+instrumental = "Рэди-Донком: Донкароны"
+prepositional = "Рэди-Донке: Донкароны"
+gender = "male"
+
+["warm Ready-Donk: Donk-a-Roni"]
+nominative = "горячий Рэди-Донк: Донкароны"
+genitive = "горячего Рэди-Донка: Донкароны"
+dative = "горячему Рэди-Донку: Донкароны"
+accusative = "горячий Рэди-Донк: Донкароны"
+instrumental = "горячим Рэди-Донком: Донкароны"
+prepositional = "горячем Рэди-Донке: Донкароны"
+gender = "male"
+
+["Ready-Donk: Donkhiladas"]
+nominative = "Рэди-Донк: Донкиладас"
+genitive = "Рэди-Донка: Донкиладас"
+dative = "Рэди-Донку: Донкиладас"
+accusative = "Рэди-Донк: Донкиладас"
+instrumental = "Рэди-Донком: Донкиладас"
+prepositional = "Рэди-Донке: Донкиладас"
+gender = "male"
+
+["warm Ready-Donk: Donkhiladas"]
+nominative = "горячий Рэди-Донк: Донкиладас"
+genitive = "горячего Рэди-Донка: Донкиладас"
+dative = "горячему Рэди-Донку: Донкиладас"
+accusative = "горячий Рэди-Донк: Донкиладас"
+instrumental = "горячим Рэди-Донком: Донкиладас"
+prepositional = "горячем Рэди-Донке: Донкиладас"
+gender = "male"
+
+["Ready-Donk: Donk Sol Series Boritos Nachos Grandes"]
+nominative = "Рэди-Донк: Лига Донк Сол - Боритос Начос Гранд"
+genitive = "Рэди-Донка: Лига Донк Сол - Боритос Начос Гранд"
+dative = "Рэди-Донку: Лига Донк Сол - Боритос Начос Гранд"
+accusative = "Рэди-Донк: Лига Донк Сол - Боритос Начос Гранд"
+instrumental = "Рэди-Донком: Лига Донк Сол - Боритос Начос Гранд"
+prepositional = "Рэди-Донке: Лига Донк Сол - Боритос Начос Гранд"
+gender = "male"
+
+["warm Ready-Donk: Donk Sol Series Boritos Nachos Grandes"]
+nominative = "горячий Рэди-Донк: Лига Донк Сол - Боритос Начос Гранд"
+genitive = "горячего Рэди-Донка: Лига Донк Сол - Боритос Начос Гранд"
+dative = "горячему Рэди-Донку: Лига Донк Сол - Боритос Начос Гранд"
+accusative = "горячий Рэди-Донк: Лига Донк Сол - Боритос Начос Гранд"
+instrumental = "горячим Рэди-Донком: Лига Донк Сол - Боритос Начос Гранд"
+prepositional = "горячем Рэди-Донке: Лига Донк Сол - Боритос Начос Гранд"
+gender = "male"
+
+["Ready-Donk: Donk-range Chicken"]
+nominative = "Рэди-Донк: Фермерский Донк-Цыпленок"
+genitive = "Рэди-Донка: Фермерский Донк-Цыпленок"
+dative = "Рэди-Донку: Фермерский Донк-Цыпленок"
+accusative = "Рэди-Донк: Фермерский Донк-Цыпленок"
+instrumental = "Рэди-Донком: Фермерский Донк-Цыпленок"
+prepositional = "Рэди-Донке: Фермерский Донк-Цыпленок"
+gender = "male"
+
+["warm Ready-Donk: Donk-range Chicken"]
+nominative = "горячий Рэди-Донк: Фермерский Донк-Цыпленок"
+genitive = "горячего Рэди-Донка: Фермерский Донк-Цыпленок"
+dative = "горячему Рэди-Донку: Фермерский Донк-Цыпленок"
+accusative = "горячий Рэди-Донк: Фермерский Донк-Цыпленок"
+instrumental = "горячим Рэди-Донком: Фермерский Донк-Цыпленок"
+prepositional = "горячем Рэди-Донке: Фермерский Донк-Цыпленок"
+gender = "male"
+
+["Ready-Donk Donkriginals: Salisbury Steak"]
+nominative = "Рэди-Донк Донкриджиналс: Бифштекс Солсберри"
+genitive = "Рэди-Донка Донкриджиналс: Бифштекс Солсберри"
+dative = "Рэди-Донку Донкриджиналс: Бифштекс Солсберри"
+accusative = "Рэди-Донк Донкриджиналс: Бифштекс Солсберри"
+instrumental = "Рэди-Донком Донкриджиналс: Бифштекс Солсберри"
+prepositional = "Рэди-Донке Донкриджиналс: Бифштекс Солсберри"
+gender = "male"
+
+["warm Ready-Donk Donkriginals: Salisbury Steak"]
+nominative = "горячий Рэди-Донк Донкриджинал: Бифштекс Солсберри"
+genitive = "горячего Рэди-Донка Донкриджинал: Бифштекс Солсберри"
+dative = "горячему Рэди-Донку Донкриджиналс: Бифштекс Солсберри"
+accusative = "горячий Рэди-Донк Донкриджиналс: Бифштекс Солсберри"
+instrumental = "горячим Рэди-Донком Донкриджиналс: Бифштекс Солсберри"
+prepositional = "горячем Рэди-Донке Донкриджиналс: Бифштекс Солсберри"
+gender = "male"
+
+["Ready-Donk Donkriginals: Country-Fried Chicken"]
+nominative = "Рэди-Донк Донкриджиналс: Цыпленок по-деревенски"
+genitive = "Рэди-Донка Донкриджиналс: Цыпленок по-деревенски"
+dative = "Рэди-Донку Донкриджиналс: Цыпленок по-деревенски"
+accusative = "Рэди-Донк Донкриджиналс: Цыпленок по-деревенски"
+instrumental = "Рэди-Донком Донкриджиналс: Цыпленок по-деревенски"
+prepositional = "Рэди-Донке Донкриджиналс: Цыпленок по-деревенски"
+gender = "male"
+
+["warm Ready-Donk Donkriginals: Country-Fried Chicken"]
+nominative = "горячий Рэди-Донк Донкриджинал: Цыпленок по-деревенски"
+genitive = "горячего Рэди-Донка Донкриджинал: Цыпленок по-деревенски"
+dative = "горячему Рэди-Донку Донкриджиналс: Цыпленок по-деревенски"
+accusative = "горячий Рэди-Донк Донкриджиналс: Цыпленок по-деревенски"
+instrumental = "горячим Рэди-Донком Донкриджиналс: Цыпленок по-деревенски"
+prepositional = "горячем Рэди-Донке Донкриджиналс: Цыпленок по-деревенски"
+gender = "male"
+
+["ration pack"]
+nominative = "сухой паёк"
+genitive = "сухого пайка"
+dative = "сухому пайку"
+accusative = "сухой паёк"
+instrumental = "сухим пайком"
+prepositional = "сухом пайке"
+gender = "male"
+
+# MARK: Food - Pancakes
+
+["pancake"]
+nominative = "оладья"
+genitive = "оладьи"
+dative = "оладье"
+accusative = "оладью"
+instrumental = "оладьей"
+prepositional = "оладье"
+gender = "female"
+
+["goopy pancake"]
+nominative = "жидкая оладья"
+genitive = "жидкой оладьи"
+dative = "жидкой оладье"
+accusative = "жидкую оладью"
+instrumental = "жидкой оладьей"
+prepositional = "жидкой оладье"
+gender = "female"
+
+["raw blueberry pancake"]
+nominative = "жидкая оладья c черникой"
+genitive = "жидкой оладьи c черникой"
+dative = "жидкой оладье c черникой"
+accusative = "жидкую оладью c черникой"
+instrumental = "жидкой оладьей c черникой"
+prepositional = "жидкой оладье c черникой"
+gender = "female"
+
+["raw chocolate chip pancake"]
+nominative = "жидкая оладья c шоколадной крошкой"
+genitive = "жидкой оладьи c шоколадной крошкой"
+dative = "жидкой оладье c шоколадной крошкой"
+accusative = "жидкую оладью c шоколадной крошкой"
+instrumental = "жидкой оладьей c шоколадной крошкой"
+prepositional = "жидкой оладье c шоколадной крошкой"
+gender = "female"
+
+["blueberry pancake"]
+nominative = "оладья c черникой"
+genitive = "оладьи c черникой"
+dative = "оладье c черникой"
+accusative = "оладью c черникой"
+instrumental = "оладьей c черникой"
+prepositional = "оладье c черникой"
+gender = "female"
+
+["chocolate chip pancake"]
+nominative = "оладья c шоколадной крошкой"
+genitive = "оладьи c шоколадной крошкой"
+dative = "оладье c шоколадной крошкой"
+accusative = "оладью c шоколадной крошкой"
+instrumental = "оладьей c шоколадной крошкой"
+prepositional = "оладье c шоколадной крошкой"
+gender = "female"
+
+["stack of pancakes"]
+nominative = "стопка оладий"
+genitive = "стопки оладий"
+dative = "стопке оладий"
+accusative = "стопку оладий"
+instrumental = "стопкой оладий"
+prepositional = "стопке оладий"
 gender = "female"
 
 # MARK: Food - Other
