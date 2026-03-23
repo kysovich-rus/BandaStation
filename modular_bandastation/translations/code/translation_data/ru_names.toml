@@ -8788,15 +8788,6 @@ instrumental = "тэтер тотом"
 prepositional = "тэтер тоте"
 gender = "male"
 
-["waffles"]
-nominative = "вафли"
-genitive = "вафель"
-dative = "вафлям"
-accusative = "вафли"
-instrumental = "вафлями"
-prepositional = "вафлях"
-gender = "plural"
-
 ["Dank-pocket"]
 nominative = "Данк-покет"
 genitive = "Данк-покета"
@@ -13976,10 +13967,6 @@ instrumental = "тестом для нианской пиццы"
 prepositional = "тесте для нианской пиццы"
 gender = "neuter"
 
-["skeklitmischtpoppl"]
-nominative = "скиклитмиштпопль"
-gender = "male"
-
 ["sweet chili cabbage wrap"]
 nominative = "капустный рулет со сладким чили"
 genitive = "капустного рулета со сладким чили"
@@ -13989,16 +13976,6 @@ instrumental = "капустным рулетом со сладким чили"
 prepositional = "капустном рулете со сладким чили"
 gender = "male"
 
-# *sigh
-["ozlsettitæloskekllön ede pommes"]
-nominative = "острые сырные зёрна с картофелем фри"
-genitive = "острых сырных зёрен с картофелем фри"
-dative = "острым сырным зёрнам с картофелем фри"
-accusative = "острые сырные зёрна с картофелем фри"
-instrumental = "острыми сырными зёрнами с картофелем фри"
-prepositional = "острых сырных зёрен с картофелем фри"
-gender = "plural"
-
 ["baked cheese wheel"]
 nominative = "запечённая головка сыра"
 genitive = "запечённой головки сыра"
@@ -14007,10 +13984,6 @@ accusative = "запечённую головку сыра"
 instrumental = "запечённой головкой сыра"
 prepositional = "запечённой головке сыра"
 gender = "female"
-
-["stanntkraktælo"]
-nominative = "станткрактэло"
-gender = "neuter"
 
 ["raw green lasagne al forno"]
 nominative = "сырая зелёная лазанья аль форно"
@@ -14147,16 +14120,6 @@ instrumental = "обедом караванщика"
 prepositional = "обеде караванщика"
 gender = "male"
 
-# лороведы, вперед
-["macheronirölen"]
-nominative = "мачеронирёльны"
-genitive = "мачеронирёльнов"
-dative = "мачеронирёльнам"
-accusative = "мачеронирёльны"
-instrumental = "мачеронирёльнами"
-prepositional = "мачеронирёльнах"
-gender = "plural"
-
 ["surplus fleet PSB"]
 nominative = "флотский аварийный питательный батончик"
 genitive = "флотского аварийный питательного батончика"
@@ -14222,33 +14185,6 @@ dative = "салату капрезе"
 accusative = "салат капрезе"
 instrumental = "салатом капрезе"
 prepositional = "салате капрезе"
-gender = "male"
-
-["lörtonknusksolt"]
-nominative = "лёртонкнусксолт"
-genitive = "лёртонкнусксолта"
-dative = "лёртонкнусксолту"
-accusative = "лёртонкнусксолт"
-instrumental = "лёртонкнусксолтом"
-prepositional = "лёртонкнусксолте"
-gender = "male"
-
-["Flöfrölenknusksolt"]
-nominative = "флёфрёленкнусксолт"
-genitive = "флёфрёленкнусксолта"
-dative = "флёфрёленкнусксолту"
-accusative = "флёфрёленкнусксолт"
-instrumental = "флёфрёленкнусксолтом"
-prepositional = "флёфрёленкнусксолте"
-gender = "male"
-
-["Kæniatknusksolt"]
-nominative = "кэниаткнусксолт"
-genitive = "кэниаткнусксолта"
-dative = "кэниаткнусксолту"
-accusative = "кэниаткнусксолт"
-instrumental = "кэниаткнусксолтом"
-prepositional = "кэниаткнусксолте"
 gender = "male"
 
 ["raw mothic margherita pizza"]
@@ -14429,15 +14365,6 @@ dative = "куску кукурузного хлеба"
 accusative = "кусок кукурузного хлеба"
 instrumental = "куском курурузного хлеба"
 prepositional = "куске кукурузного хлеба"
-gender = "male"
-
-["ælorölen"]
-nominative = "элорёлен"
-genitive = "элорёльна"
-dative = "элорёльну"
-accusative = "элорёлен"
-instrumental = "элорёльном"
-prepositional = "элорёльне"
 gender = "male"
 
 ["mothmallow tray"]
@@ -14762,6 +14689,353 @@ accusative = "стопку оладий"
 instrumental = "стопкой оладий"
 prepositional = "стопке оладий"
 gender = "female"
+
+# MARK: Food - Pastries
+
+["muffin"]
+nominative = "маффин"
+genitive = "маффина"
+dative = "маффину"
+accusative = "маффин"
+instrumental = "маффином"
+prepositional = "маффине"
+gender = "male"
+
+["berry muffin"]
+nominative = "ягодный маффин"
+genitive = "ягодного маффина"
+dative = "ягодному маффину"
+accusative = "ягодный маффин"
+instrumental = "ягодным маффином"
+prepositional = "ягодном маффине"
+gender = "male"
+
+["booberry muffin"]
+nominative = "призрачный маффин"
+genitive = "призрачного маффина"
+dative = "призрачному маффину"
+accusative = "призрачный маффин"
+instrumental = "призрачным маффином"
+prepositional = "призрачном маффине"
+gender = "male"
+
+["moffin"]
+nominative = "моффин"
+genitive = "моффина"
+dative = "моффину"
+accusative = "моффин"
+instrumental = "моффином"
+prepositional = "моффине"
+gender = "male"
+
+["waffles"]
+nominative = "вафли"
+genitive = "вафель"
+dative = "вафлям"
+accusative = "вафли"
+instrumental = "вафлями"
+prepositional = "вафлях"
+gender = "plural"
+
+["Soylent Green"]
+nominative = "Сойлент Грин"
+genitive = "Сойлента Грин"
+dative = "Сойленту Грин"
+accusative = "Сойлент Грин"
+instrumental = "Сойлентом Грин"
+prepositional = "Сойленте Грин"
+gender = "male"
+
+["Soylent Virdians"]
+nominative = "Сойлент Виридианс"
+genitive = "Сойлента Виридианс"
+dative = "Сойленту Виридианс"
+accusative = "Сойлент Виридианс"
+instrumental = "Сойлентом Виридианс"
+prepositional = "Сойленте Виридианс"
+gender = "male"
+
+["roffle waffles"]
+nominative = "рофли"
+genitive = "рофель"
+dative = "рофлям"
+accusative = "рофли"
+instrumental = "рофлями"
+prepositional = "рофлях"
+gender = "plural"
+
+["cookie"]
+nominative = "печенье"
+genitive = "печенья"
+dative = "печенью"
+accusative = "печенье"
+instrumental = "печеньем"
+prepositional = "печенье"
+gender = "neuter"
+
+["fortune cookie"]
+nominative = "печенье с предсказаниями"
+genitive = "печенья с предсказаниями"
+dative = "печенью с предсказаниями"
+accusative = "печение с предсказаниями"
+instrumental = "печеньем с предсказаниями"
+prepositional = "печенье с предсказаниями"
+gender = "neuter"
+
+["sugar cookie"]
+nominative = "сладкое печенье"
+genitive = "сладкого печенья"
+dative = "сладкому печенью"
+accusative = "сладкое печенье"
+instrumental = "сладким печеньем"
+prepositional = "сладком печенье"
+gender = "neuter"
+
+["chocolate cornet"]
+nominative = "шоколадный корнет"
+genitive = "шоколадного корнета"
+dative = "шоколадному корнету"
+accusative = "шоколадный корнет"
+instrumental = "шоколадным корнетом"
+prepositional = "шоколадном корнете"
+gender = "male"
+
+["oatmeal cookie"]
+nominative = "овсяное печенье"
+genitive = "овсяного печенья"
+dative = "овсяному печенью"
+accusative = "овсяное печенье"
+instrumental = "овсяным печеньем"
+prepositional = "овсяное печенье"
+gender = "neuter"
+
+["raisin cookie"]
+nominative = "печенье с изюмом"
+genitive = "печенья с изюмом"
+dative = "печенью с изюмом"
+accusative = "печенье с изюмом"
+instrumental = "печеньем с изюмом"
+prepositional = "печенье с изюмом"
+gender = "neuter"
+
+["poppy pretzel"]
+nominative = "крендель с маком"
+genitive = "кренделя с маком"
+dative = "кренделю с маком"
+accusative = "крендель с маком"
+instrumental = "кренделем с маком"
+prepositional = "кренделе с маком"
+gender = "male"
+
+["plump helmet biscuit"]
+nominative = "печенье из толстошлемника"
+genitive = "печенья из толстошлемника"
+dative = "печенью из толстошлемника"
+accusative = "печение из толстошлемника"
+instrumental = "печеньем из толстошлемника"
+prepositional = "печенье из толстошлемника"
+gender = "neuter"
+
+["exceptional plump helmet biscuit"]
+nominative = "исключительное печенье из толстошлемника"
+genitive = "исключительного печенья из толстошлемника"
+dative = "исключительному печенью из толстошлемника"
+accusative = "исключительное печение из толстошлемника"
+instrumental = "исключительным печеньем из толстошлемника"
+prepositional = "исключительном печенье из толстошлемника"
+gender = "neuter"
+
+["cracker"]
+nominative = "крекер"
+genitive = "крекера"
+dative = "крекеру"
+accusative = "крекер"
+instrumental = "крекером"
+prepositional = "крекере"
+gender = "male"
+
+["khachapuri"]
+nominative = "хачапури"
+gender = "male"
+
+["cherry cupcake"]
+nominative = "вишнёвый капкейк"
+genitive = "вишнёвого капкейка"
+dative = "виншёвому капкейку"
+accusative = "вишнёвый капкейк"
+instrumental = "вишнёвым капкейком"
+prepositional = "вишнёвом капкейке"
+gender = "male"
+
+["blue cherry cupcake"]
+nominative = "капкейк с голубой вишней"
+genitive = "капкейка с голубой вишней"
+dative = "капкейку с голубой вишней"
+accusative = "капкейк с голубой вишней"
+instrumental = "капкейком с голубой вишней"
+prepositional = "капкейке с голубой вишней"
+gender = "male"
+
+["jupiter-cup-cake"]
+nominative = "капкейк 'Юпитер'"
+genitive = "капкейка 'Юпитер'"
+dative = "капкейку 'Юпитер'"
+accusative = "капкейк 'Юпитер'"
+instrumental = "капкейком 'Юпитер'"
+prepositional = "капкейке 'Юпитер'"
+gender = "male"
+
+["honey bun"]
+nominative = "медовая булочка"
+genitive = "медовой булочки"
+dative = "медовой булочке"
+accusative = "медовую булочку"
+instrumental = "медовой булочкой"
+prepositional = "медовой булочке"
+gender = "female"
+
+["cannoli"]
+nominative = "канноли"
+gender = "plural"
+
+["waffle cone"]
+nominative = "вафельный рожок"
+genitive = "вафельного рожка"
+dative = "вафельному рожку"
+accusative = "вафельный рожок"
+instrumental = "вафельным рожком"
+prepositional = "вафельном рожке"
+gender = "male"
+
+["chocolate cone"]
+nominative = "шоколадный рожок"
+genitive = "шоколадного рожка"
+dative = "шоколадному рожку"
+accusative = "шоколадный рожок"
+instrumental = "шоколадным рожком"
+prepositional = "шоколадном рожке"
+gender = "male"
+
+["korta cone"]
+nominative = "вафельный рожок корта"
+genitive = "вафельного рожка корта"
+dative = "вафельному рожку корта"
+accusative = "вафельный рожок корта"
+instrumental = "вафельным рожком корта"
+prepositional = "вафельном рожке корта"
+gender = "male"
+
+["ice cream"]
+nominative = "мороженое"
+genitive = "мороженого"
+dative = "мороженому"
+accusative = "мороженое"
+instrumental = "мороженым"
+prepositional = "мороженом"
+gender = "neuter"
+
+["peanut butter cookie"]
+nominative = "арахисовое печенье"
+genitive = "арахисового печенья"
+dative = "арахисовому печенью"
+accusative = "арахисовое печенье"
+instrumental = "арахисовым печеньем"
+prepositional = "арахисовом печенье"
+gender = "neuter"
+
+["raw brownie batter"]
+nominative = "тесто для брауни"
+genitive = "теста для брауни"
+dative = "тесту для брауни"
+accusative = "тесто для брауни"
+instrumental = "тестом для брауни"
+prepositional = "тесте для брауни"
+gender = "neuter"
+
+["brownie sheet"]
+nominative = "противень брауни"
+genitive = "противня брауни"
+dative = "противню брауни"
+accusative = "противень брауни"
+instrumental = "противнем брауни"
+prepositional = "противне брауни"
+gender = "male"
+
+["brownie"]
+nominative = "брауни"
+gender = "male"
+
+["raw peanut butter brownie batter"]
+nominative = "тесто для арахисового брауни"
+genitive = "теста для арахисового брауни"
+dative = "тесту для арахисового брауни"
+accusative = "тесто для арахисового брауни"
+instrumental = "тестом для арахисового брауни"
+prepositional = "тесте для арахисового брауни"
+gender = "neuter"
+
+["peanut butter brownie sheet"]
+nominative = "противень арахисового брауни"
+genitive = "противня арахисового брауни"
+dative = "противню арахисового брауни"
+accusative = "противень арахисового брауни"
+instrumental = "противнем арахисового арахисового брауни"
+prepositional = "противне арахисового брауни"
+gender = "male"
+
+["peanut butter brownie"]
+nominative = "арахисовый брауни"
+genitive = "арахисового брауни"
+dative = "арахисовому брауни"
+accusative = "арахисовый брауни"
+instrumental = "арахисовым брауни"
+prepositional = "арахисовом брауни"
+gender = "male"
+
+["crunchy peanut butter tart"]
+nominative = "хрустящий арахисовый тарт"
+genitive = "хрустящего арахисового тарта"
+dative = "хрутсящему арахисовому тарту"
+accusative = "хрутсящий арахисовый тарт"
+instrumental = "хрустящим арахисовым тартом"
+prepositional = "хрустящем арахисовом тарте"
+gender = "male"
+
+["chocolate chip cookie"]
+nominative = "печенье с шоколадом"
+genitive = "печенья с шоколадом"
+dative = "печенью с шоколадом"
+accusative = "печенье с шоколадом"
+instrumental = "печеньем с шоколадом"
+prepositional = "печенье с шоколадом"
+gender = "neuter"
+
+["snickerdoodle"]
+nominative = "сникердудл"
+genitive = "сникердудла"
+dative = "сникердудлу"
+accusative = "сникердудл"
+instrumental = "сникердудлом"
+prepositional = "сникердудле"
+gender = "male"
+
+["macaron"]
+nominative = "макарон"
+genitive = "макарона"
+dative = "макарону"
+accusative = "макарон"
+instrumental = "макароном"
+prepositional = "макароне"
+gender = "male"
+
+["thumbprint cookie"]
+nominative = "печенье с углублением"
+genitive = "печенья с углублением"
+dative = "печенью с углублением"
+accusative = "печенье с углублением"
+instrumental = "печеньем с углублением"
+prepositional = "печенье с углублением"
+gender = "neuter"
 
 # MARK: Food - Other
 
@@ -15373,10 +15647,6 @@ gender = "female"
 nominative = "кусочки спагетти"
 gender = "plural"
 
-["cracker"]
-nominative = "сухари"
-gender = "plural"
-
 ["cheese spread"]
 nominative = "сырная паста"
 gender = "female"
@@ -15421,10 +15691,6 @@ gender = "plural"
 ["chocolate brownie"]
 nominative = "шоколадный брауни"
 gender = "male"
-
-["sugar cookie"]
-nominative = "сладкое печенье"
-gender = "neuter"
 
 ["coco bar"]
 nominative = "кокосовый батончик"
