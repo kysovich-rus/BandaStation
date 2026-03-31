@@ -8545,24 +8545,6 @@ instrumental = "высохшей кукурузинкой"
 prepositional = "высохшей кукурузинке"
 gender = "female"
 
-["hotdog"]
-nominative = "хот-дог"
-genitive = "хот-дога"
-dative = "хот-догу"
-accusative = "хот-дог"
-instrumental = "хот-догом"
-prepositional = "хот-доге"
-gender = "male"
-
-["danish hotdog"]
-nominative = "датский хот-дог"
-genitive = "датского хот-дога"
-dative = "датскому хот-догу"
-accusative = "датский хот-дог"
-instrumental = "датским хот-догом"
-prepositional = "датском хот-доге"
-gender = "male"
-
 ["butterdog"]
 nominative = "масло-дог"
 genitive = "масла-дога"
@@ -8878,6 +8860,8 @@ instrumental = "тактической разгрузкой для закусо�
 prepositional = "тактической разгрузке для закусок"
 gender = "female"
 
+# MARK: Food - Candies and Snacks
+
 ["candy"]
 nominative = "конфета"
 genitive = "конфеты"
@@ -8906,21 +8890,30 @@ prepositional = "креветочных чипсах"
 gender = "plural"
 
 ["Cheesie Honkers"]
-nominative = "сырные Хонкеры"
-genitive = "сырных Хонкеров"
-dative = "сырным Хонкерам"
-accusative = "сырные Хонкеры"
-instrumental = "сырными Хонкерами"
-prepositional = "сырных Хонкерах"
+nominative = "Сырные Хонкеры"
+genitive = "Сырных Хонкеров"
+dative = "Сырным Хонкерам"
+accusative = "Сырные Хонкеры"
+instrumental = "Сырными Хонкерами"
+prepositional = "Сырных Хонкерах"
 gender = "male"
 
 ["Space Twinkie"]
-nominative = "космический Твинки"
-genitive = "космического Твинки"
-dative = "космическому Твинки"
-accusative = "космический Твинки"
-instrumental = "космическим Твинки"
-prepositional = "космическом Твинки"
+nominative = "Космический Твинки"
+genitive = "Космического Твинки"
+dative = "Космическому Твинки"
+accusative = "Космический Твинки"
+instrumental = "Космическим Твинки"
+prepositional = "Космическом Твинки"
+gender = "male"
+
+["candy cigarette butt"]
+nominative = "сладкий окурок"
+genitive = "сладкого окурка"
+dative = "сладкому окурку"
+accusative = "сладкий окурок"
+instrumental = "сладким окурком"
+prepositional = "сладкий окурке"
 gender = "male"
 
 ["Gallery's peanuts"]
@@ -8933,57 +8926,192 @@ prepositional = "арахисе Галереи"
 gender = "male"
 
 ["Gallery's every-flavour peanuts"]
-nominative = "арахис Галереи со всеми вкусами"
-genitive = "арахиса Галереи со всеми вкусами"
-dative = "арахису Галереи со всеми вкусами"
-accusative = "арахис Галереи со всеми вкусами"
-instrumental = "арахисом Галереи со всеми вкусами"
-prepositional = "арахисе Галереи со всеми вкусами"
+nominative = "арахис Галереи 'Секретный вкус'"
+genitive = "арахиса Галереи 'Секретный вкус'"
+dative = "арахису Галереи 'Секретный вкус'"
+accusative = "арахис Галереи 'Секретный вкус'"
+instrumental = "арахисом Галереи 'Секретный вкус'"
+prepositional = "арахисе Галереи 'Секретный вкус'"
+gender = "male"
+
+["Gallery's salt reserves peanuts"]
+nominative = "арахис Галереи 'Cолёный запас'"
+genitive = "арахиса Галереи 'Cолёный запас'"
+dative = "арахису Галереи 'Cолёный запас'"
+accusative = "арахис Галереи 'Cолёный запас'"
+instrumental = "арахисом Галереи 'Cолёный запас'"
+prepositional = "арахисе Галереи 'Cолёный запас'"
+gender = "male"
+
+["Gallery's raging wasabi peanuts"]
+nominative = "арахис Галереи 'Яростный васаби'"
+genitive = "арахиса Галереи 'Яростный васаби'"
+dative = "арахису Галереи 'Яростный васаби'"
+accusative = "арахис Галереи 'Яростный васаби'"
+instrumental = "арахисом Галереи 'Яростный васаби'"
+prepositional = "арахисе Галереи 'Яростный васаби'"
+gender = "male"
+
+["Gallery's delete sweet peanuts"]
+nominative = "арахис Галереи 'Убойная сладость'"
+genitive = "арахиса Галереи 'Убойная сладость'"
+dative = "арахису Галереи 'Убойная сладость'"
+accusative = "арахис Галереи 'Убойная сладость'"
+instrumental = "арахисом Галереи 'Убойная сладость'"
+prepositional = "арахисе Галереи 'Убойная сладость'"
+gender = "male"
+
+["Gallery's IDEDBBQ peanuts"]
+nominative = "арахис Галереи 'Барбекю с дымком'"
+genitive = "арахиса Галереи 'Барбекю с дымком'"
+dative = "арахису Галереи 'Барбекю с дымком'"
+accusative = "арахис Галереи 'Барбекю с дымком'"
+instrumental = "арахисом Галереи 'Барбекю с дымком'"
+prepositional = "арахисе Галереи 'Барбекю с дымком'"
+gender = "male"
+
+["Gallery's peanuts Ban Appel mix"]
+nominative = "арахис Галереи 'Смесь Бан-Аппел'"
+genitive = "арахиса Галереи 'Смесь Бан-Аппел'"
+dative = "арахису Галереи 'Смесь Бан-Аппел'"
+accusative = "арахис Галереи 'Смесь Бан-Аппел'"
+instrumental = "арахисом Галереи 'Смесь Бан-Аппел'"
+prepositional = "арахисе Галереи 'Смесь Бан-Аппел'"
 gender = "male"
 
 ["Scaredy's Private Reserve Beef Jerky"]
-nominative = "вяленая говядина из личных запасов Скэреди"
-genitive = "вяленой говядины из личных запасов Скэреди"
-dative = "вяленой говядине из личных запасов Скэреди"
-accusative = "вяленую говядину из личных запасов Скэреди"
-instrumental = "вяленой говядиной из личных запасов Скэреди"
-prepositional = "вяленой говядине из личных запасов Скэреди"
+nominative = "вяленая говядина 'Личный запас Скэреди'"
+genitive = "вяленой говядины 'Личный запас Скэреди'"
+dative = "вяленой говядине 'Личный запас Скэреди'"
+accusative = "вяленую говядину 'Личный запас Скэреди'"
+instrumental = "вяленой говядиной 'Личный запас Скэреди'"
+prepositional = "вяленой говядине 'Личный запас Скэреди'"
 gender = "female"
 
-["Boritos cornchips"]
-nominative = "кукурузные чипсы Боритос"
-genitive = "кукурузных чипсов Боритос"
-dative = "кукурузным чипсам Боритос"
-accusative = "кукурузные чипсы Боритос"
-instrumental = "кукурузными чипсами Боритос"
-prepositional = "кукурузных чипсах Боритос"
+["homemade beef jerky"]
+nominative = "вяленая говядина по-домашнему"
+genitive = "вяленой говядины по-домашнему"
+dative = "вяленой говядине по-домашнему"
+accusative = "вяленую говядину по-домашнему"
+instrumental = "вяленой говядиной по-домашнему"
+prepositional = "вяленой говядине по-домашнему"
+gender = "female"
+
+["Boritos corn chips"]
+nominative = "кукурузные чипсы 'Боритос'"
+genitive = "кукурузных чипсов 'Боритос'"
+dative = "кукурузным чипсам 'Боритос'"
+accusative = "кукурузные чипсы 'Боритос'"
+instrumental = "кукурузными чипсами 'Боритос'"
+prepositional = "кукурузных чипсах 'Боритос'"
 gender = "plural"
 
+["Coolest Ranch Boritos corn chips"]
+nominative = "кукурузные чипсы 'Боритос Супер Ранч'"
+genitive = "кукурузных чипсов 'Боритос Супер Ранч'"
+dative = "кукурузным чипсам 'Боритос Супер Ранч'"
+accusative = "кукурузные чипсы 'Боритос Супер Ранч'"
+instrumental = "кукурузными чипсами 'Боритос Супер Ранч'"
+prepositional = "кукурузных чипсах 'Боритос Супер Ранч'"
+gender = "plural"
+
+["Spess Salsa Boritos corn chips"]
+nominative = "кукурузные чипсы 'Боритос Космосальса'"
+genitive = "кукурузных чипсов 'Боритос Космосальса'"
+dative = "кукурузным чипсам 'Боритос Космосальса'"
+accusative = "кукурузные чипсы 'Боритос Космосальса'"
+instrumental = "кукурузными чипсами 'Боритос Космосальса'"
+prepositional = "кукурузных чипсах 'Боритос Космосальса'"
+gender = "plural"
+
+["Nacho Cheese Boritos corn chips"]
+nominative = "кукурузные чипсы 'Боритос Начо Чиз'"
+genitive = "кукурузных чипсов 'Боритос Начо Чиз'"
+dative = "кукурузным чипсам 'Боритос Начо Чиз'"
+accusative = "кукурузные чипсы 'Боритос Начо Чиз'"
+instrumental = "кукурузными чипсами 'Боритос Начо Чиз'"
+prepositional = "кукурузных чипсах 'Боритос Начо Чиз'"
+gender = "plural"
+
+["Spicy Sweet Chili Boritos corn chips"]
+nominative = "кукурузные чипсы 'Боритос Остро-Сладкий Чили'"
+genitive = "кукурузных чипсов 'Боритос Остро-Сладкий Чили'"
+dative = "кукурузным чипсам 'Боритос Остро-Сладкий Чили'"
+accusative = "кукурузные чипсы 'Боритос Остро-Сладкий Чили'"
+instrumental = "кукурузными чипсами 'Боритос Остро-Сладкий Чили'"
+prepositional = "кукурузных чипсах 'Боритос Остро-Сладкий Чили'"
+gender = "plural"
+
+["Boritos cornchips"]
+nominative = "кукурузные чипсы 'Боритос'"
+genitive = "кукурузных чипсов 'Боритос'"
+dative = "кукурузным чипсам 'Боритос'"
+accusative = "кукурузные чипсы 'Боритос'"
+instrumental = "кукурузными чипсами 'Боритос'"
+prepositional = "кукурузных чипсах 'Боритос'"
+gender = "plural"
+
+# Нереальная игра слов. Адаптировать под 'Изюмительный'?
 ["4no raisins"]
-nominative = "изюм Инка"
-genitive = "изюма Инка"
-dative = "изюму Инка"
-accusative = "изюм Инка"
-instrumental = "изюмом Инка"
-prepositional = "изюме Инка"
+nominative = "изюм 'Просто Так'"
+genitive = "изюма 'Просто Так'"
+dative = "изюму 'Просто Так'"
+accusative = "изюм 'Просто Так'"
+instrumental = "изюмом 'Просто Так'"
+prepositional = "изюме 'Просто Так'"
+gender = "male"
+
+["homemade raisins"]
+nominative = "домашний изюм"
+genitive = "домашнего изюма"
+dative = "домашнему изюму"
+accusative = "домашний изюм"
+instrumental = "домашним изюмом"
+prepositional = "домашнем изюме"
 gender = "male"
 
 ["C&Ds"]
-nominative = "драже C&Ds"
+nominative = "драже 'C&Ds'"
+gender = "plural"
+
+["caramel C&Ds"]
+nominative = "драже 'C&Ds' с карамелью"
+gender = "plural"
+
+["pretzel C&Ds"]
+nominative = "драже 'C&Ds' со вкусом сдобы"
+gender = "plural"
+
+["peanut butter C&Ds"]
+nominative = "драже 'C&Ds' с арахисовым маслом"
+gender = "plural"
+
+["banana honk C&Ds"]
+nominative = "драже 'C&Ds - Банановый Хонк'"
 gender = "plural"
 
 ["mystery filled C&Ds"]
-nominative = "драже C&Ds с загадочной начинкой"
+nominative = "драже 'C&Ds' с загадочной начинкой"
 gender = "plural"
 
 ["Semki Sunflower Seeds"]
-nominative = "семечки Семки"
-genitive = "семечек Семки"
-dative = "семечкам Семки"
-accusative = "семечки Семки"
-instrumental = "семечками Семки"
-prepositional = "семечках Семки"
+nominative = "Семки"
+genitive = "Семок"
+dative = "Семкам"
+accusative = "Семки"
+instrumental = "Семками"
+prepositional = "Семках"
 gender = "plural"
+
+["roasted sunflower seeds"]
+nominative = "жареные семена подсолнуха"
+genitive = "жареных семян подсолнуха"
+dative = "жареным семенам подсолнуха"
+accusative = "жареные семена подсолнуха"
+instrumental = "жареными семенами подсолнуха"
+prepositional = "жареных семенах подсолнуха"
+gender = "plural"
+
 
 ["cup ramen"]
 nominative = "рамен в чашке"
@@ -9013,60 +9141,103 @@ prepositional = "энергетических батончиках высоко�
 gender = "plural"
 
 ["Hot Shots"]
-nominative = "Хот Шоты"
+nominative = "Хот Шотс"
 gender = "plural"
 
 ["Sticko Classic"]
 nominative = "Стико Классик"
-gender = "male"
+gender = "plural"
+
+["Sticko Matcha"]
+nominative = "Стико Матча"
+gender = "plural"
+
+["Sticko Nutty"]
+nominative = "Стико Ореховые"
+gender = "plural"
+
+["Sticko Pineapple"]
+nominative = "Стико Ананас"
+gender = "plural"
+
+["Sticko Yūyake"]
+nominative = "Стико Юяке"
+gender = "plural"
 
 ["Sticko Mystery"]
 nominative = "Стико Мистери"
-gender = "male"
+gender = "plural"
 
 ["Shok-Roks - Stormcloud Candy flavour"]
-nominative = "Шок-Роксы со вкусом грозового облака"
-genitive = "Шок-Роксов со вкусом грозового облака"
-dative = "Шок-Роксам со вкусом грозового облака"
-accusative = "Шок-Роксы со вкусом грозового облака"
-instrumental = "Шок-Роксами со вкусом грозового облака"
-prepositional = "Шок-Роксах со вкусом грозового облака"
+nominative = "Шок-Роксы - вкус Грозового облака"
+genitive = "Шок-Роксов - вкус Грозового облака"
+dative = "Шок-Роксам - вкус Грозового облака"
+accusative = "Шок-Роксы - вкус Грозового облака"
+instrumental = "Шок-Роксами - вкус Грозового облака"
+prepositional = "Шок-Роксах - вкус Грозового облака"
+gender = "plural"
+
+["Shok-Roks - Cirrus Citrus flavour"]
+nominative = "Шок-Роксы - вкус Воздушного цитруса"
+genitive = "Шок-Роксов - вкус Воздушного цитруса"
+dative = "Шок-Роксам - вкус Воздушного цитруса"
+accusative = "Шок-Роксы - вкус Воздушного цитруса"
+instrumental = "Шок-Роксами - вкус Воздушного цитруса"
+prepositional = "Шок-Роксах - вкус Воздушного цитруса"
+gender = "plural"
+
+["Shok-Roks - Berry Storm flavour"]
+nominative = "Шок-Роксы - вкус Ягодной бури"
+genitive = "Шок-Роксов - вкус Ягодной бури"
+dative = "Шок-Роксам - вкус Ягодной бури"
+accusative = "Шок-Роксы - вкус Ягодной бури"
+instrumental = "Шок-Роксами - вкус Ягодной бури"
+prepositional = "Шок-Роксах - вкус Ягодной бури"
+gender = "plural"
+
+["Shok-Roks - Tropical Thunder flavour"]
+nominative = "Шок-Роксы - вкус Тропического грома"
+genitive = "Шок-Роксов - вкус Тропического грома"
+dative = "Шок-Роксам - вкус Тропического грома"
+accusative = "Шок-Роксы - вкус Тропического грома"
+instrumental = "Шок-Роксами - вкус Тропического грома"
+prepositional = "Шок-Роксах - вкус Тропического грома"
 gender = "plural"
 
 ["Shok-Roks - Hidden Hurricane flavour"]
-nominative = "Шок-Роксы со вкусом скрытого урагана"
-genitive = "Шок-Роксов со вкусом скрытого урагана"
-dative = "Шок-Роксам со вкусом скрытого урагана"
-accusative = "Шок-Роксы со вкусом скрытого урагана"
-instrumental = "Шок-Роксами со вкусом скрытого урагана"
-prepositional = "Шок-Роксах со вкусом скрытого урагана"
+nominative = "Шок-Роксы - вкус Скрытого урагана"
+genitive = "Шок-Роксов - вкус Скрытого урагана"
+dative = "Шок-Роксам - вкус Скрытого урагана"
+accusative = "Шок-Роксы - вкус Скрытого урагана"
+instrumental = "Шок-Роксами - вкус Скрытого урагана"
+prepositional = "Шок-Роксах - вкус Скрытого урагана"
 gender = "plural"
 
 ["Syndi-Cakes"]
-nominative = "Синди-Кейки"
-genitive = "Синди-Кейков"
-dative = "Синди-Кейкам"
-accusative = "Синди-Кейки"
-instrumental = "Синди-Кейками"
-prepositional = "Синди-Кейках"
+nominative = "Синди-Кексы"
+genitive = "Синди-Кексов"
+dative = "Синди-Кексам"
+accusative = "Синди-Кексы"
+instrumental = "Синди-Кексами"
+prepositional = "Синди-Кексах"
 gender = "plural"
 
-["Gallery's peanuts Ban Appel mix"]
-nominative = "арахис Галереи с миксом яблоко-банан"
-genitive = "арахиса Галереи с миксом яблоко-банан"
-dative = "арахису Галереи с миксом яблоко-банан"
-accusative = "арахис Галереи с миксом яблоко-банан"
-instrumental = "арахисом Галереи с миксом яблоко-банан"
-prepositional = "арахисе Галереи с миксом яблоко-банан"
+["South Bronx Paradise bar"]
+nominative = "батончик 'Парадиз Южного Бронкса'"
+genitive = "батончика 'Парадиз Южного Бронкса'"
+dative = "батончику 'Парадиз Южного Бронкса'"
+accusative = "батончик 'Парадиз Южного Бронкса'"
+instrumental = "батончиком 'Парадиз Южного Бронкса'"
+prepositional = "батончике 'Парадиз Южного Бронкса'"
 gender = "male"
 
-["South Bronx Paradise bar"]
-nominative = "батончик Южный Бронкс Парадайз"
-genitive = "батончика Южный Бронкс Парадайз"
-dative = "батончику Южный Бронкс Парадайз"
-accusative = "батончик Южный Бронкс Парадайз"
-instrumental = "батончиком Южный Бронкс Парадайз"
-prepositional = "батончике Южный Бронкс Парадайз"
+["South Bronx Parasite bar"]
+nominative = "батончик 'Паразит Южного Бронкса'"
+genitive = "батончика 'Паразит Южного Бронкса'"
+dative = "батончику 'Паразит Южного Бронкса'"
+accusative = "батончик 'Паразит Южного Бронкса'"
+instrumental = "батончиком 'Паразит Южного Бронкса'"
+prepositional = "батончике 'Паразит Южного Бронкса'"
 gender = "male"
 
 ["Spacer's Sidekick mints"]
@@ -15037,6 +15208,1062 @@ instrumental = "печеньем с углублением"
 prepositional = "печенье с углублением"
 gender = "neuter"
 
+# MARK: Food - Pies
+
+["pie slice"]
+nominative = "кусок пирога"
+genitive = "куска пирога"
+dative = "куску пирога"
+accusative = "кусок пирога"
+instrumental = "куском пирога"
+prepositional = "куске пирога"
+gender = "male"
+
+["plain pie"]
+nominative = "простой пирог"
+genitive = "простого пирога"
+dative = "простому пирогу"
+accusative = "простой пирог"
+instrumental = "простым пирогом"
+prepositional = "простом пироге"
+gender = "male"
+
+["pie"]
+nominative = "пирог"
+genitive = "пирога"
+dative = "пирогу"
+accusative = "пирог"
+instrumental = "пирогом"
+prepositional = "пироге"
+gender = "male"
+
+["banana cream pie"]
+nominative = "банановый сливочный пирог"
+genitive = "банановый сливочного пирога"
+dative = "банановому сливочному пирогу"
+accusative = "банановый сливочный пирог"
+instrumental = "банановым сливочным пирогом"
+prepositional = "банановом сливочном пироге"
+gender = "male"
+
+["berry clafoutis"]
+nominative = "клафути с ягодами"
+gender = "male"
+
+["beary pie"]
+nominative = "медвежий пирог"
+genitive = "медвежьего пирога"
+dative = "медвежьему пирогу"
+accusative = "медвежий пирог"
+instrumental = "медвежьим пирогом"
+prepositional = "медвежьем пироге"
+gender = "male"
+
+["meat-pie"]
+nominative = "мясной пирог"
+genitive = "мясного пирога"
+dative = "мясному пирогу"
+accusative = "мясной пирог"
+instrumental = "мясным пирогом"
+prepositional = "мясном пироге"
+gender = "male"
+
+["meat-pie slice"]
+nominative = "кусок мясного пирога"
+genitive = "куска мясного пирога"
+dative = "куску мясного пирога"
+accusative = "кусок мясного пирога"
+instrumental = "куском мясного пирога"
+prepositional = "куске мясного пирога"
+gender = "male"
+
+["tofu-pie"]
+nominative = "тофу-пирог"
+genitive = "тофу-пирога"
+dative = "тофу-пирогу"
+accusative = "тофу-пирог"
+instrumental = "тофу-пирогом"
+prepositional = "тофу-пироге"
+gender = "male"
+
+["tofu-pie slice"]
+nominative = "кусок тофу-пирога"
+genitive = "куска тофу-пирога"
+dative = "куску тофу-пирога"
+accusative = "кусок тофу-пирога"
+instrumental = "куском тофу-пирога"
+prepositional = "куске тофу-пирога"
+gender = "male"
+
+["amanita pie"]
+nominative = "пирог с мухоморами"
+genitive = "пирога с мухоморами"
+dative = "пирогу с мухоморами"
+accusative = "пирог с мухоморами"
+instrumental = "пирогом с мухоморами"
+prepositional = "пироге с мухоморами"
+gender = "male"
+
+["plump pie"]
+nominative = "пирог с толстошлемником"
+genitive = "пирога с толстошлемником"
+dative = "пирогу с толстошлемником"
+accusative = "пирог с толстошлемником"
+instrumental = "пирогом с толстошлемником"
+prepositional = "пироге с толстошлемником"
+gender = "male"
+
+["exceptional plump pie"]
+nominative = "исключительный пирог с толстошлемником"
+genitive = "исключительного пирога с толстошлемником"
+dative = "исключительному пирогу с толстошлемником"
+accusative = "исключительный пирог с толстошлемником"
+instrumental = "исключительным пирогом с толстошлемником"
+prepositional = "исключительном пироге с толстошлемником"
+gender = "male"
+
+["xeno-pie"]
+nominative = "ксено-пирог"
+genitive = "ксено-пирога"
+dative = "ксено-пирогу"
+accusative = "ксено-пирог"
+instrumental = "ксено-пирогом"
+prepositional = "ксено-пироге"
+gender = "male"
+
+["xeno-pie slice"]
+nominative = "кусок ксено-пирога"
+genitive = "куска ксено-пирога"
+dative = "куску ксено-пирога"
+accusative = "кусок ксено-пирога"
+instrumental = "куском ксено-пирога"
+prepositional = "куске ксено-пирога"
+gender = "male"
+
+["apple pie"]
+nominative = "яблочный пирог"
+genitive = "яблочного пирога"
+dative = "яблочному пирогу"
+accusative = "яблочный пирог"
+instrumental = "яблочным пирогом"
+prepositional = "яблочном пироге"
+gender = "male"
+
+["apple pie slice"]
+nominative = "кусок яблочного пирога"
+genitive = "куска яблочного пирога"
+dative = "куску яблочного пирога"
+accusative = "кусок яблочного пирога"
+instrumental = "куском яблочного пирога"
+prepositional = "куске яблочного пирога"
+gender = "male"
+
+["cherry pie"]
+nominative = "вишнёвый пирог"
+genitive = "вишнёвого пирога"
+dative = "вишнёвому пирогу"
+accusative = "вишнёвый пирог"
+instrumental = "вишнёвым пирогом"
+prepositional = "вишнёвом пироге"
+gender = "male"
+
+["cherry pie slice"]
+nominative = "кусок вишнёвого пирога"
+genitive = "куска вишнёвого пирога"
+dative = "куску вишнёвого пирога"
+accusative = "кусок вишнёвого пирога"
+instrumental = "куском вишнёвого пирога"
+prepositional = "куске вишнёвого пирога"
+gender = "male"
+
+["pumpkin pie"]
+nominative = "тыквенный пирог"
+genitive = "тыквенного пирога"
+dative = "тыквенному пирогу"
+accusative = "тыквенный пирог"
+instrumental = "тыквенным пирогом"
+prepositional = "тыквенном пироге"
+gender = "male"
+
+["pumpkin pie slice"]
+nominative = "кусок тыквенного пирога"
+genitive = "куска тыквенного пирога"
+dative = "куску тыквенного пирога"
+accusative = "кусок тыквенного пирога"
+instrumental = "куском тыквенного пирога"
+prepositional = "куске тыквенного пирога"
+gender = "male"
+
+["golden apple streusel tart"]
+nominative = "тарт с золотыми яблоками и штрейзелем"
+genitive = "тарта с золотыми яблоками и штрейзелем"
+dative = "тарту с золотыми яблоками и штрейзелем"
+accusative = "тарт с золотыми яблоками и штрейзелем"
+instrumental = "тартом с золотыми яблоками и штрейзелем"
+prepositional = "тарте с золотыми яблоками и штрейзелем"
+gender = "male"
+
+["grape tart"]
+nominative = "виноградный тарт"
+genitive = "виноградного тарта"
+dative = "виноградному тарту"
+accusative = "виноградный тарт"
+instrumental = "виноградным тартом"
+prepositional = "виноградном тарте"
+gender = "male"
+
+["mime tart"]
+nominative = "мимический тарт"
+genitive = "мимического тарта"
+dative = "мимическому тарту"
+accusative = "мимический тарт"
+instrumental = "мимическим тартом"
+prepositional = "мимическом тарте"
+gender = "male"
+
+["berry tart"]
+nominative = "ягодный тарт"
+genitive = "ягодного тарта"
+dative = "ягодному тарту"
+accusative = "ягодный тарт"
+instrumental = "ягодным тартом"
+prepositional = "ягодном тарте"
+gender = "male"
+
+["chocolate lava tart"]
+nominative = "шоколадный лавовый тарт"
+genitive = "шоколадного лавового тарта"
+dative = "шоколадному лавовому тарту"
+accusative = "шоколадный лавовый тарт"
+instrumental = "шоколадным лавовым тартом"
+prepositional = "шоколадном лавовом тарте"
+gender = "male"
+
+# Note: НЕ ГУГЛИТЬ blumpkin
+["blumpkin pie"]
+nominative = "злыквенный пирог"
+genitive = "злыквенного пирога"
+dative = "злыквенному пирогу"
+accusative = "злыквенный пирог"
+instrumental = "злыквенным пирогом"
+prepositional = "злыквенном пироге"
+gender = "male"
+
+["blumpkin pie slice"]
+nominative = "кусок злыквенного пирога"
+genitive = "куска злыквенного пирога"
+dative = "куску злыквенного пирога"
+accusative = "кусок злыквенного пирога"
+instrumental = "куском злыквенного пирога"
+prepositional = "куске злыквенного пирога"
+gender = "male"
+
+["dulce de batata"]
+nominative = "мармелад из батата"
+genitive = "мармелада из батата"
+dative = "мармеладу из батата"
+accusative = "мармелад из батата"
+instrumental = "мармеладом из батата"
+prepositional = "мармеладе из батата"
+gender = "male"
+
+["dulce de batata slice"]
+nominative = "ломтик мармелада из батата"
+genitive = "ломтика мармелада из батата"
+dative = "ломтику мармелада из батата"
+accusative = "ломтик мармелада из батата"
+instrumental = "ломтиком мармелада из батата"
+prepositional = "ломтике мармелада из батата"
+gender = "male"
+
+["frosty pie"]
+nominative = "морозный пирог"
+genitive = "морозного пирога"
+dative = "морозному пирогу"
+accusative = "морозный пирог"
+instrumental = "морозным пирогом"
+prepositional = "морозном пироге"
+gender = "male"
+
+["frosty pie slice"]
+nominative = "кусок морозного пирога"
+genitive = "куска морозного пирога"
+dative = "куску морозного пирога"
+accusative = "кусок морозного пирога"
+instrumental = "куском морозного пирога"
+prepositional = "куске морозного пирога"
+gender = "male"
+
+["baklava"]
+nominative = "пахлава"
+genitive = "пахлавы"
+dative = "пахлаве"
+accusative = "пахлаву"
+instrumental = "пахлавой"
+prepositional = "пахлаве"
+gender = "female"
+
+["baklava dish"]
+nominative = "порция пахлавы"
+genitive = "порции пахлавы"
+dative = "порции пахлавы"
+accusative = "порцию пахлавы"
+instrumental = "порцией пахлавы"
+prepositional = "порции пахлавы"
+gender = "female"
+
+["french silk pie"]
+nominative = "французский шелковый пирог"
+genitive = "французского шелкового пирога"
+dative = "французскому шелковому пирогу"
+accusative = "французский шелковый пирог"
+instrumental = "французским шелковым пирогом"
+prepositional = "французском шелковом пироге"
+gender = "male"
+
+["french silk pie slice"]
+nominative = "кусок французского шелкового пирога"
+genitive = "куска французского шелкового пирога"
+dative = "куску французского шелкового пирога"
+accusative = "кусок французского шелкового пирога"
+instrumental = "куском французского шелкового пирога"
+prepositional = "куске французского шелкового пирога"
+gender = "male"
+
+["shepherds pie"]
+nominative = "пирог пастуха"
+genitive = "пирога пастуха"
+dative = "пирогу пастуха"
+accusative = "пирог пастуха"
+instrumental = "пирогом пастуха"
+prepositional = "пироге пастуха"
+gender = "male"
+
+["shepherds pie slice"]
+nominative = "кусок пирога пастуха"
+genitive = "куска пирога пастуха"
+dative = "куску пирога пастуха"
+accusative = "кусок пирога пастуха"
+instrumental = "куском пирога пастуха"
+prepositional = "куске пирога пастуха"
+gender = "male"
+
+["pie-flavored pie"]
+nominative = "пирог со вкусом пирога"
+genitive = "пирога со вкусом пирога"
+dative = "пирогу со вкусом пирога"
+accusative = "пирог со вкусом пирога"
+instrumental = "пирогом со вкусом пирога"
+prepositional = "пироге со вкусом пирога"
+gender = "male"
+
+["battery acid pie"]
+nominative = "пирог с электролитами"
+genitive = "пирога с электролитами"
+dative = "пирогу с электролитами"
+accusative = "пирог с электролитами"
+instrumental = "пирогом с электролитами"
+prepositional = "пироге с электролитами"
+gender = "male"
+
+["battery acid pie slice"]
+nominative = "кусок пирога с электролитами"
+genitive = "куска пирога с электролитами"
+dative = "куску пирога с электролитами"
+accusative = "кусок пирога с электролитами"
+instrumental = "куском пирога с электролитами"
+prepositional = "куске пирога с электролитами"
+gender = "male"
+
+# MARK: Food - Pizza
+
+["pizza margherita"]
+nominative = "пицца маргарита"
+genitive = "пиццы маргарита"
+dative = "пицце маргарита"
+accusative = "пиццу маргарита"
+instrumental = "пиццей маргарита"
+prepositional = "пицце маргарита"
+gender = "female"
+
+["raw pizza margherita"]
+nominative = "сырая пицца маргарита"
+genitive = "сырой пиццы маргарита"
+dative = "сырой пицце маргарита"
+accusative = "сырую пиццу маргарита"
+instrumental = "сырой пиццей маргарита"
+prepositional = "сырой пицце маргарита"
+gender = "female"
+
+["margherita slice"]
+nominative = "кусок пиццы маргарита"
+genitive = "куска пиццы маргарита"
+dative = "куску пиццы маргарита"
+accusative = "кусок пиццы маргарита"
+instrumental = "куском пиццы маргарита"
+prepositional = "куске пиццы маргарита"
+gender = "male"
+
+["meatpizza"]
+nominative = "мясная пицца"
+genitive = "мясной пиццы"
+dative = "мясной пицце"
+accusative = "мясную пиццу"
+instrumental = "мясной пиццей"
+prepositional = "мясной пицце"
+gender = "female"
+
+["raw meatpizza"]
+nominative = "сырая мясная пицца"
+genitive = "сырой мясной пиццы"
+dative = "сырой мясной пицце"
+accusative = "сырую мясную пиццу"
+instrumental = "сырой мясной пиццей"
+prepositional = "сырой мясной пицце"
+gender = "female"
+
+["meatpizza slice"]
+nominative = "кусок мясной пиццы"
+genitive = "куска мясной пиццы"
+dative = "куску мясной пиццы"
+accusative = "кусок мясной пиццы"
+instrumental = "куском мясной пиццы"
+prepositional = "куске мясной пиццы"
+gender = "male"
+
+["pizzeria meatpizza slice"]
+nominative = "кусок фирменной мясной пиццы"
+genitive = "куска фирменной мясной пиццы"
+dative = "куску фирменной мясной пиццы"
+accusative = "кусок фирменной мясной пиццы"
+instrumental = "куском фирменной мясной пиццы"
+prepositional = "куске фирменной мясной пиццы"
+gender = "male"
+
+["mushroom pizza"]
+nominative = "грибная пицца"
+genitive = "грибной пиццы"
+dative = "грибной пицце"
+accusative = "грибную пиццу"
+instrumental = "грибной пиццей"
+prepositional = "грибной пицце"
+gender = "female"
+
+["raw mushroom pizza"]
+nominative = "сырая грибная пицца"
+genitive = "сырой грибной пиццы"
+dative = "сырой грибной пицце"
+accusative = "сырую грибную пиццу"
+instrumental = "сырой грибной пиццей"
+prepositional = "сырой грибной пицце"
+gender = "female"
+
+["mushroom pizza slice"]
+nominative = "кусок грибной пиццы"
+genitive = "куска грибной пиццы"
+dative = "куску грибной пиццы"
+accusative = "кусок грибной пиццы"
+instrumental = "куском грибной пиццы"
+prepositional = "куске грибной пиццы"
+gender = "male"
+
+["vegetable pizza"]
+nominative = "вегетерианская пицца"
+genitive = "вегетерианской пиццы"
+dative = "вегетерианской пицце"
+accusative = "вегетерианскую пиццу"
+instrumental = "вегетерианской пиццей"
+prepositional = "вегетерианской пицце"
+gender = "female"
+
+["raw vegetable pizza"]
+nominative = "сырая вегетерианская пицца"
+genitive = "сырой вегетерианской пиццы"
+dative = "сырой вегетерианской пицце"
+accusative = "сырую вегетерианскую пиццу"
+instrumental = "сырой вегетерианской пиццей"
+prepositional = "сырой вегетерианской пицце"
+gender = "female"
+
+["vegetable pizza slice"]
+nominative = "кусок вегетерианской пиццы"
+genitive = "куска вегетерианской пиццы"
+dative = "куску вегетерианской пиццы"
+accusative = "кусок вегетерианской пиццы"
+instrumental = "куском вегетерианской пиццы"
+prepositional = "куске вегетерианской пиццы"
+gender = "male"
+
+["donkpocket pizza"]
+nominative = "пицца Донк-покет"
+genitive = "пиццы Донк-покет"
+dative = "пицце Донк-покет"
+accusative = "пиццу Донк-покет"
+instrumental = "пиццей Донк-покет"
+prepositional = "пицце Донк-покет"
+gender = "female"
+
+["raw donkpocket pizza"]
+nominative = "сырая пицца Донк-покет"
+genitive = "сырой пиццы Донк-покет"
+dative = "сырой пицце Донк-покет"
+accusative = "сырую пиццу Донк-покет"
+instrumental = "сырой пиццей Донк-покет"
+prepositional = "сырой пицце Донк-покет"
+gender = "female"
+
+["donkpocket pizza slice"]
+nominative = "кусок пиццы Донк-покет"
+genitive = "куска пиццы Донк-покет"
+dative = "куску пиццы Донк-покет"
+accusative = "кусок пиццы Донк-покет"
+instrumental = "куском пиццы Донк-покет"
+prepositional = "куске пиццы Донк-покет"
+gender = "male"
+
+["dank pizza"]
+nominative = "растаман-пицца"
+genitive = "растаман-пиццы"
+dative = "растаман-пицце"
+accusative = "растаман-пиццу"
+instrumental = "растаман-пиццей"
+prepositional = "растаман-пицце"
+gender = "female"
+
+["raw dank pizza"]
+nominative = "сырая растаман-пицца"
+genitive = "сырой растаман-пиццы"
+dative = "сырой растаман-пицце"
+accusative = "сырую растаман-пиццу"
+instrumental = "сырой растаман-пиццей"
+prepositional = "сырой растаман-пицце"
+gender = "female"
+
+["dank pizza slice"]
+nominative = "кусок растаман-пиццы"
+genitive = "куска растаман-пиццы"
+dative = "куску растаман-пиццы"
+accusative = "кусок растаман-пиццы"
+instrumental = "куском растаман-пиццы"
+prepositional = "куске растаман-пиццы"
+gender = "male"
+
+["sassysage pizza"]
+nominative = "соси-сочная пицца"
+genitive = "соси-сочной пиццы"
+dative = "соси-сочной пицце"
+accusative = "соси-сочную пиццу"
+instrumental = "соси-сочной пиццей"
+prepositional = "соси-сочной пицце"
+gender = "female"
+
+["raw sassysage pizza"]
+nominative = "сырая соси-сочная пицца"
+genitive = "сырой соси-сочной пиццы"
+dative = "сырой соси-сочной пицце"
+accusative = "сырую соси-сочную пиццу"
+instrumental = "сырой соси-сочной пиццей"
+prepositional = "сырой соси-сочной пицце"
+gender = "female"
+
+["sassysage pizze slice"]
+nominative = "кусок соси-сочной пиццы"
+genitive = "куска соси-сочной пиццы"
+dative = "куску соси-сочной пиццы"
+accusative = "кусок соси-сочной пиццы"
+instrumental = "куском соси-сочной пиццы"
+prepositional = "куске соси-сочной пиццы"
+gender = "male"
+
+["Hawaiian pizza"]
+nominative = "гавайская пицца"
+genitive = "гавайской пиццы"
+dative = "гавайской пицце"
+accusative = "гавайскую пиццу"
+instrumental = "гавайской пиццей"
+prepositional = "гавайской пицце"
+gender = "female"
+
+["raw Hawaiian pizza"]
+nominative = "сырая гавайская пицца"
+genitive = "сырой гавайской пиццы"
+dative = "сырой гавайской пицце"
+accusative = "сырую гавайскую пиццу"
+instrumental = "сырой гавайской пиццей"
+prepositional = "сырой гавайской пицце"
+gender = "female"
+
+["Hawaiian pizza slice"]
+nominative = "кусок гавайской пиццы"
+genitive = "куска гавайской пиццы"
+dative = "куску гавайской пиццы"
+accusative = "кусок гавайской пиццы"
+instrumental = "куском гавайской пиццы"
+prepositional = "куске гавайской пиццы"
+gender = "male"
+
+["moldy pizza slice"]
+nominative = "заплесневелый кусок пиццы"
+genitive = "заплесневелого куска пиццы"
+dative = "заплесневелому куску пиццы"
+accusative = "заплесневелый кусок пиццы"
+instrumental = "заплесневелым куском пиццы"
+prepositional = "заплесневелом куске пиццы"
+gender = "male"
+
+["bacteria rich moldy pizza slice"]
+nominative = "заплесневелый кусок пиццы с бактериями"
+genitive = "заплесневелого куска пиццы с бактериями"
+dative = "заплесневелому куску пиццы с бактериями"
+accusative = "заплесневелый кусок пиццы с бактериями"
+instrumental = "заплесневелым куском пиццы с бактериями"
+prepositional = "заплесневелом куске пиццы с бактериями"
+gender = "male"
+
+["Arnold pizza"]
+nominative = "пицца Арнольд"
+genitive = "пиццы Арнольд"
+dative = "пицце Арнольд"
+accusative = "пиццу Арнольд"
+instrumental = "пиццей Арнольд"
+prepositional = "пицце Арнольд"
+gender = "female"
+
+["raw Arnold pizza"]
+nominative = "сырая пицца Арнольд"
+genitive = "сырой пиццы Арнольд"
+dative = "сырой пицце Арнольд"
+accusative = "сырую пиццу Арнольд"
+instrumental = "сырой пиццей Арнольд"
+prepositional = "сырой пицце Арнольд"
+gender = "female"
+
+["Arnold pizza slice"]
+nominative = "кусок пиццы Арнольд"
+genitive = "куска пиццы Арнольд"
+dative = "куску пиццы Арнольд"
+accusative = "кусок пиццы Арнольд"
+instrumental = "куском пиццы Арнольд"
+prepositional = "куске пиццы Арнольд"
+gender = "male"
+
+["Ant Party pizza slice"]
+nominative = "кусок пиццы Муравьиный Рейв"
+genitive = "куска пиццы Муравьиный Рейв"
+dative = "куску пиццы Муравьиный Рейв"
+accusative = "кусок пиццы Муравьиный Рейв"
+instrumental = "куском пиццы Муравьиный Рейв"
+prepositional = "куске пиццы Муравьиный Рейв"
+gender = "male"
+
+["energy pizza"]
+nominative = "энергопицца"
+genitive = "энергопиццы"
+dative = "энергопицце"
+accusative = "энергопиццу"
+instrumental = "энергопиццей"
+prepositional = "энергопицце"
+gender = "female"
+
+["raw energy pizza"]
+nominative = "сырая энергопицца"
+genitive = "сырой энергопиццы"
+dative = "сырой энергопицце"
+accusative = "сырую энергопиццу"
+instrumental = "сырой энергопиццей"
+prepositional = "сырой энергопицце"
+gender = "female"
+
+["energy pizza slice"]
+nominative = "кусок энергопиццы"
+genitive = "куска энергопиццы"
+dative = "куску энергопиццы"
+accusative = "кусок энергопиццы"
+instrumental = "куском энергопиццы"
+prepositional = "куске энергопиццы"
+gender = "male"
+
+["raw meat calzone"]
+nominative = "сырой кальцоне с мясом"
+genitive = "сырого кальцоне с мясом"
+dative = "сырому кальцоне с мясом"
+accusative = "сырой кальцоне с мясом"
+instrumental = "сырым кальцоне с мясом"
+prepositional = "сыром кальцоне с мясом"
+gender = "male"
+
+["meat calzone"]
+nominative = "кальцоне с мясом"
+genitive = "кальцоне с мясом"
+dative = "кальцоне с мясом"
+accusative = "кальцоне с мясом"
+instrumental = "кальцоне с мясом"
+prepositional = "кальцоне с мясом"
+gender = "male"
+
+["raw vegeterian calzone"]
+nominative = "сырой вегетерианский кальцоне"
+genitive = "сырого вегетерианского кальцоне"
+dative = "сырому вегетерианскому кальцоне"
+accusative = "сырой вегетерианский кальцоне"
+instrumental = "сырым вегетерианским кальцоне"
+prepositional = "сыром вегетерианском кальцоне"
+gender = "male"
+
+["vegeterian calzone"]
+nominative = "вегетерианский кальцоне"
+genitive = "вегетерианского кальцоне"
+dative = "вегетерианскому кальцоне"
+accusative = "вегетерианский кальцоне"
+instrumental = "вегетерианским кальцоне"
+prepositional = "вегетерианском кальцоне"
+gender = "male"
+
+# MARK: Food - Salads
+
+["Aesir salad"]
+nominative = "салат асов"
+genitive = "салата асов"
+dative = "салату асов"
+accusative = "салат асов"
+instrumental = "салатом асов"
+prepositional = "салате асов"
+gender = "male"
+
+["herb salad"]
+nominative = "травяной салат"
+genitive = "травяного салата"
+dative = "травяному салату"
+accusative = "травяной салат"
+instrumental = "травяным салатом"
+prepositional = "травяном салате"
+gender = "male"
+
+["valid salad"]
+nominative = "обыкновенный салат"
+genitive = "обыкновенного салата"
+dative = "обыкновенному салату"
+accusative = "обыкновенный салат"
+instrumental = "обыкновенным салатом"
+prepositional = "обыкновенном салате"
+gender = "male"
+
+["fruit salad"]
+nominative = "фруктовый салат"
+genitive = "фруктового салата"
+dative = "фруктовому салату"
+accusative = "фруктовый салат"
+instrumental = "фруктовым салатом"
+prepositional = "фруктовом салате"
+gender = "male"
+
+["jungle salad"]
+nominative = "тропический салат"
+genitive = "тропического салата"
+dative = "тропическому салату"
+accusative = "тропический салат"
+instrumental = "тропическим салатом"
+prepositional = "тропическом салате"
+gender = "male"
+
+["citrus delight"]
+nominative = "цитрусовое удовольствие"
+genitive = "цитрусового удовольствия"
+dative = "цитрусовому удовольствию"
+accusative = "цитрусовое удовольствие"
+instrumental = "цитрусовым удовольствием"
+prepositional = "цитрусовом удовольствии"
+gender = "neuter"
+
+["uncooked rice"]
+nominative = "сырой рис"
+genitive = "сырого риса"
+dative = "сырому рису"
+accusative = "сырой рис"
+instrumental = "сырым рисом"
+prepositional = "сыром рисе"
+gender = "male"
+
+["boiled rice"]
+nominative = "варёный рис"
+genitive = "варёного риса"
+dative = "варёному рису"
+accusative = "варёный рис"
+instrumental = "варёным рисом"
+prepositional = "варёном рисе"
+gender = "male"
+
+["rice pudding"]
+nominative = "рисовый пудинг"
+genitive = "рисового пудинга"
+dative = "рисовому пудингу"
+accusative = "рисовый пудинг"
+instrumental = "рисовым пудингом"
+prepositional = "рисовом пудинге"
+gender = "male"
+
+["rice and pork"]
+nominative = "рис с отбивной"
+genitive = "риса с отбивной"
+dative = "рису с отбивной"
+accusative = "рис с отбивной"
+instrumental = "рисом с отбивной"
+prepositional = "рисе с отбивной"
+gender = "male"
+
+["risotto"]
+nominative = "ризотто"
+gender = "male"
+
+["egg bowl"]
+nominative = "боул с яйцом"
+genitive = "боула с яйцом"
+dative = "боулу с яйцом"
+accusative = "боул с яйцом"
+instrumental = "боулом с яйцом"
+prepositional = "боуле с яйцом"
+gender = "male"
+
+["Salad of Eden"]
+nominative = "салат Эдема"
+genitive = "салата Эдема"
+dative = "салату Эдема"
+accusative = "салат Эдема"
+instrumental = "салатом Эдема"
+prepositional = "салате Эдема"
+gender = "male"
+
+["black eyed gumbo"]
+nominative = "гамбо с чёрной фасолью"
+gender = "male"
+
+["salad"]
+nominative = "салат"
+genitive = "салата"
+dative = "салату"
+accusative = "салат"
+instrumental = "салатом"
+prepositional = "салате"
+gender = "male"
+
+["kale salad"]
+nominative = "капустный салат"
+genitive = "капустного салата"
+dative = "капустному салату"
+accusative = "капустный салат"
+instrumental = "капустным салатом"
+prepositional = "капустном салате"
+gender = "male"
+
+["greek salad"]
+nominative = "греческий салат"
+genitive = "греческого салата"
+dative = "греческому салату"
+accusative = "греческий салат"
+instrumental = "греческим салатом"
+prepositional = "греческом салате"
+gender = "male"
+
+["caesar salad"]
+nominative = "салат Цезарь"
+genitive = "салата Цезарь"
+dative = "салату Цезарь"
+accusative = "салат Цезарь"
+instrumental = "салатом Цезарь"
+prepositional = "салате Цезарь"
+gender = "male"
+
+["spring salad"]
+nominative = "весенний салат"
+genitive = "весеннего салата"
+dative = "весеннему салату"
+accusative = "весенний салат"
+instrumental = "весенним салатом"
+prepositional = "весеннем салате"
+gender = "male"
+
+["potato salad"]
+nominative = "картофельный салат"
+genitive = "картофельного салата"
+dative = "картофельному салату"
+accusative = "картофельный салат"
+instrumental = "картофельным салатом"
+prepositional = "картофельном салате"
+gender = "male"
+
+["spinach fruit salad"]
+nominative = "фруктовый салат со шпинатом"
+genitive = "фруктового салата со шпинатом"
+dative = "фруктовому салату со шпинатом"
+accusative = "фруктовый салат со шпинатом"
+instrumental = "фруктовым салатом со шпинатом"
+prepositional = "фруктовом салате со шпинатом"
+gender = "male"
+
+["antipasto salad"]
+nominative = "салат антипасто"
+genitive = "салата антипасто"
+dative = "салату антипасто"
+accusative = "салат антипасто"
+instrumental = "салатом антипасто"
+prepositional = "салате антипасто"
+gender = "male"
+
+# MARK: Food - Sandwich
+
+["sandwich"]
+nominative = "сэндвич"
+genitive = "сэндвича"
+dative = "сэндвичу"
+accusative = "сэндвич"
+instrumental = "сэндвичем"
+prepositional = "сэндвиче"
+gender = "male"
+
+["cheese sandwich"]
+nominative = "сырный сэндвич"
+genitive = "сырного сэндвича"
+dative = "сырному сэндвичу"
+accusative = "сырный сэндвич"
+instrumental = "сырным сэндвичем"
+prepositional = "сырном сэндвиче"
+gender = "male"
+
+["grilled cheese sandwich"]
+nominative = "жареный сырный сэндвич"
+genitive = "жареного сырного сэндвича"
+dative = "жареному сырному сэндвичу"
+accusative = "жареный сырный сэндвич"
+instrumental = "жареным сырным сэндвичем"
+prepositional = "жареном сырном сэндвиче"
+gender = "male"
+
+["jelly sandwich"]
+nominative = "сэндвич с джемом"
+genitive = "сэндвича с джемом"
+dative = "сэндвичу с джемом"
+accusative = "сэндвич с джемом"
+instrumental = "сэндвичем с джемом"
+prepositional = "сэндвиче с джемом"
+gender = "male"
+
+["not-a-sandwich"]
+nominative = "не-сэндвич"
+genitive = "не-сэндвича"
+dative = "не-сэндвичу"
+accusative = "не-сэндвич"
+instrumental = "не-сэндвичем"
+prepositional = "не-сэндвиче"
+gender = "male"
+
+["griddle toast"]
+nominative = "тост"
+genitive = "тоста"
+dative = "тосту"
+accusative = "тост"
+instrumental = "тостом"
+prepositional = "тосте"
+gender = "male"
+
+["buttered toast"]
+nominative = "тост с маслом"
+genitive = "тоста с маслом"
+dative = "тосту с маслом"
+accusative = "тост с маслом"
+instrumental = "тостом с маслом"
+prepositional = "тосте с маслом"
+gender = "male"
+
+["jellied toast"]
+nominative = "тост с джемом"
+genitive = "тоста с джемом"
+dative = "тосту с джемом"
+accusative = "тост с джемом"
+instrumental = "тостом с джемом"
+prepositional = "тосте с джемом"
+gender = "male"
+
+["two bread"]
+nominative = "двойной хлеб"
+genitive = "двойного хлеба"
+dative = "двойному хлебу"
+accusative = "двойной хлеб"
+instrumental = "двойным хлебом"
+prepositional = "двойном хлебе"
+gender = "male"
+
+["hotdog"]
+nominative = "хот-дог"
+genitive = "хот-дога"
+dative = "хот-догу"
+accusative = "хот-дог"
+instrumental = "хот-догом"
+prepositional = "хот-доге"
+gender = "male"
+
+["danish hotdog"]
+nominative = "датский хот-дог"
+genitive = "датского хот-дога"
+dative = "датскому хот-догу"
+accusative = "датский хот-дог"
+instrumental = "датским хот-догом"
+prepositional = "датском хот-доге"
+gender = "male"
+
+["BLT"]
+nominative = "сэндвич с беконом и томатом"
+genitive = "сэндвича с беконом и томатом"
+dative = "сэндвичу с беконом и томатом"
+accusative = "сэндвич с беконом и томатом"
+instrumental = "сэндвичем с беконом и томатом"
+prepositional = "сэндвиче с беконом и томатом"
+gender = "male"
+
+["peanut butter and jelly sandwich"]
+nominative = "сэндвич с джемом и арахисовой пастой"
+genitive = "сэндвича с джемом и арахисовой пастой"
+dative = "сэндвичу с джемом и арахисовой пастой"
+accusative = "сэндвич с джемом и арахисовой пастой"
+instrumental = "сэндвичем с джемом и арахисовой пастой"
+prepositional = "сэндвиче с джемом и арахисовой пастой"
+gender = "male"
+
+["peanut butter and banana sandwich"]
+nominative = "сэндвич с бананом и арахисовой пастой"
+genitive = "сэндвича с бананом и арахисовой пастой"
+dative = "сэндвичу с бананом и арахисовой пастой"
+accusative = "сэндвич с бананом и арахисовой пастой"
+instrumental = "сэндвичем с бананом и арахисовой пастой"
+prepositional = "сэндвиче с бананом и арахисовой пастой"
+gender = "male"
+
+["philly cheesesteak"]
+nominative = "стейк с сыром по-филадельфийски"
+genitive = "стейк с сыром по-филадельфийски"
+dative = "стейк с сыром по-филадельфийски"
+accusative = "стейк с сыром по-филадельфийски"
+instrumental = "стейк с сыром по-филадельфийски"
+prepositional = "стейк с сыром по-филадельфийски"
+gender = "male"
+
+["toast sandwich"]
+nominative = "тост-сэндвич"
+genitive = "тост-сэндвича"
+dative = "тост-сэндвичу"
+accusative = "тост-сэндвич"
+instrumental = "тост-сэндвичем"
+prepositional = "тост-сэндвиче"
+gender = "male"
+
+["death sandwich"]
+nominative = "смертельный сэндвич"
+genitive = "смертельного сэндвича"
+dative = "смертельному сэндвичу"
+accusative = "смертельный сэндвич"
+instrumental = "смертельным сэндвичем"
+prepositional = "смертельном сэндвиче"
+gender = "male"
+
 # MARK: Food - Other
 
 ["watermelon slice"]
@@ -15662,10 +16889,6 @@ dative = "картофельному пюре"
 accusative = "картофельное пюре"
 instrumental = "картофельным пюре"
 prepositional = "картофельном пюре"
-gender = "neuter"
-
-["risotto"]
-nominative = "ризотто"
 gender = "neuter"
 
 ["biscuit"]

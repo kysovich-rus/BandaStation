@@ -1,6 +1,6 @@
 /obj/item/food/sandwich
 	name = "sandwich"
-	desc = "A grand creation of meat, cheese, bread, and several leaves of lettuce! Arthur Dent would be proud."
+	desc = "Великолепное творение из мяса, сыра и нескольких листьев салата между двумя ломтиками хлеба! Артур Дент вами бы гордился."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "sandwich"
 	food_reagents = list(
@@ -17,7 +17,7 @@
 
 /obj/item/food/sandwich/cheese
 	name = "cheese sandwich"
-	desc = "A light snack for a warm day. ...but what if you grilled it?"
+	desc = "Легкая закуска в жаркий день... А что если поджарить его?"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 7,
 		/datum/reagent/consumable/nutriment/protein = 3,
@@ -34,7 +34,7 @@
 
 /obj/item/food/sandwich/grilled_cheese
 	name = "grilled cheese sandwich"
-	desc = "A warm, melty sandwich that goes perfectly with tomato soup."
+	desc = "Горячий сэндвич с плавленным сыром. Идеально сочетается с томатным супом."
 	icon_state = "toastedsandwich"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 6,
@@ -50,7 +50,7 @@
 
 /obj/item/food/sandwich/jelly
 	name = "jelly sandwich"
-	desc = "You wish you had some peanut butter to go with this..."
+	desc = "Немного арахисового масла явно не помешает..."
 	icon_state = "jellysandwich"
 	bite_consumption = 3
 	tastes = list("bread" = 1, "jelly" = 1)
@@ -68,7 +68,7 @@
 
 /obj/item/food/sandwich/notasandwich
 	name = "not-a-sandwich"
-	desc = "Something seems to be wrong with this, you can't quite figure what. Maybe it's his moustache."
+	desc = "С ним что-то не так, но никак не придет в голову, что именно. Кстати, ему очень хорошо идут усы."
 	icon_state = "notasandwich"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 6,
@@ -81,7 +81,7 @@
 
 /obj/item/food/griddle_toast
 	name = "griddle toast"
-	desc = "Thick cut bread, griddled to perfection."
+	desc = "Толстый ломтик хлеба, обжаренный до идеальной корочки."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "griddle_toast"
 	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 3)
@@ -93,7 +93,7 @@
 
 /obj/item/food/butteredtoast
 	name = "buttered toast"
-	desc = "Butter lightly spread over a piece of toast."
+	desc = "Кусочек масла равномерно распределен по всей поверхности тоста."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "butteredtoast"
 	bite_consumption = 3
@@ -109,7 +109,7 @@
 
 /obj/item/food/jelliedtoast
 	name = "jellied toast"
-	desc = "A slice of toast covered with delicious jam."
+	desc = "Хрустящий тост, покрытый сладким джемом."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "jellytoast"
 	bite_consumption = 3
@@ -129,7 +129,7 @@
 
 /obj/item/food/twobread
 	name = "two bread"
-	desc = "This seems awfully bitter."
+	desc = "Довольно горько на вкус."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "twobread"
 	food_reagents = list(
@@ -144,7 +144,7 @@
 
 /obj/item/food/hotdog
 	name = "hotdog"
-	desc = "Fresh footlong ready to go down on."
+	desc = "Свежий сэндвич, готовый к подаче."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "hotdog"
 	bite_consumption = 3
@@ -168,7 +168,7 @@
 
 /obj/item/food/danish_hotdog
 	name = "danish hotdog"
-	desc = "Appetizing bun, with a sausage in the middle, covered with sauce, fried onion and pickles rings"
+	desc = "Аппетитная булочка с сосиской внутри, политая соусом и украшенная жареным луком и маринованным огурчиком."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "danish_hotdog"
 	bite_consumption = 4
@@ -188,7 +188,7 @@
 
 /obj/item/food/sandwich/blt
 	name = "\improper BLT"
-	desc = "A classic bacon, lettuce, and tomato sandwich."
+	desc = "Классический сэндвич с полосками бекона, листом салата и ломтиком помидора."
 	icon_state = "blt"
 	bite_consumption = 4
 	food_reagents = list(
@@ -203,7 +203,7 @@
 
 /obj/item/food/sandwich/peanut_butter_jelly
 	name = "peanut butter and jelly sandwich"
-	desc = "A classic PB&J sandwich, just like your mom used to make."
+	desc = "Популярный в американской культуре сэндвич с джемом и арахисовой пастой."
 	icon_state = "peanut_butter_jelly_sandwich"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -217,7 +217,7 @@
 
 /obj/item/food/sandwich/peanut_butter_banana
 	name = "peanut butter and banana sandwich"
-	desc = "A peanut butter sandwich with banana slices mixed in, a good high protein treat."
+	desc = "Сладкий сэндвич с кусочками банана и арахисовой пастой, отличный источник протеинов."
 	icon_state = "peanut_butter_banana_sandwich"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -232,7 +232,7 @@
 
 /obj/item/food/sandwich/philly_cheesesteak
 	name = "philly cheesesteak"
-	desc = "A popular sandwich made of sliced meat, onions, melted cheese in a long hoagie roll. Mouthwatering doesn't even begin to describe it."
+	desc = "Популярный сэндвич из нарезанного мяса, лука и расплавленного сыра в длинной булочке. Фраза \"пальчики оближешь\" даже наполовину не передаёт его вкус."
 	icon_state = "philly_cheesesteak"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 10,
@@ -246,7 +246,7 @@
 
 /obj/item/food/sandwich/toast_sandwich
 	name = "toast sandwich"
-	desc = "A piece of buttered toast between two slices of bread. Why would you make this?"
+	desc = "Тост с маслом между двумя ломтиками свежего хлеба. Как вы вообще до этого додумались?"
 	icon_state = "toast_sandwich"
 	bite_consumption = 3
 	food_reagents = list(
@@ -260,7 +260,7 @@
 
 /obj/item/food/sandwich/death
 	name = "death sandwich"
-	desc = "Eat it right, or you die!"
+	desc = "Сможете понять, как его съесть, чтобы не умереть?"
 	icon_state = "death_sandwich"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 8,
@@ -285,7 +285,7 @@
 		return
 	if(check_liked(user) == FOOD_LIKED)
 		return
-	to_chat(user, span_warning("You imagine yourself eating [src]. You feel a sudden sour taste in your mouth, and a horrible feeling that you've done something wrong."))
+	to_chat(user, span_warning("Вы представляете, как надкусываете [src.declent_ru(ACCUSATIVE)]. Внезапно вы ощущаете кислый вкус во рту и ужасное отвращение - вы явно делаете что-то не так."))
 	user.adjust_disgust(33)
 
 // Override for after_eat and check_liked callbacks.
@@ -314,7 +314,7 @@
 	if(check_liked(consumer) == FOOD_LIKED)
 		return
 	// I thought it didn't make sense for it to instantly kill you, so instead enjoy shitloads of toxin damage per bite.
-	balloon_alert(consumer, "ate it wrong!")
+	balloon_alert(consumer, "Этикет не соблюден!")
 	consumer.ForceContractDisease(new /datum/disease/death_sandwich_poisoning())
 
 /obj/item/food/sandwich/death/suicide_act(mob/living/user)

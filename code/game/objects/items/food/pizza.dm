@@ -48,7 +48,7 @@
 	. = ..()
 	if(isnull(slice_type) || !sliced)
 		return
-	. += span_notice("You can slice this to make it possible to take out slices with an empty hand!")
+	. += span_notice("Можно нарезать, чтобы потом можно было брать кусок свободной рукой!")
 
 /obj/item/food/pizza/item_interaction(mob/living/user, obj/item/tool, list/modifiers)
 	. = NONE
@@ -57,7 +57,7 @@
 	if(!sliced)
 		slice(user, tool)
 		return ITEM_INTERACT_SUCCESS
-	user.visible_message(span_notice("[user] seperates [src] into individual slices with [tool]."))
+	user.visible_message(span_notice("[user] разрезает [src.declent_ru(ACCUSATIVE)] на части при помощи [tool.declent_ru(GENITIVE)]."))
 	cut_apart()
 	return ITEM_INTERACT_SUCCESS
 
@@ -65,7 +65,7 @@
 	. = NONE
 	if(isnull(slice_type) || !(tool.tool_behaviour in cutting_tools))
 		return
-	visible_message(span_notice("[user] seperates [src] into individual slices with [tool]."))
+	visible_message(span_notice("[user] разрезает [src.declent_ru(ACCUSATIVE)] на части при помощи [tool.declent_ru(GENITIVE)]."))
 	cut_apart()
 	return ITEM_INTERACT_SUCCESS
 
@@ -73,7 +73,7 @@
 	. = ..()
 	if(!sliced)
 		return
-	user.visible_message(span_notice("[user] takes a slice of [src]."), span_notice("You take a slice of [src]."))
+	user.visible_message(span_notice("[user] берет кусок [src.declent_ru(GENITIVE)]."), span_notice("Вы берете кусок [src.declent_ru(GENITIVE)]."))
 	produce_slice(user)
 
 /obj/item/food/pizza/proc/get_slices_filter() //to not repeat code
@@ -85,7 +85,7 @@
 		return
 	tool?.play_tool_sound(src)
 	sliced = TRUE
-	user?.visible_message(span_notice("[user] cuts [src] into 6 slices with [tool]."))
+	user?.visible_message(span_notice("[user] нарезает [src.declent_ru(ACCUSATIVE)] [tool.declent_ru(INSTRUMENTAL)] на 6 одинаковых кусочков."))
 	interaction_flags_item &= ~INTERACT_ITEM_ATTACK_HAND_PICKUP
 
 /obj/item/food/pizza/proc/cut_apart()
@@ -142,7 +142,7 @@
 
 /obj/item/food/pizza/margherita
 	name = "pizza margherita"
-	desc = "The most cheezy pizza in galaxy."
+	desc = "Самая сырная пицца во всей галактике."
 	icon_state = "pizzamargherita"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 25,
@@ -176,7 +176,7 @@
 
 /obj/item/food/pizzaslice/margherita
 	name = "margherita slice"
-	desc = "A slice of the most cheezy pizza in galaxy."
+	desc = "Кусок самой сырной пиццы во всей галактике."
 	icon_state = "pizzamargheritaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY
@@ -188,7 +188,7 @@
 
 /obj/item/food/pizza/meat
 	name = "meatpizza"
-	desc = "Greasy pizza with delicious meat."
+	desc = "Жирная пицца с аппетитными кусочками сочного мяса."
 	icon_state = "meatpizza"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 25,
@@ -213,7 +213,7 @@
 
 /obj/item/food/pizzaslice/meat
 	name = "meatpizza slice"
-	desc = "A nutritious slice of meatpizza."
+	desc = "Богатый протеинами кусок мясной пиццы."
 	icon_state = "meatpizzaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "meat" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY | MEAT
@@ -221,14 +221,14 @@
 
 /obj/item/food/pizzaslice/meat/pizzeria //Reward for pizzeria bitrunning domain
 	name = "pizzeria meatpizza slice"
-	desc = "An ostensibly nutritious slice of meatpizza from a long-closed pizzeria."
+	desc = "На вид питательный кусок мясной пиццы из давно закрытой пиццерии."
 	food_reagents = null
 	tastes = list("crust" = 1, "ketchup" = 1, "'cheese'" = 1, "mystery meat" = 1, "glue" = 1)
 	foodtypes = null
 
 /obj/item/food/pizza/mushroom
 	name = "mushroom pizza"
-	desc = "Very special pizza."
+	desc = "Весьма особенная пицца."
 	icon_state = "mushroompizza"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 28,
@@ -252,7 +252,7 @@
 
 /obj/item/food/pizzaslice/mushroom
 	name = "mushroom pizza slice"
-	desc = "Maybe it is the last slice of pizza in your life."
+	desc = "Может стать последним куском пиццы в вашей жизни."
 	icon_state = "mushroompizzaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "mushroom" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY
@@ -261,7 +261,7 @@
 
 /obj/item/food/pizza/vegetable
 	name = "vegetable pizza"
-	desc = "No one of Tomatoes Sapiens were harmed during making this pizza."
+	desc = "Ни один разумный томат не пострадал при приготовлении этой пиццы."
 	icon_state = "vegetablepizza"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 25,
@@ -286,7 +286,7 @@
 
 /obj/item/food/pizzaslice/vegetable
 	name = "vegetable pizza slice"
-	desc = "A slice of the most green pizza of all pizzas not containing green ingredients."
+	desc = "Кусок наиболее 'зелёной' пиццы, не содержащей практически ни одного зелёного ингредиента."
 	icon_state = "vegetablepizzaslice"
 	tastes = list("crust" = 1, "tomato" = 2, "cheese" = 1, "carrot" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY
@@ -294,7 +294,7 @@
 
 /obj/item/food/pizza/donkpocket
 	name = "donkpocket pizza"
-	desc = "Who thought this would be a good idea?"
+	desc = "Кто бы мог подумать, что это отличная идея?"
 	icon_state = "donkpocketpizza"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 20,
@@ -321,7 +321,7 @@
 
 /obj/item/food/pizzaslice/donkpocket
 	name = "donkpocket pizza slice"
-	desc = "Smells like donkpocket."
+	desc = "Пахнет Донк-покетами. Интересно, а они с каким вкусом?"
 	icon_state = "donkpocketpizzaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "umami" = 1, "laziness" = 1)
 	foodtypes = GRAIN|VEGETABLES|DAIRY|JUNKFOOD
@@ -329,7 +329,7 @@
 
 /obj/item/food/pizza/dank
 	name = "dank pizza"
-	desc = "The hippie's pizza of choice."
+	desc = "Выбор настоящего хиппи."
 	icon_state = "dankpizza"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 25,
@@ -354,14 +354,14 @@
 
 /obj/item/food/pizzaslice/dank
 	name = "dank pizza slice"
-	desc = "So good, man..."
+	desc = "Балдёж, чувак..."
 	icon_state = "dankpizzaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "weed" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY
 
 /obj/item/food/pizza/sassysage
 	name = "sassysage pizza"
-	desc = "You can almost taste the sassiness."
+	desc = "Вы уже чувствуете эту дерзость на языке."
 	icon_state = "sassysagepizza"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 20,
@@ -387,7 +387,7 @@
 
 /obj/item/food/pizzaslice/sassysage
 	name = "sassysage pizza slice"
-	desc = "Deliciously sassy."
+	desc = "Вкусно и дерзко."
 	icon_state = "sassysagepizzaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "meat" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY | MEAT
@@ -395,7 +395,7 @@
 
 /obj/item/food/pizza/pineapple
 	name = "\improper Hawaiian pizza"
-	desc = "The pizza equivalent of Einstein's riddle."
+	desc = "Эквивалент загадки Эйнштейна в форме пиццы."
 	icon_state = "pineapplepizza"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 20,
@@ -422,7 +422,7 @@
 
 /obj/item/food/pizzaslice/pineapple
 	name = "\improper Hawaiian pizza slice"
-	desc = "A slice of delicious controversy."
+	desc = "Кусочек вкусного противоречия."
 	icon_state = "pineapplepizzaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "pineapple" = 2, "ham" = 2)
 	foodtypes = GRAIN | VEGETABLES | DAIRY | MEAT | FRUIT | PINEAPPLE
@@ -432,8 +432,8 @@
 // Used in cytobiology.
 /obj/item/food/pizzaslice/moldy
 	name = "moldy pizza slice"
-	desc = "This was once a perfectly good slice of pizza pie, but now it lies here, rancid and bursting with spores. \
-		What a bummer! But we should not dwell on the past, only look towards the future."
+	desc = "Когда-то это был отличный кусок пиццы, а теперь он лежит здесь — сырой, прогорклый и раздувшийся от спор плесени. \
+	Какая досада! Но не стоит зацикливаться на прошлом — нужно смотреть только в будущее."
 	icon_state = "moldy_slice"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -447,7 +447,7 @@
 
 /obj/item/food/pizzaslice/moldy/bacteria
 	name = "bacteria rich moldy pizza slice"
-	desc = "Not only is this once delicious pizza encrusted with a layer of spore-spewing fungus, it also seems to shift and slide when unattended, teeming with new life."
+	desc = "Этот некогда вкусный кусок пиццы не только покрыт коркой грибка, разбрасывающего споры, но еще и кишит новой жизнью. \ Кажется, эта слизь шевелится и скользит, когда никто не видит."
 
 /obj/item/food/pizzaslice/moldy/bacteria/Initialize(mapload)
 	. = ..()
@@ -457,7 +457,7 @@
 // Has meme code.
 /obj/item/food/pizza/arnold
 	name = "\improper Arnold pizza"
-	desc = "Hello, you've reached Arnold's pizza shop. I'm not here now, I'm out killing pepperoni."
+	desc = "Здравствуйте, вы позвонили в пиццерию Арнольда. Сейчас я не могу ответить - я ушёл убивать Дона Пепперони."
 	icon_state = "arnoldpizza"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 25,
@@ -491,17 +491,17 @@
 	var/did_the_thing = (left?.dismember() || right?.dismember()) //not all limbs can be removed, so important to check that we did. the. thing.
 	if(!did_the_thing)
 		return
-	to_chat(user, span_userdanger("Maybe I'll give you a pizza, maybe I'll break off your arm.")) //makes the reference more obvious
-	user.visible_message(span_warning("\The [src] breaks off [user]'s arm!"), span_warning("\The [src] breaks off your arm!"))
+	to_chat(user, span_userdanger("Что, хочешь пиццу? А может, я оторву тебе руку?")) //makes the reference more obvious
+	user.visible_message(span_warning("\The [src] отрывает руку [user]!"), span_warning("\The [src] отрывает тебе руку!"))
 	playsound(user, SFX_DESECRATION, 50, TRUE, -1)
 
 /obj/item/food/proc/i_kill_you(obj/item/item, mob/living/user)
 	if(istype(item, /obj/item/food/pineappleslice))
-		to_chat(user, "<font color='red' size='7'>If you want something crazy like pineapple, I'll kill you.</font>") //this is in bigger text because it's hard to spam something that gibs you, and so that you're perfectly aware of the reason why you died
+		to_chat(user, "<font color='red' size='7'>Захочешь что-нибудь безумное вроде ананаса — убью.</font>") //this is in bigger text because it's hard to spam something that gibs you, and so that you're perfectly aware of the reason why you died
 		user.investigate_log("has been gibbed by putting pineapple on an arnold pizza.", INVESTIGATE_DEATHS)
 		user.gib(DROP_ALL_REMAINS) //if you want something crazy like pineapple, i'll kill you
 	else if(istype(item, /obj/item/food/grown/mushroom) && iscarbon(user))
-		to_chat(user, span_userdanger("So, if you want mushroom, shut up.")) //not as large as the pineapple text, because you could in theory spam it
+		to_chat(user, span_userdanger("Грибочков захотелось? Закрой рот.")) //not as large as the pineapple text, because you could in theory spam it
 		var/mob/living/carbon/shutup = user
 		shutup.gain_trauma(/datum/brain_trauma/severe/mute)
 
@@ -515,7 +515,7 @@
 
 /obj/item/food/pizzaslice/arnold
 	name = "\improper Arnold pizza slice"
-	desc = "I come over, maybe I give you a pizza, maybe I break off your arm."
+	desc = "Я сейчас буду. Повезёт — получишь пиццу. Не повезёт — останешься без руки."
 	icon_state = "arnoldpizzaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "pepperoni" = 2, "9 millimeter bullets" = 2)
 	foodtypes = GRAIN | VEGETABLES | DAIRY | MEAT
@@ -532,7 +532,7 @@
 // Ant Pizza, now with more ants.
 /obj/item/food/pizzaslice/ants
 	name = "\improper Ant Party pizza slice"
-	desc = "The key to a perfect slice of pizza is not to overdo it with the ants."
+	desc = "Секрет приготовления идеальной пиццы - не переборщить с муравьями."
 	icon_state = "antpizzaslice"
 	food_reagents = list(
 		/datum/reagent/ants = 5,
@@ -544,7 +544,7 @@
 // Ethereal Pizza, for when they want a slice
 /obj/item/food/pizza/energy
 	name = "energy pizza"
-	desc = "You could probably power a RIPLEY with this. You should avoid eating this if you aren't an Ethereal."
+	desc = "Такой пиццей при желании можно запитать чёртов Рипли! Для форм жизни, отличающихся от эфирной, употребление противопоказано."
 	icon_state ="energypizza"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 18,
@@ -568,7 +568,7 @@
 
 /obj/item/food/pizzaslice/energy
 	name = "energy pizza slice"
-	desc = "You're thinking about using this to power your modsuit. You should avoid eating this if you aren't an Ethereal."
+	desc = "Вы уже думаете, как подключить клеммы для зарядки модкостюма. Для форм жизни, отличающихся от эфирной, употребление противопоказано."
 	icon_state ="energypizzaslice"
 	tastes = list("pure electricity" = 4, "pizza" = 2)
 	foodtypes = GRAIN|TOXIC
@@ -576,7 +576,7 @@
 
 /obj/item/food/raw_meat_calzone
 	name = "raw meat calzone"
-	desc = "A raw calzone, ready to be put in the oven."
+	desc = "Сырой кальцоне, готовый отправиться в духовку."
 	icon_state = "raw_calzone"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -594,7 +594,7 @@
 
 /obj/item/food/meat_calzone
 	name = "meat calzone"
-	desc = "A calzone filled with cheese, meat, and a tomato sauce. Don't burn your tongue!."
+	desc = "Закрытая пицца с сыром и мясом в томатном соусе. Не обожгитесь!"
 	icon_state = "meat_calzone"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 8,
@@ -609,7 +609,7 @@
 
 /obj/item/food/raw_vegetarian_calzone
 	name = "raw vegetarian calzone"
-	desc = "A raw calzone, ready to be put in the oven."
+	desc = "Сырой кальцоне, готовый отправиться в духовку."
 	icon_state = "raw_calzone"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -625,7 +625,7 @@
 
 /obj/item/food/vegetarian_calzone
 	name = "vegetarian calzone"
-	desc = "A calzone filled with mixed vegetables and a tomato sauce. A healthier, yet less satisfying alternative."
+	desc = "Закрытая пицца с овощами в томатном соусе. Более здоровая, хоть и не такая же восхитительная альтернатива."
 	icon_state = "vegetarian_calzone"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 10,
