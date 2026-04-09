@@ -2,7 +2,7 @@
 
 /obj/item/food/candy_corn
 	name = "candy corn"
-	desc = "It's a handful of candy corn. Can be stored in a detective's hat."
+	desc = "Конфета в виде кукурузного зерна шириной с ладонь. Легко помещается в шляпу детектива."
 	icon_state = "candy_corn"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -16,7 +16,7 @@
 
 /obj/item/food/candy_corn/prison
 	name = "desiccated candy corn"
-	desc = "If this candy corn were any harder Security would confiscate it for being a potential shiv."
+	desc = "Дайте ей подсохнуть еще пару дней, и офицеры смогут привлечь вас за хранение заточки."
 	force = 1 // the description isn't lying
 	throwforce = 1 // if someone manages to bust out of jail with candy corn god bless them
 	tastes = list("bitter wax" = 1)
@@ -24,7 +24,7 @@
 
 /obj/item/food/candiedapple
 	name = "candied apple"
-	desc = "An apple coated in sugary sweetness."
+	desc = "Яблоко, покрытое сладкой сахарной глазурью."
 	icon_state = "candiedapple"
 	bite_consumption = 3
 	food_reagents = list(
@@ -39,7 +39,7 @@
 
 /obj/item/food/mint
 	name = "mint"
-	desc = "It is only wafer thin."
+	desc = "Он тонюсенький, как льдышка... И это все?"
 	icon_state = "mint"
 	bite_consumption = 1
 	food_reagents = list(/datum/reagent/consumable/mintextract = 2)
@@ -49,7 +49,7 @@
 
 /obj/item/food/ant_candy
 	name = "ant candy"
-	desc = "A colony of ants suspended in hardened sugar. Those things are dead, right?"
+	desc = "Колония муравьев, застывшая в бруске затвердевшей сахарной карамели. Они ведь мертвы, так?"
 	icon_state = "ant_pop"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -66,7 +66,7 @@
 // Chocolates
 /obj/item/food/chocolatebar
 	name = "chocolate bar"
-	desc = "Such, sweet, fattening food."
+	desc = "Очень вкусная и калорийная сладость."
 	icon_state = "chocolatebar"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -81,7 +81,7 @@
 
 /obj/item/food/virtual_chocolate
 	name = "virtual chocolate bar"
-	desc = "Digital food only gives off the sensation of eating... without any of the nutritional benefits."
+	desc = "Цифровая сладость, способная только стимулировать вкусовые рецепторы... без всякого намека на утоление голода."
 	icon_state = "virtual_chocolate"
 	tastes = list("nothing" = 1)
 	foodtypes = NONE
@@ -90,7 +90,7 @@
 
 /obj/item/food/chococoin
 	name = "chocolate coin"
-	desc = "A completely edible but non-flippable festive coin."
+	desc = "Полностью съедобная, но непригодная для товарообмена праздничная монета."
 	icon_state = "chococoin"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -105,7 +105,7 @@
 
 /obj/item/food/fudgedice
 	name = "fudge dice"
-	desc = "A little cube of chocolate that tends to have a less intense taste if you eat too many at once."
+	desc = "Небольшой кубик из шоколада, вкус которого кажется менее насыщенным, если съесть слишком много сразу."
 	icon_state = "chocodice"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -121,7 +121,7 @@
 
 /obj/item/food/chocoorange
 	name = "chocolate orange"
-	desc = "A festive chocolate orange."
+	desc = "Праздничный апельсин в шоколаде."
 	icon_state = "chocoorange"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -135,7 +135,7 @@
 
 /obj/item/food/bonbon
 	name = "bon bon"
-	desc = "A tiny and sweet chocolate."
+	desc = "Небольшая конфета из цельного, очень вкусного шоколада."
 	icon_state = "tiny_chocolate"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -149,7 +149,7 @@
 
 /obj/item/food/bonbon/caramel_truffle
 	name = "caramel truffle"
-	desc = "A bite-sized chocolate truffle with a chewy caramel filling."
+	desc = "Шоколадный трюфель с начинкой из жевательной карамели."
 	icon_state = "caramel_truffle"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -160,7 +160,7 @@
 
 /obj/item/food/bonbon/chocolate_truffle
 	name = "chocolate truffle"
-	desc = "A bite-sized chocolate truffle with a rich chocolate mousse filling."
+	desc = "Шоколадный трюфель с начинкой из роскошного шоколадного мусса."
 	icon_state = "chocolate_truffle"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -169,7 +169,7 @@
 
 /obj/item/food/bonbon/peanut_truffle
 	name = "peanut truffle"
-	desc = "A bite-sized chocolate truffle with crunchy peanuts mixed in."
+	desc = "Шоколадный трюфель с хрустящим арахисом внутри."
 	icon_state = "peanut_truffle"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -181,7 +181,7 @@
 
 /obj/item/food/bonbon/peanut_butter_cup
 	name = "peanut butter cup"
-	desc = "An ultra-sweet chocolate treat with a savory peanut butter filling."
+	desc = "Ультра-сладкое шоколадное лакомство с солоноватой начинкой из арахисовой пасты."
 	icon_state = "peanut_butter_cup"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -194,7 +194,7 @@
 // Gum
 /obj/item/food/bubblegum
 	name = "bubblegum"
-	desc = "A rubbery strip of gum. Not exactly filling, but it keeps you busy."
+	desc = "Упругая полоска жевательной резинки. Не особо насыщает, но помогает немного отвлечься от голода."
 	icon_state = "bubblegum"
 	inhand_icon_state = null
 	color = "#E48AB5" // craftable custom gums someday?
@@ -205,7 +205,7 @@
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/food/bubblegum/suicide_act(mob/living/user)
-	user.visible_message(span_suicide("[user] swallows [src]! Кажется, [user.ru_p_they()] пытается совершить самоубийство!"))
+	user.visible_message(span_suicide("[user] глотает [src.declent_ru(ACCUSATIVE)]! Кажется, [user.ru_p_they()] пытается совершить самоубийство!"))
 	qdel(src)
 	return TOXLOSS
 
@@ -224,14 +224,14 @@
 
 /obj/item/food/bubblegum/happiness
 	name = "\improper HP+ gum"
-	desc = "A rubbery strip of gum. It smells funny."
+	desc = "Упругая полоска жевательной резинки. Пахнет весельем."
 	food_reagents = list(/datum/reagent/drug/happiness = 15)
 	tastes = list("paint thinner" = 1)
 	color = "#EE35FF"
 
 /obj/item/food/bubblegum/bubblegum
 	name = "bubblegum gum"
-	desc = "A rubbery strip of gum. You don't feel like eating it is a good idea."
+	desc = "Упругая полоска жевательной резинки. Вам кажется, что не стоит её глотать."
 	color = "#913D3D"
 	food_reagents = list(/datum/reagent/blood = 15)
 	tastes = list("hell" = 1, "people" = 1)
@@ -255,7 +255,7 @@
 	if(prob(15))
 		victim.cause_hallucination(/datum/hallucination/oh_yeah, "bubblegum bubblegum", haunt_them = TRUE)
 	else
-		to_chat(victim, span_warning("[pick("You hear faint whispers.", "You smell ash.", "You feel hot.", "You hear a roar in the distance.")]"))
+		to_chat(victim, span_warning("[pick("Вы слышите едва уловимые шёпоты.", "Запах пепла бьет вам в нос.", "Вы чувствуете жар.", "Где-то далеко вы слышите первобытный рёв.")]"))
 
 /obj/item/food/bubblegum/bubblegum/suicide_act(mob/living/user)
 	user.say(";[pick(BUBBLEGUM_HALLUCINATION_LINES)]")
@@ -263,7 +263,7 @@
 
 /obj/item/food/gumball
 	name = "gumball"
-	desc = "A colorful, sugary gumball."
+	desc = "Яркий и сладкий шарик жевательной резинки."
 	icon = 'icons/obj/food/lollipop.dmi'
 	icon_state = "gumball"
 	worn_icon_state = "bubblegum"
@@ -284,7 +284,7 @@
 // Lollipop
 /obj/item/food/lollipop
 	name = "lollipop"
-	desc = "A delicious lollipop. Makes for a great Valentine's present."
+	desc = "Вкусный леденец на палочке. Отличный подарок своей второй половинке."
 	icon = 'icons/obj/food/lollipop.dmi'
 	icon_state = "lollipop_stick"
 	inhand_icon_state = null
@@ -331,7 +331,7 @@
 
 /obj/item/food/spiderlollipop
 	name = "spider lollipop"
-	desc = "Still gross, but at least it has a mountain of sugar on it."
+	desc = "Все такой же отвратительный паучок, вкус которого пытается перебить целая гора сахара."
 	icon_state = "spiderlollipop"
 	worn_icon_state = "lollipop_stick"
 	food_reagents = list(
@@ -353,7 +353,7 @@
 
 /obj/item/food/swirl_lollipop
 	name = "swirl lollipop"
-	desc = "A massive rainbow swirlled lollipop. Said to contain extra sugar."
+	desc = "Огромный радужный леденец со спиральным узором. Говорят, что в нём ещё больше сахара."
 	icon_state = "swirl_lollipop"
 	worn_icon_state = "lollipop_stick"
 	inhand_icon_state = "swirl_lollipop"

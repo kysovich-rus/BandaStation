@@ -1,6 +1,6 @@
 /obj/item/food/eggplantparm
 	name = "eggplant parmigiana"
-	desc = "The only good recipe for eggplant."
+	desc = "Единственное хорошее блюдо из баклажанов."
 	icon_state = "eggplantparm"
 
 	food_reagents = list(
@@ -16,7 +16,7 @@
 
 /obj/item/food/yakiimo
 	name = "yaki imo"
-	desc = "Made with roasted sweet potatoes!"
+	desc = "Блюдо из запеченного сладкого картофеля!"
 	icon_state = "yakiimo"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 5,
@@ -29,7 +29,7 @@
 
 /obj/item/food/roastparsnip
 	name = "roast parsnip"
-	desc = "Sweet and crunchy."
+	desc = "Сладкий и хрустящий."
 	icon_state = "roastparsnip"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -43,7 +43,7 @@
 // Potatoes
 /obj/item/food/tatortot
 	name = "tator tot"
-	desc = "A large fried potato nugget that may or may not try to valid you."
+	desc = "Большой жареный драник из картофеля, который может попытаться вас проверить  (не сможет)."
 	icon_state = "tatortot"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4)
 	tastes = list("potato" = 3, "valids" = 1)
@@ -58,7 +58,7 @@
 
 /obj/item/food/mashed_potatoes
 	name = "mashed potatoes"
-	desc = "A creamy serving of mashed potatoes, a staple of many Thanksgiving dinners."
+	desc = "Сливочное картофельное пюре — неотъемлемая часть праздничного ужина."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "mashed_potatoes"
 	food_reagents = list(
@@ -72,7 +72,7 @@
 
 /obj/item/food/baked_potato
 	name = "baked potato"
-	desc = "A piping hot potato baked in an oven. A bit bland by itself."
+	desc = "Горячий печёный картофель, только что из духовки. Сам по себе немного пресноват."
 	icon_state = "baked_potato"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 4)
 	tastes = list("baked potato" = 1)
@@ -82,7 +82,7 @@
 
 /obj/item/food/buttered_baked_potato
 	name = "buttered baked potato"
-	desc = "A piping hot baked potato, now with a slice of butter mixed in. Perfection."
+	desc = "Горячий печёный картофель, перемешанный с кусочками сливочного масла. Совершенство."
 	icon_state = "buttered_baked_potato"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/nutriment/vitamin = 4)
 	tastes = list("baked potato" = 1)
@@ -92,7 +92,7 @@
 
 /obj/item/food/loaded_baked_potato
 	name = "loaded baked potato"
-	desc = "A piping hot baked potato, with the insides scooped out and mixed with bacon bits, cheese, and cabbage."
+	desc = "Горячий печёный картофель, сердцевина которого вынута и смешана с кусочками бекона, сыром и капустой."
 	icon_state = "loaded_baked_potato"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/consumable/nutriment/vitamin = 6, /datum/reagent/consumable/nutriment/protein = 4)
 	tastes = list("baked potato" = 1, "bacon" = 1, "cheese" = 1, "cabbage" = 1)
@@ -104,7 +104,7 @@
 // Fries
 /obj/item/food/fries
 	name = "space fries"
-	desc = "AKA: French Fries, Freedom Fries, etc."
+	desc = "Он же картофель во фритюре, чипсы по-британски и так далее."
 	icon_state = "fries"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4)
 	tastes = list("fries" = 3, "salt" = 1)
@@ -120,7 +120,7 @@
 
 /obj/item/food/cheesyfries
 	name = "cheesy fries"
-	desc = "Fries. Covered in cheese. Duh."
+	desc = "Картофель. Во фритюре. С плавленным чеддером. Ага."
 	icon_state = "cheesyfries"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 6,
@@ -139,7 +139,7 @@
 
 /obj/item/food/carrotfries
 	name = "carrot fries"
-	desc = "Tasty fries from fresh carrots."
+	desc = "Жареные во фритюре палочки из моркови."
 	icon_state = "carrotfries"
 
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/vitamin = 2)
@@ -171,7 +171,7 @@
 
 /obj/item/food/sauteed_eggplant
 	name = "sauteed eggplant"
-	desc = "Thick-cut slices of eggplant sauteed in oil and minced garlic, creating a soft, crispy, healthy snack."
+	desc = "Толстые ломтики баклажана, обжаренные в масле с измельчённым чесноком - мягкая, слегка хрустящая и полезная закуска."
 	icon_state = "sauteed_eggplant"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 8,
@@ -184,7 +184,7 @@
 
 /obj/item/food/baba_ghanoush
 	name = "baba ghanoush"
-	desc = "A thick dip made from mashed eggplant, olive oil, garlic, and lemon juice with some pita bread for dipping. You'll either love it or hate it."
+	desc = "Густой соус из баклажанового пюре, оливкового масла, чеснока и лимонного сока. Блюдо на любителя, одни его обожают, а другие просто ненавидят. Подаётся с питой для макания."
 	icon_state = "baba_ghanoush"
 	trash_type = /obj/item/reagent_containers/cup/bowl
 	food_reagents = list(
@@ -198,7 +198,7 @@
 
 /obj/item/food/falafel
 	name = "falafel"
-	desc = "Beans, herbs, onions, and garlic mashed together and formed into a ball, then deep-fried. The herbs give the interior a unique green color."
+	desc = "Измельченые бобы с травами, луком и чесноком, сформированные в шарики и обжаренные во фритюре. Зелень придаёт начинке характерный зелёный цвет."
 	icon_state = "falafel"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 6,

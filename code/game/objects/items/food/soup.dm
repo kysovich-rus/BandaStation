@@ -13,7 +13,7 @@
 
 /obj/item/food/bowled/wish
 	name = "wish soup"
-	desc = "I wish this was soup."
+	desc = "Я хочу, чтобы в этой тарелке был сытный суп."
 	icon_state = "wishsoup"
 	food_reagents = list(/datum/reagent/water = 10)
 	tastes = list("wishes" = 1)
@@ -22,13 +22,13 @@
 /obj/item/food/bowled/wish/Initialize(mapload)
 	. = ..()
 	if(prob(25))
-		desc = "A wish come true!"
+		desc = "Желание исполнено!"
 		reagents.add_reagent(/datum/reagent/consumable/nutriment, 9)
 		reagents.add_reagent(/datum/reagent/consumable/nutriment/vitamin, 1)
 
 /obj/item/food/bowled/mammi
 	name = "mammi"
-	desc = "A bowl of mushy bread and milk. It reminds you, not too fondly, of a bowel movement."
+	desc = "Чашка с разваренным в молоке хлебным мякишем. Выглядит, мягко говоря, не слишком аппетитно."
 	icon_state = "mammi"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 11,
@@ -39,7 +39,7 @@
 
 /obj/item/food/bowled/spacylibertyduff
 	name = "spacy liberty duff"
-	desc = "Jello gelatin, from Alfred Hubbard's cookbook."
+	desc = "Желе на желатине, по поваренной книге Альфреда Хаббарда."
 	icon_state = "spacylibertyduff"
 	bite_consumption = 3
 	food_reagents = list(
@@ -55,7 +55,7 @@
 
 /obj/item/food/bowled/amanitajelly
 	name = "amanita jelly"
-	desc = "Looks curiously toxic."
+	desc = "Выглядит подозрительно ядовитым."
 	icon_state = "amanitajelly"
 	bite_consumption = 3
 	food_reagents = list(
