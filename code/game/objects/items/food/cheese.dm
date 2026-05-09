@@ -21,12 +21,12 @@
 /obj/item/food/cheese/proc/on_rat_eat(datum/source, mob/living/basic/regal_rat/king)
 	SIGNAL_HANDLER
 
-	king.cheese_heal(src, rat_heal, span_green("You eat [src], restoring some health."))
+	king.cheese_heal(src, rat_heal, span_green("Съев [src.declent_ru(ACCUSATIVE)], вы восстанавливаете немного здоровья."))
 	return COMPONENT_RAT_INTERACTED
 
 /obj/item/food/cheese/wedge
 	name = "cheese wedge"
-	desc = "A wedge of delicious Cheddar. The cheese wheel it was cut from can't have gone far."
+	desc = "Кусок вкусного чеддера. Остальные должны быть где-то неподалеку."
 	icon_state = "cheesewedge"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/fat = 2,
@@ -43,7 +43,7 @@
 
 /obj/item/food/cheese/wheel
 	name = "cheese wheel"
-	desc = "A big wheel of delicious Cheddar."
+	desc = "Большая головка вкусного чеддера."
 	icon_state = "cheesewheel"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/fat = 10,
@@ -69,13 +69,13 @@
  * Used in wizard grand rituals' optional cheesy alternative.
  */
 /obj/item/food/cheese/wheel/proc/consume_cheese()
-	visible_message(span_revenwarning("...and is consumed in a vortex of chaos!"))
+	visible_message(span_revenwarning("...и тут же исчезает в межпространственном вихре!"))
 	do_sparks(number = 1, cardinal_only = TRUE, source = get_turf(src))
 	qdel(src)
 
 /obj/item/food/cheese/royal
 	name = "royal cheese"
-	desc = "Ascend the throne. Consume the wheel. Feel the POWER."
+	desc = "Взойди на трон. Попробуй сыр. Почувствуй МОЩЬ."
 	icon_state = "royalcheese"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/fat = 15,
@@ -93,7 +93,7 @@
 //I'll use it as a substitute for ricotta, cottage cheese and quark, as well as any other non-aged, soft grainy cheese
 /obj/item/food/cheese/curd_cheese
 	name = "curd cheese"
-	desc = "Known by many names throughout human cuisine, curd cheese is useful for a wide variety of dishes."
+	desc = "Известный под многими названиями в кухнях разных народов, творожный сыр используется в широком спектре блюд."
 	icon_state = "curd_cheese"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 3,
@@ -112,7 +112,7 @@
 
 /obj/item/food/cheese/cheese_curds
 	name = "cheese curds"
-	desc = "Not to be mistaken for curd cheese. Tasty deep fried."
+	desc = "Не путать с творожным сыром. Очень хороши, будучи обжаренными во фритюре."
 	icon_state = "cheese_curds"
 	w_class = WEIGHT_CLASS_SMALL
 	rat_heal = 35
@@ -124,7 +124,7 @@
 
 /obj/item/food/cheese/firm_cheese
 	name = "firm cheese"
-	desc = "Firm aged cheese, similar in texture to firm tofu. Due to its lack of moisture it's particularly useful for cooking with, as it doesn't melt easily."
+	desc = "Выдержанный твёрдый сыр, по текстуре похожий на плотный тофу. Из-за низкого содержания влаги он особенно удобен для готовки, поскольку не плавится и не мнется в руках."
 	icon_state = "firm_cheese"
 	tastes = list("aged cheese" = 1)
 	w_class = WEIGHT_CLASS_SMALL
@@ -136,7 +136,7 @@
 
 /obj/item/food/cheese/firm_cheese_slice
 	name = "firm cheese slice"
-	desc = "A slice of firm cheese. Perfect for grilling or making into delicious pesto."
+	desc = "Кусок твёрдого сыра. Идеален для гриля или приготовления песто."
 	icon_state = "firm_cheese_slice"
 	tastes = list("aged cheese" = 1)
 	w_class = WEIGHT_CLASS_SMALL
@@ -152,7 +152,7 @@
 
 /obj/item/food/cheese/mozzarella
 	name = "mozzarella cheese"
-	desc = "Delicious, creamy, and cheesy, all in one simple package."
+	desc = "Вкусный, сливочный и сырный — всё в одном простом продукте."
 	icon_state = "mozzarella"
 	tastes = list("mozzarella" = 1)
 	w_class = WEIGHT_CLASS_SMALL

@@ -16,7 +16,7 @@
 
 /obj/item/food/burger/plain
 	name = "plain burger"
-	desc = "The cornerstone of every nutritious breakfast."
+	desc = "Основа любого питательо завтрака."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
 		/datum/reagent/consumable/nutriment/protein = 6,
@@ -34,16 +34,16 @@
 		return
 	new/obj/effect/particle_effect/fluid/smoke(get_turf(src))
 	playsound(src, 'sound/effects/smoke.ogg', 50, TRUE)
-	visible_message(span_warning("Oh, ye gods! [src] is ruined! But what if...?"))
+	visible_message(span_warning("О боги! [src] испорчен! Но что если... выдать это за новое фирменное блюдо?"))
 	name = "steamed ham"
-	desc = pick("Ahh, Head of Personnel, welcome. I hope you're prepared for an unforgettable luncheon!",
-		"And you call these steamed hams despite the fact that they are obviously microwaved?",
-		"Aurora Station 13? At this time of shift, in this time of year, in this sector of space, localized entirely within your freezer?",
-		"You know, these hamburgers taste quite similar to the ones they have at the Maltese Falcon.")
+	desc = pick("Ах, Глава Персонала, здравствуйте. Надеюсь, вы готовы к незабываемому обеду!",
+		"И вы называете это “паровой говядиной”, хотя она явно приготовлена в микроволновке?",
+		"ИКН Сьерра? В это время смены, в это время года, в этом секторе космоса — и прямо в вашем холодильнике?",
+		"Знаете, эти бургеры на вкус довольно похожи на те, что подают на “Бургер Станции”.")
 
 /obj/item/food/burger/human
 	name = "human burger"
-	desc = "A bloody burger."
+	desc = "Кровавый бургер."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
 		/datum/reagent/consumable/nutriment/protein = 6,
@@ -65,7 +65,7 @@
 
 /obj/item/food/burger/corgi
 	name = "corgi burger"
-	desc = "You monster."
+	desc = "Чудовище."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
 		/datum/reagent/consumable/nutriment/protein = 6,
@@ -79,7 +79,7 @@
 
 /obj/item/food/burger/appendix
 	name = "appendix burger"
-	desc = "Tastes like appendicitis."
+	desc = "На вкус как аппендицит."
 	icon_state = "appendixburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -93,7 +93,7 @@
 
 /obj/item/food/burger/fish
 	name = "fillet -o- carp sandwich"
-	desc = "Almost like a carp is yelling somewhere... Give me back that fillet -o- carp, give me that carp."
+	desc = "Где-то кричит космический карп."
 	icon_state = "fishburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -107,7 +107,7 @@
 
 /obj/item/food/burger/tofu
 	name = "tofu burger"
-	desc = "What.. is that meat?"
+	desc = "Что... это за мясо?"
 	icon_state = "tofuburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -121,7 +121,7 @@
 
 /obj/item/food/burger/roburger
 	name = "roburger"
-	desc = "The lettuce is the only organic component. Beep."
+	desc = "Единственная органика здесь - это салат. Бип."
 	icon_state = "roburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 8,
@@ -133,7 +133,7 @@
 	venue_value = FOOD_PRICE_EXOTIC
 
 /obj/item/food/burger/roburger/big
-	desc = "This massive patty looks like poison. Beep."
+	desc = "Эта огромная котлета выглядит как яд. Буп."
 	max_volume = 120
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 11,
@@ -143,7 +143,7 @@
 
 /obj/item/food/burger/xeno
 	name = "xenoburger"
-	desc = "Smells caustic. Tastes like heresy."
+	desc = "Запах едкий, а на вкус - как ересь."
 	icon_state = "xburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -158,7 +158,7 @@
 
 /obj/item/food/burger/bearger
 	name = "bearger"
-	desc = "Best served rawr."
+	desc = "Подавать в сыр-р-р-ром виде."
 	icon_state = "bearger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -173,7 +173,7 @@
 
 /obj/item/food/burger/clown
 	name = "clown burger"
-	desc = "This tastes funny..."
+	desc = "Очень смешной на вкус..."
 	icon_state = "clownburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -187,7 +187,7 @@
 
 /obj/item/food/burger/mime
 	name = "mime burger"
-	desc = "Its taste defies language."
+	desc = "От его вкуса немеет язык."
 	icon_state = "mimeburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 6,
@@ -201,7 +201,7 @@
 
 /obj/item/food/burger/brain
 	name = "brainburger"
-	desc = "A strange looking burger. It looks almost sentient."
+	desc = "Странно выглядящий бургер. Вы можете разглядеть в нём интеллект."
 	icon_state = "brainburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 6,
@@ -216,7 +216,7 @@
 
 /obj/item/food/burger/ghost
 	name = "ghost burger"
-	desc = "Too Spooky!"
+	desc = "Страшненький!"
 	icon_state = "ghostburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 5,
@@ -247,10 +247,10 @@
 	var/paranormal_activity = rand(100)
 	switch(paranormal_activity)
 		if(97 to 100)
-			audible_message("[src] rattles a length of chain.")
+			audible_message("[src] звенит призрачными цепями.")
 			playsound(loc, 'sound/misc/chain_rattling.ogg', 300, TRUE)
 		if(91 to 96)
-			say(pick("OoOoOoo.", "OoooOOooOoo!!"))
+			say(pick("УуУуУуу.", "УууууУУууУУуу!!"))
 		if(84 to 90)
 			dir = pick(NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST)
 			step(src, dir)
@@ -262,7 +262,7 @@
 		if(62 to 64)
 			playsound(loc, SFX_HALLUCINATION_I_SEE_YOU, 50, TRUE, ignore_walls = FALSE)
 		if(61)
-			visible_message("[src] spews out a glob of ectoplasm!")
+			visible_message("[src] извергает сгусток эктоплазмы!")
 			new /obj/effect/decal/cleanable/greenglow/ecto(loc)
 			playsound(loc, 'sound/effects/splat.ogg', 200, TRUE)
 
@@ -272,7 +272,7 @@
 
 /obj/item/food/burger/red
 	name = "red burger"
-	desc = "Perfect for hiding the fact that it's burnt to a crisp."
+	desc = "Красный цвет скрывает следы крови. Или тот факт, что бургер сожжен до углей."
 	icon_state = "cburger"
 	color = COLOR_RED
 	food_reagents = list(
@@ -288,7 +288,7 @@
 
 /obj/item/food/burger/orange
 	name = "orange burger"
-	desc = "Contains 0% juice."
+	desc = "Яркого морковного цвета. Содержит 0% морковного сока."
 	icon_state = "cburger"
 	color = COLOR_ORANGE
 	food_reagents = list(
@@ -304,7 +304,7 @@
 
 /obj/item/food/burger/yellow
 	name = "yellow burger"
-	desc = "Bright to the last bite."
+	desc = "Сияет ярко-жёлтым до последнего кусочка."
 	icon_state = "cburger"
 	color = COLOR_YELLOW
 	food_reagents = list(
@@ -320,7 +320,7 @@
 
 /obj/item/food/burger/green
 	name = "green burger"
-	desc = "It's not tainted meat, it's painted meat!"
+	desc = "Это не тухлое мясо, просто цвет такой!"
 	icon_state = "cburger"
 	color = COLOR_GREEN
 	food_reagents = list(
@@ -336,7 +336,7 @@
 
 /obj/item/food/burger/blue
 	name = "blue burger"
-	desc = "Is this blue rare?"
+	desc = "Средне-голубой прожарки."
 	icon_state = "cburger"
 	color = COLOR_BLUE
 	food_reagents = list(
@@ -352,7 +352,7 @@
 
 /obj/item/food/burger/purple
 	name = "purple burger"
-	desc = "Regal and low class at the same time."
+	desc = "Величественный и ширпотребный одновременно."
 	icon_state = "cburger"
 	color = COLOR_PURPLE
 	food_reagents = list(
@@ -368,7 +368,7 @@
 
 /obj/item/food/burger/black
 	name = "black burger"
-	desc = "This is overcooked."
+	desc = "Этот бургер определенно передержали."
 	icon_state = "cburger"
 	color = COLOR_ALMOST_BLACK
 	food_reagents = list(
@@ -384,7 +384,7 @@
 
 /obj/item/food/burger/white
 	name = "white burger"
-	desc = "Delicous titanium!"
+	desc = "Вкус титана!"
 	icon_state = "cburger"
 	color = COLOR_WHITE
 	food_reagents = list(
@@ -400,7 +400,7 @@
 
 /obj/item/food/burger/spell
 	name = "spell burger"
-	desc = "This is absolutely Ei Nath."
+	desc = "Кулинарная магия! Колдун сучий!"
 	icon_state = "spellburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 6,
@@ -414,7 +414,7 @@
 
 /obj/item/food/burger/bigbite
 	name = "big bite burger"
-	desc = "Forget the Big Mac. THIS is the future!"
+	desc = "Забудьте про этот ваш Биг Хит! Вот ЭТО будущее!"
 	icon_state = "bigbiteburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -430,7 +430,7 @@
 
 /obj/item/food/burger/jelly
 	name = "jelly burger"
-	desc = "Culinary delight..?"
+	desc = "Кулинарный шедевр..?"
 	icon_state = "jellyburger"
 	tastes = list("bun" = 4, "jelly" = 2)
 	foodtypes = GRAIN | MEAT
@@ -455,7 +455,7 @@
 
 /obj/item/food/burger/superbite
 	name = "super bite burger"
-	desc = "This is a mountain of a burger. FOOD!"
+	desc = "Бургер с множеством котлет размером с гору. Наконец-то, нормальная еда!"
 	icon_state = "superbiteburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 26,
@@ -472,14 +472,14 @@
 	custom_materials = list(/datum/material/meat = MEATSLAB_MATERIAL_AMOUNT * 2)
 
 /obj/item/food/burger/superbite/suicide_act(mob/living/user)
-	user.visible_message(span_suicide("[user] starts to eat [src] in one bite, Кажется, [user.ru_p_they()] пытается совершить самоубийство!"))
+	user.visible_message(span_suicide("[user] пытается съесть [src.declent_ru(ACCUSATIVE)] за один укус! Кажется, [user.ru_p_they()] пытается совершить самоубийство!"))
 	var/datum/component/edible/component = GetComponent(/datum/component/edible)
 	component?.TakeBite(user, user)
 	return OXYLOSS
 
 /obj/item/food/burger/fivealarm
 	name = "five alarm burger"
-	desc = "HOT! HOT!"
+	desc = "ГОРИМ! ГОРИМ!"
 	icon_state = "fivealarmburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -496,7 +496,7 @@
 
 /obj/item/food/burger/rat
 	name = "rat burger"
-	desc = "Pretty much what you'd expect..."
+	desc = "В общем-то, никакого подвоха..."
 	icon_state = "ratburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -510,7 +510,7 @@
 
 /obj/item/food/burger/baseball
 	name = "home run baseball burger"
-	desc = "It's still warm. The steam coming off of it looks like baseball."
+	desc = "Все еще теплый. Поднимающееся облако пара принимает форму бейсбольного мяча."
 	icon_state = "baseball"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -526,7 +526,7 @@
 
 /obj/item/food/burger/baconburger
 	name = "bacon burger"
-	desc = "The perfect combination of all things American."
+	desc = "Идеальное сочетание всего американского."
 	icon_state = "baconburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -542,7 +542,7 @@
 
 /obj/item/food/burger/empoweredburger
 	name = "empowered burger"
-	desc = "It's shockingly good, if you live off of electricity that is."
+	desc = "Шокирующе хорош - если, конечно, вы питаетесь электричеством."
 	icon_state = "empoweredburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 5,
@@ -557,7 +557,7 @@
 
 /obj/item/food/burger/catburger
 	name = "catburger"
-	desc = "Finally those cats and catpeople are worth something!"
+	desc = "Кто сказал ”мяу”?"
 	icon_state = "catburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 6,
@@ -571,7 +571,7 @@
 
 /obj/item/food/burger/crab
 	name = "crab burger"
-	desc = "A delicious patty of the crabby kind, slapped in between a bun."
+	desc = "Аппетитная крабовая котлета, зажатая между двух половинок булки."
 	icon_state = "crabburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -586,7 +586,7 @@
 
 /obj/item/food/burger/soylent
 	name = "soylent burger"
-	desc = "An eco-friendly burger made using upcycled low value biomass."
+	desc = "Экологичный бургер из переработанного вторсырья биологического происхождения."
 	icon_state = "soylentburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -601,7 +601,7 @@
 
 /obj/item/food/burger/rib
 	name = "mcrib"
-	desc = "An elusive rib shaped burger with limited availability across the galaxy. Not as good as you remember it."
+	desc = "Неуловимый бургер в форме рёбрышек, доступный лишь в отдельных уголках галактики. Раньше явно было лучше."
 	icon_state = "mcrib"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -617,7 +617,7 @@
 
 /obj/item/food/burger/mcguffin
 	name = "mcguffin"
-	desc = "A cheap and greasy imitation of an eggs benedict."
+	desc = "Дешёвая и жирная имитация яиц бенедикт."
 	icon_state = "mcguffin"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -635,7 +635,7 @@
 	name = "chicken sandwich"
 	//Apparently the proud people of Americlapstan object to this thing being called a burger.
 	//Apparently McDonald's just calls it a burger in Europe as to not scare and confuse us.
-	desc = "A delicious chicken sandwich, it is said the proceeds from this treat helps criminalize disarming people on the space frontier."
+	desc = "Аппетитный куриный сэндвич. Говорят, выручка с него идёт на криминализацию разоружения людей на Фронтире."
 	icon_state = "chickenburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -652,7 +652,7 @@
 
 /obj/item/food/burger/cheese
 	name = "cheese burger"
-	desc = "This noble burger stands proudly clad in golden cheese."
+	desc = "Бургер благородных кровей, облачённый в золотистый сыр."
 	icon_state = "cheeseburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -672,7 +672,7 @@
 
 /obj/item/food/burger/crazy
 	name = "crazy hamburger"
-	desc = "This looks like the sort of food that a demented clown in a trenchcoat would make."
+	desc = "Такую еду мог бы приготовить разве что безумный клоун в плаще. Впрочем, что нас не убивает, делает нас... страннее?"
 	icon_state = "crazyburger"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -702,14 +702,14 @@
 // empty burger you can customize
 /obj/item/food/burger/empty
 	name = "burger"
-	desc = "A crazy, custom burger made by a mad cook."
+	desc = "Безумный бургер от безумного шеф-повара."
 	icon_state = "custburg"
 	tastes = list("bun")
 	foodtypes = GRAIN
 
 /obj/item/food/burger/sloppy_moe
 	name = "sloppy moe"
-	desc = "Ground meat mixed with onions and barbecue sauce, sloppily plopped onto a burger bun. Delicious, but guaranteed to get your hands dirty."
+	desc = "Сочный мясной фарш с луком и соусом барбекю, кое-как выложенный на булочку. Очень вкусно, но руки вы перепачкаете в любом случае."
 	icon_state = "sloppy_moe"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 10,

@@ -45,7 +45,7 @@
 
 /obj/item/reagent_containers/cup/glass/trophy
 	name = "pewter cup"
-	desc = "Everyone gets a trophy."
+	desc = "Каждый получает свой приз."
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "pewter_cup"
 	w_class = WEIGHT_CLASS_TINY
@@ -61,7 +61,7 @@
 
 /obj/item/reagent_containers/cup/glass/trophy/gold_cup
 	name = "gold cup"
-	desc = "You're winner!"
+	desc = "Вы - победитель!"
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "golden_cup"
 	inhand_icon_state = "golden_cup"
@@ -78,7 +78,7 @@
 
 /obj/item/reagent_containers/cup/glass/trophy/silver_cup
 	name = "silver cup"
-	desc = "Best loser!"
+	desc = "Лучшему из лузеров!"
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "silver_cup"
 	w_class = WEIGHT_CLASS_NORMAL
@@ -94,7 +94,7 @@
 
 /obj/item/reagent_containers/cup/glass/trophy/bronze_cup
 	name = "bronze cup"
-	desc = "At least you ranked!"
+	desc = "Хотя бы в тройке!"
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "bronze_cup"
 	w_class = WEIGHT_CLASS_SMALL
@@ -423,7 +423,7 @@
 
 /obj/item/reagent_containers/cup/glass/shaker
 	name = "shaker"
-	desc = "A metal shaker to mix drinks in."
+	desc = "Металлический шейкер для смешивания напитков."
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "shaker"
 	custom_materials = list(/datum/material/iron= HALF_SHEET_MATERIAL_AMOUNT * 1.5)
@@ -443,12 +443,12 @@
 	register_context()
 	if(prob(10))
 		name = "\improper Nanotrasen 20th Anniversary Shaker"
-		desc += " It has an emblazoned Nanotrasen logo on it."
+		desc += " На нем лазером выгравирован логотип корпорации Nanotrasen."
 		icon_state = "shaker_n"
 
 /obj/item/reagent_containers/cup/glass/shaker/add_context(atom/source, list/context, obj/item/held_item, mob/user)
 	. = ..()
-	context[SCREENTIP_CONTEXT_ALT_LMB] = "[using_custom_drinks ? "Disable" : "Enable"] custom drinks"
+	context[SCREENTIP_CONTEXT_ALT_LMB] = "[using_custom_drinks ? "Не наливать" : "Наливать"] свои напитки"
 	return CONTEXTUAL_SCREENTIP_SET
 
 /obj/item/reagent_containers/cup/glass/shaker/examine(mob/user)
@@ -462,12 +462,12 @@
 	if(using_custom_drinks)
 		using_custom_drinks = FALSE
 		disable_custom_drinks()
-		balloon_alert(user, "custom drinks disabled")
+		balloon_alert(user, "кастомные напитки отключены")
 		return CLICK_ACTION_BLOCKING
 
 	var/new_name = reject_bad_text(tgui_input_text(user, "Drink name", "Set drink name", custom_drink_name, 45, FALSE), 64)
 	if(!new_name)
-		balloon_alert(user, "invalid drink name!")
+		balloon_alert(user, "некорректное название!")
 		using_custom_drinks = FALSE
 		return CLICK_ACTION_BLOCKING
 
@@ -476,7 +476,7 @@
 
 	var/new_desc = reject_bad_text(tgui_input_text(user, "Drink description", "Set drink description", custom_drink_desc, 64, TRUE), 128)
 	if(!new_desc)
-		balloon_alert(user, "invalid drink description!")
+		balloon_alert(user, "некорректное описание!")
 		using_custom_drinks = FALSE
 		return CLICK_ACTION_BLOCKING
 
@@ -488,7 +488,7 @@
 	custom_drink_desc = new_desc
 
 	enable_custom_drinks()
-	balloon_alert(user, "now pouring custom drinks")
+	balloon_alert(user, "кастомный напиток назначен")
 	return CLICK_ACTION_SUCCESS
 
 /obj/item/reagent_containers/cup/glass/shaker/proc/enable_custom_drinks()
@@ -510,7 +510,7 @@
 
 /obj/item/reagent_containers/cup/glass/flask
 	name = "flask"
-	desc = "Every good spaceman knows it's a good idea to bring along a couple of pints of whiskey wherever they go."
+	desc = "Каждый уважающий себя космонавт знает, что никогда не помешает взять с собой пару пинт ячменного виски."
 	custom_price = PAYCHECK_COMMAND * 2
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "flask"
@@ -520,13 +520,13 @@
 
 /obj/item/reagent_containers/cup/glass/flask/gold
 	name = "captain's flask"
-	desc = "A gold flask belonging to the captain."
+	desc = "Золотая фляжка, принадлежащая капитану."
 	icon_state = "flask_gold"
 	custom_materials = list(/datum/material/gold=SMALL_MATERIAL_AMOUNT*5)
 
 /obj/item/reagent_containers/cup/glass/flask/det
 	name = "detective's flask"
-	desc = "The detective's only true friend."
+	desc = "Лучший и единственный друг детектива."
 	icon_state = "detflask"
 	list_reagents = list(/datum/reagent/consumable/ethanol/whiskey = 30)
 
@@ -535,7 +535,7 @@
 
 /obj/item/reagent_containers/cup/glass/mug/britcup
 	name = "cup"
-	desc = "A cup with the British flag emblazoned on it."
+	desc = "Чашка с изображенным на ней флагом Королевства Великобритания."
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "britcup_empty"
 	base_icon_state = "britcup"

@@ -1,6 +1,6 @@
 /obj/item/food/icecreamsandwich
 	name = "ice cream sandwich"
-	desc = "Portable ice cream in its own packaging."
+	desc = "Мороженое, которое носить с собой, в собственной съедобной упаковке."
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "icecreamsandwich"
 	w_class = WEIGHT_CLASS_TINY
@@ -16,7 +16,7 @@
 
 /obj/item/food/strawberryicecreamsandwich
 	name = "strawberry ice cream sandwich"
-	desc = "Portable ice cream in its own packaging of the strawberry variety."
+	desc = "Клубничное мороженое, которое носить с собой, в собственной съедобной упаковке."
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "strawberryicecreamsandwich"
 	w_class = WEIGHT_CLASS_TINY
@@ -32,7 +32,7 @@
 
 /obj/item/food/spacefreezy
 	name = "space freezy"
-	desc = "The best ice cream in space."
+	desc = "Лучшее мороженое в галактике."
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "spacefreezy"
 	w_class = WEIGHT_CLASS_TINY
@@ -52,7 +52,7 @@
 
 /obj/item/food/sundae
 	name = "sundae"
-	desc = "A classic dessert."
+	desc = "Классический десерт."
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "sundae"
 	w_class = WEIGHT_CLASS_SMALL
@@ -72,7 +72,7 @@
 
 /obj/item/food/honkdae
 	name = "honkdae"
-	desc = "The clown's favorite dessert."
+	desc = "Любимый десерт клоуна."
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "honkdae"
 	w_class = WEIGHT_CLASS_SMALL
@@ -96,7 +96,7 @@
 
 /obj/item/food/snowcones //We use this as a base for all other snowcones
 	name = "flavorless snowcone"
-	desc = "It's just shaved ice. Still fun to chew on."
+	desc = "Это просто нашинкованный лёд. Хотя жевать его все равно весело."
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "flavorless_sc"
 	w_class = WEIGHT_CLASS_SMALL
@@ -121,7 +121,7 @@
 
 /obj/item/food/snowcones/lime
 	name = "lime snowcone"
-	desc = "Lime syrup drizzled over a snowball in a paper cup."
+	desc = "Снежок в бумажном стаканчике, политый лаймовым сиропом."
 	icon_state = "lime_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -133,7 +133,7 @@
 
 /obj/item/food/snowcones/lemon
 	name = "lemon snowcone"
-	desc = "Lemon syrup drizzled over a snowball in a paper cup."
+	desc = "Снежок в бумажном стаканчике, политый лимонным сиропом."
 	icon_state = "lemon_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -145,7 +145,7 @@
 
 /obj/item/food/snowcones/apple
 	name = "apple snowcone"
-	desc = "Apple syrup drizzled over a snowball in a paper cup."
+	desc = "Снежок в бумажном стаканчике, политый яблочным сиропом."
 	icon_state = "amber_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -157,7 +157,7 @@
 
 /obj/item/food/snowcones/grape
 	name = "grape snowcone"
-	desc = "Grape syrup drizzled over a snowball in a paper cup."
+	desc = "Снежок в бумажном стаканчике, политый виноградным сиропом."
 	icon_state = "grape_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -169,7 +169,7 @@
 
 /obj/item/food/snowcones/orange
 	name = "orange snowcone"
-	desc = "Orange syrup drizzled over a snowball in a paper cup."
+	desc = "Снежок в бумажном стаканчике, политый апельсиновым сиропом."
 	icon_state = "orange_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -181,7 +181,7 @@
 
 /obj/item/food/snowcones/blue
 	name = "bluecherry snowcone"
-	desc = "Bluecherry syrup drizzled over a snowball in a paper cup, how rare!"
+	desc = "Снежок в бумажном стаканчике, политый сиропом из голубой вишни. Вот это редкость!"
 	icon_state = "blue_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -193,7 +193,7 @@
 
 /obj/item/food/snowcones/red
 	name = "cherry snowcone"
-	desc = "Cherry syrup drizzled over a snowball in a paper cup."
+	desc = "Снежок в бумажном стаканчике, политый вишнёвым сиропом."
 	icon_state = "red_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -205,7 +205,7 @@
 
 /obj/item/food/snowcones/berry
 	name = "berry snowcone"
-	desc = "Berry syrup drizzled over a snowball in a paper cup."
+	desc = "Снежок в бумажном стаканчике, политый ягодным сиропом."
 	icon_state = "berry_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -217,7 +217,7 @@
 
 /obj/item/food/snowcones/fruitsalad
 	name = "fruit salad snowcone"
-	desc = "A delightful mix of citrus syrups drizzled over a snowball in a paper cup."
+	desc = "Снежок в бумажном стаканчике, политый сладкой смесью из цитрусовых сиропов."
 	icon_state = "fruitsalad_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -231,7 +231,7 @@
 
 /obj/item/food/snowcones/pineapple
 	name = "pineapple snowcone"
-	desc = "Pineapple syrup drizzled over a snowball in a paper cup."
+	desc = "Снежок в бумажном стаканчике, политый ананасовым сиропом."
 	icon_state = "pineapple_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -255,7 +255,7 @@
 
 /obj/item/food/snowcones/clown
 	name = "clown snowcone"
-	desc = "Laughter drizzled over a snowball in a paper cup."
+	desc = "Снежок в бумажном стаканчике, политый отборным смехом."
 	icon_state = "clown_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -267,7 +267,7 @@
 
 /obj/item/food/snowcones/soda
 	name = "space cola snowcone"
-	desc = "Space Cola drizzled over a snowball in a paper cup."
+	desc = "Снежок в бумажном стаканчике, политый космической колой."
 	icon_state = "soda_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -279,7 +279,7 @@
 
 /obj/item/food/snowcones/spacemountainwind
 	name = "space mountain wind snowcone"
-	desc = "Space Mountain Wind drizzled over a snowball in a paper cup."
+	desc = "Снежок в бумажном стаканчике, политый Спейс Маунтин Винд."
 	icon_state = "mountainwind_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -292,7 +292,7 @@
 
 /obj/item/food/snowcones/pwrgame
 	name = "pwrgame snowcone"
-	desc = "Pwrgame soda drizzled over a snowball in a paper cup."
+	desc = "Снежок в бумажном стаканчике, политый Павр Гейм."
 	icon_state = "pwrgame_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -304,7 +304,7 @@
 
 /obj/item/food/snowcones/honey
 	name = "honey snowcone"
-	desc = "Honey drizzled over a snowball in a paper cup."
+	desc = "Снежок в бумажном стаканчике, политый мёдом."
 	icon_state = "amber_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -317,7 +317,7 @@
 
 /obj/item/food/snowcones/rainbow
 	name = "rainbow snowcone"
-	desc = "A very colorful snowball in a paper cup."
+	desc = "Окрашенный во все цвета радуги снежок в бумажном стаканчике."
 	icon_state = "rainbow_sc"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 5,
@@ -329,7 +329,7 @@
 
 /obj/item/food/popsicle
 	name = "bug popsicle"
-	desc = "Mmmm, this should not exist."
+	desc = "Опа, а тут кто-то навайбкодил."
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "popsicle_stick_s"
 	food_reagents = list(
@@ -375,7 +375,7 @@
 	name = "popsicle stick"
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "popsicle_stick"
-	desc = "This humble little stick usually carries a frozen treat, at the moment it seems freed from this Atlassian burden."
+	desc = "Обычно на этой палочке размещается морозное лакомство."
 	custom_materials = list(/datum/material/wood = SMALL_MATERIAL_AMOUNT * 0.20)
 	resistance_flags = FLAMMABLE
 	w_class = WEIGHT_CLASS_TINY
@@ -383,7 +383,7 @@
 
 /obj/item/food/popsicle/creamsicle_orange
 	name = "orange creamsicle"
-	desc = "A classic orange creamsicle. A sunny frozen treat."
+	desc = "Классическое апельсиново-сливочное эскимо. Солнечное замороженное лакомство."
 	food_reagents = list(
 		/datum/reagent/consumable/orangejuice = 4,
 		/datum/reagent/consumable/cream = 2,
@@ -395,7 +395,7 @@
 
 /obj/item/food/popsicle/creamsicle_berry
 	name = "berry creamsicle"
-	desc = "A vibrant berry creamsicle. A berry good frozen treat."
+	desc = "Яркое ягодно-сливочное эскимо. Годное ягодное замороженное лакомство."
 	food_reagents = list(
 		/datum/reagent/consumable/berryjuice = 4,
 		/datum/reagent/consumable/cream = 2,
@@ -408,7 +408,7 @@
 
 /obj/item/food/popsicle/jumbo
 	name = "jumbo ice cream"
-	desc = "A luxurious ice cream covered in rich chocolate. It seems smaller than you remember it being."
+	desc = "Роскошное мороженое в насыщенном шоколаде. Выглядит меньше, чем то, каким вы его помните."
 	food_reagents = list(
 		/datum/reagent/consumable/hot_coco = 4,
 		/datum/reagent/consumable/cream = 2,
@@ -420,7 +420,7 @@
 
 /obj/item/food/popsicle/licorice_creamsicle
 	name = "\improper Void Bar™"
-	desc = "A salty licorice ice cream. A salty frozen treat."
+	desc = "Лакричное мороженое с солью. Одновременно сладкое и солёное замороженное лакомство."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
 		/datum/reagent/consumable/salt = 1,
@@ -437,7 +437,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "cornuto"
-	desc = "A neapolitan vanilla and chocolate ice cream cone. It menaces with a sprinkling of caramelized nuts."
+	desc = "Неаполитанский рожок с ванильным и шоколадным мороженым. Угрожающе посыпан карамелизированными орехами."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 6,
 		/datum/reagent/consumable/hot_coco = 4,
@@ -453,7 +453,7 @@
 
 /obj/item/food/popsicle/meatsicle
 	name = "meatsicle"
-	desc = "A horrific abomination of raw meat, glazed with sugar on a stick, then frozen."
+	desc = "Ужасающее порождение из сырого мяса на палочке, покрытого сахарной глазурью и затем замороженного."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
 		/datum/reagent/consumable/nutriment/fat = 2,

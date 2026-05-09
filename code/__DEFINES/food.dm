@@ -237,21 +237,21 @@ DEFINE_BITFIELD(food_flags, list(
 
 
 /// Flavour defines (also names) for GLOB.ice_cream_flavours list access. Safer from mispelling than plain text.
-#define ICE_CREAM_VANILLA "vanilla"
-#define ICE_CREAM_CHOCOLATE "chocolate"
-#define ICE_CREAM_STRAWBERRY "strawberry"
-#define ICE_CREAM_BLUE "blue"
-#define ICE_CREAM_LEMON "lemon sorbet"
-#define ICE_CREAM_CARAMEL "caramel"
-#define ICE_CREAM_BANANA "banana"
-#define ICE_CREAM_ORANGE_CREAM "orangesicle"
-#define ICE_CREAM_PEACH "peach"
-#define ICE_CREAM_CHERRY_CHOCOLATE "cherry chocolate chip"
-#define ICE_CREAM_KORTA_VANILLA "korta vanilla"
-#define ICE_CREAM_MOB "mob"
-#define ICE_CREAM_CUSTOM "custom"
-#define ICE_CREAM_KORTA_CUSTOM "korta custom"
-#define ICE_CREAM_BLAND "bland"
+#define ICE_CREAM_VANILLA "ванильное"
+#define ICE_CREAM_CHOCOLATE "шоколадное"
+#define ICE_CREAM_STRAWBERRY "клубничное"
+#define ICE_CREAM_BLUE "голубое"
+#define ICE_CREAM_LEMON "лимоновое"
+#define ICE_CREAM_CARAMEL "карамельное"
+#define ICE_CREAM_BANANA "банановое"
+#define ICE_CREAM_ORANGE_CREAM "апельсиновое"
+#define ICE_CREAM_PEACH "персиковое"
+#define ICE_CREAM_CHERRY_CHOCOLATE "вишневое с шоколадом"
+#define ICE_CREAM_KORTA_VANILLA "ванильное корта"
+#define ICE_CREAM_MOB "трупное"
+#define ICE_CREAM_CUSTOM "особое"
+#define ICE_CREAM_KORTA_CUSTOM "особое корта"
+#define ICE_CREAM_BLAND "пресное"
 
 #define DEFAULT_MAX_ICE_CREAM_SCOOPS 3
 // the vertical distance in pixels from an ice cream scoop and another.

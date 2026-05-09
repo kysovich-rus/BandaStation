@@ -1,6 +1,6 @@
 /obj/item/food/tortilla
 	name = "tortilla"
-	desc = "The base for all your burritos."
+	desc = "Основа для ваших буррито."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "tortilla"
 	food_reagents = list(
@@ -17,7 +17,7 @@
 
 /obj/item/food/burrito
 	name = "burrito"
-	desc = "Tortilla wrapped goodness."
+	desc = "Вкуснятина, завернутая в тортилью."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "burrito"
 	food_reagents = list(
@@ -33,7 +33,7 @@
 
 /obj/item/food/cheesyburrito
 	name = "cheesy burrito"
-	desc = "It's a burrito filled with cheese."
+	desc = "Это буррито с сырной начинкой."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "cheesyburrito"
 	food_reagents = list(
@@ -49,7 +49,7 @@
 
 /obj/item/food/carneburrito
 	name = "carne asada burrito"
-	desc = "The best burrito for meat lovers."
+	desc = "Лучший буррито для любителей мяса."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "carneburrito"
 	food_reagents = list(
@@ -66,7 +66,7 @@
 
 /obj/item/food/fuegoburrito
 	name = "fuego plasma burrito"
-	desc = "A super spicy burrito."
+	desc = "Очень острый и пикантный буррито."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "fuegoburrito"
 	food_reagents = list(
@@ -83,7 +83,7 @@
 
 /obj/item/food/nachos
 	name = "nachos"
-	desc = "Chips from Space Mexico."
+	desc = "Кукурузные чипсы родом из космической Мексики."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "nachos"
 	food_reagents = list(
@@ -98,7 +98,7 @@
 
 /obj/item/food/cheesynachos
 	name = "cheesy nachos"
-	desc = "The delicious combination of nachos and melting cheese."
+	desc = "Восхитительное сочетание начос и плавленого сыра."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "cheesynachos"
 	food_reagents = list(
@@ -114,7 +114,7 @@
 
 /obj/item/food/cubannachos
 	name = "cuban nachos"
-	desc = "That's some dangerously spicy nachos."
+	desc = "Это опасно острые начос."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "cubannachos"
 	food_reagents = list(
@@ -130,7 +130,7 @@
 
 /obj/item/food/taco
 	name = "classic taco"
-	desc = "A traditional taco with meat, cheese, and lettuce."
+	desc = "Традиционный тако с мясом, сыром и листьями салата."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "taco"
 	food_reagents = list(
@@ -147,7 +147,7 @@
 
 /obj/item/food/taco/plain
 	name = "plain taco"
-	desc = "A traditional taco with meat and cheese, minus the rabbit food."
+	desc = "Традиционный тако с мясом, сыром, без лакомства для кроликов."
 	icon_state = "taco_plain"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -161,7 +161,7 @@
 
 /obj/item/food/taco/fish
 	name = "fish taco"
-	desc = "A taco with fish, cheese, and cabbage."
+	desc = "Тако с рыбой, сыром и капустой."
 	icon_state = "fishtaco"
 	tastes = list("taco" = 4, "fish" = 2, "cheese" = 2, "cabbage" = 1)
 	foodtypes = SEAFOOD | DAIRY | GRAIN | VEGETABLES
@@ -170,7 +170,7 @@
 
 /obj/item/food/enchiladas
 	name = "enchiladas"
-	desc = "Viva La Mexico!"
+	desc = "Вива Ля Мексика!"
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "enchiladas"
 	bite_consumption = 4
@@ -188,7 +188,7 @@
 
 /obj/item/food/stuffedlegion
 	name = "stuffed legion"
-	desc = "The former skull of a damned human, filled with goliath meat. It has a decorative lava pool made of ketchup and hotsauce."
+	desc = "Бывший череп проклятого человека, наполненный мясом голиафа. Внутри находится декоративный лавовый бассейн, сделанный из кетчупа и острого соуса."
 	icon_state = "stuffed_legion"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -206,7 +206,7 @@
 
 /obj/item/food/chipsandsalsa
 	name = "chips and salsa"
-	desc = "Some tortilla chips with a cup of zesty salsa. Highly addictive!"
+	desc = "Кукурузные чипсы с чашкой пикантной сальсы. Очень вкусно!"
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "chipsandsalsa"
 	trash_type = /obj/item/reagent_containers/cup/bowl
@@ -222,7 +222,7 @@
 
 /obj/item/food/classic_chimichanga
 	name = "classic chimichanga"
-	desc = "A deep-fried burrito packed with a generous amount of meat and cheese."
+	desc = "Жареный во фритюре буррито с большим количеством мяса и сыра."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "classic_chimichanga"
 	food_reagents = list(
@@ -238,7 +238,7 @@
 
 /obj/item/food/vegetarian_chimichanga
 	name = "vegetarian chimichanga"
-	desc = "A deep-fried burrito packed with a generous amount of baked vegetables, for the non-meat eaters."
+	desc = "Жареный во фритюре буррито с большим количеством запеченных овощей — для тех, кто не ест мясо."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "vegetarian_chimichanga"
 	food_reagents = list(
@@ -252,7 +252,7 @@
 
 /obj/item/food/hard_taco_shell
 	name = "hard taco shell"
-	desc = "A hard taco shell, just waiting to be stuffed with ingredients. Use an ingredient on it to start making custom tacos!"
+	desc = "Твердая лепешка для тако, готовая к наполнению ингредиентами. Используйте любой ингредиент, чтобы начать готовить тако на свой вкус!"
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "hard_taco_shell"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 2)
@@ -271,12 +271,12 @@
 	foodtypes = NONE
 	tastes = list()
 	icon_state = "hard_taco_shell"
-	desc = "A customized hard-shell taco."
+	desc = "Тако в твердой лепёшке по собственному рецепту."
 	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/classic_hard_shell_taco
 	name = "classic hard-shell taco"
-	desc = "A classically-made hard-shell taco, the most satisfying crunch in the galaxy."
+	desc = "Классический тако в твердой лепешке, обладающее самым восхитительным хрустом во всей галактике."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "classic_hard_shell_taco"
 	food_reagents = list(
@@ -292,7 +292,7 @@
 
 /obj/item/food/plain_hard_shell_taco
 	name = "plain hard-shell taco"
-	desc = "A hard-shell taco with just meat, for the picky eaters and children in us all."
+	desc = "Тако в твердой лепешке и только с мясом — для привередливых едоков и для детей в каждом из нас."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "plain_hard_shell_taco"
 	food_reagents = list(
@@ -308,7 +308,7 @@
 
 /obj/item/food/refried_beans
 	name = "refried beans"
-	desc = "A steaming bowl of delicious refried beans, a common staple in Mexican cuisine."
+	desc = "Дымящаяся миска восхитительных жареных бобов — распространенное основное блюдо мексиканской кухни."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "refried_beans"
 	food_reagents = list(
@@ -324,7 +324,7 @@
 
 /obj/item/food/spanish_rice
 	name = "spanish rice"
-	desc = "A bowl of delicious spanish rice, cooked in a tomato sauce which gives it the orange color."
+	desc = "Миска восхитительного испанского риса, приготовленного в томатном соусе, который придает ему оранжевый цвет."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "spanish_rice"
 	food_reagents = list(
@@ -339,7 +339,7 @@
 
 /obj/item/food/pineapple_salsa
 	name = "pineapple salsa"
-	desc = "A not-so liquid salsa made of pineapples, tomatoes, onions, and chilis. Makes for delightfully contrasting flavors."
+	desc = "Не слишком жидкая сальса, приготовленная из ананасов, помидоров, лука и перца чили. Создает восхитительный контраст вкусов."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "pineapple_salsa"
 	trash_type = /obj/item/reagent_containers/cup/bowl

@@ -2,7 +2,7 @@
 ////////////////////////////////////////////OTHER////////////////////////////////////////////
 /obj/item/food/watermelonslice
 	name = "watermelon slice"
-	desc = "A slice of watery goodness."
+	desc = "Кусочек водянистой прелести. И лакомство, и напиток."
 	icon = 'icons/obj/service/hydroponics/harvest.dmi'
 	icon_state = "watermelonslice"
 	food_reagents = list(
@@ -20,7 +20,7 @@
 
 /obj/item/food/watermelonmush
 	name = "watermelon mush"
-	desc = "A plop of watery goodness."
+	desc = "Капля водянистой прелести."
 	icon = 'icons/obj/service/hydroponics/harvest.dmi'
 	icon_state = "watermelonpulp"
 	food_reagents = list(
@@ -38,7 +38,7 @@
 
 /obj/item/food/holymelonslice
 	name = "holymelon slice"
-	desc = "A slice of holy goodness."
+	desc = "Кусочек священной прелести."
 	icon = 'icons/obj/service/hydroponics/harvest.dmi'
 	icon_state = "holymelonslice"
 	food_reagents = list(
@@ -56,7 +56,7 @@
 
 /obj/item/food/holymelonmush
 	name = "holymelon mush"
-	desc = "A plop of holy goodness."
+	desc = "Капля священной прелести."
 	icon = 'icons/obj/service/hydroponics/harvest.dmi'
 	icon_state = "holymelonpulp"
 	food_reagents = list(
@@ -74,7 +74,7 @@
 
 /obj/item/food/barrelmelonslice
 	name = "barrelmelon slice"
-	desc = "A slice of beery goodness."
+	desc = "Кусочек хмельной прелести."
 	icon = 'icons/obj/service/hydroponics/harvest.dmi'
 	icon_state = "barrelmelonslice"
 	food_reagents = list(
@@ -92,7 +92,7 @@
 
 /obj/item/food/barrelmelonmush
 	name = "barrelmelon mush"
-	desc = "A plop of beery goodness."
+	desc = "Капля хмельной прелести."
 	icon = 'icons/obj/service/hydroponics/harvest.dmi'
 	icon_state = "barrelmelonpulp"
 	food_reagents = list(
@@ -110,7 +110,7 @@
 
 /obj/item/food/appleslice
 	name = "apple slice"
-	desc = "The perfect after-school snack."
+	desc = "Отличный перекус после школы."
 	icon = 'icons/obj/service/hydroponics/harvest.dmi'
 	icon_state = "appleslice"
 	food_reagents = list(
@@ -128,7 +128,7 @@
 
 /obj/item/food/hugemushroomslice
 	name = "huge mushroom slice"
-	desc = "A slice from a huge mushroom."
+	desc = "Кусочек огромного гриба."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "hugemushroomslice"
 	food_reagents = list(
@@ -145,7 +145,7 @@
 
 /obj/item/food/popcorn
 	name = "popcorn"
-	desc = "Now let's find some cinema."
+	desc = "Осталось найти АБСОЛЮТНОЕ КИНО."
 	icon_state = "popcorn"
 	trash_type = /obj/item/trash/popcorn
 	food_reagents = list(/datum/reagent/consumable/nutriment = 2)
@@ -158,7 +158,7 @@
 /obj/item/food/popcorn/salty
 	name = "salty popcorn"
 	icon_state = "salty_popcorn"
-	desc = "Salty popcorn, a classic for all time."
+	desc = "Соленый попкорн — классика на все времена."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
 		/datum/reagent/consumable/salt = 2,
@@ -170,7 +170,7 @@
 /obj/item/food/popcorn/caramel
 	name = "caramel popcorn"
 	icon_state = "caramel_popcorn"
-	desc = "Caramel-covered popcorn. Sweet!"
+	desc = "Попкорн, покрытый сладкой карамелью. Прелесть!"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
 		/datum/reagent/consumable/caramel = 4,
@@ -182,7 +182,7 @@
 
 /obj/item/food/soydope
 	name = "soy dope"
-	desc = "Dope from a soy."
+	desc = "Кашица из перетёртых соевых бобов."
 	icon_state = "soydope"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -195,7 +195,7 @@
 
 /obj/item/food/badrecipe
 	name = "burned mess"
-	desc = "Someone should be demoted from cook for this."
+	desc = "За такое вообще-то с кухни увольняют."
 	icon_state = "badrecipe"
 	food_reagents = list(/datum/reagent/toxin/bad_food = 30)
 	foodtypes = GROSS
@@ -243,7 +243,7 @@
 
 /obj/item/food/badrecipe/moldy
 	name = "moldy mess"
-	desc = "A rancid, disgusting culture of mold and ants. Somewhere under there, at <i>some point,</i> there was food."
+	desc = "Гнилостная, отвратительная культура плесени, полная муравьев. Где-то там, <i>в какой-то момент</i>, была еда."
 	food_reagents = list(/datum/reagent/consumable/mold = 30)
 	preserved_food = FALSE
 	ant_attracting = TRUE
@@ -253,8 +253,7 @@
 
 /obj/item/food/badrecipe/moldy/bacteria
 	name = "bacteria rich moldy mess"
-	desc = "Not only is this rancid lump of disgusting bile crawling with insect life, \
-		but it is also teeming with various microscopic cultures. <i>It moves when you're not looking.</i>"
+	desc = "Этот прогорклый комок отвратительной желчи кишит не только насекомыми, но и различными микроскопическими культурами. <i>Он движется, когда вы не смотрите.</i>"
 
 /obj/item/food/badrecipe/moldy/bacteria/Initialize(mapload)
 	. = ..()
@@ -262,7 +261,7 @@
 
 /obj/item/food/spidereggs
 	name = "spider eggs"
-	desc = "A cluster of juicy spider eggs. A great side dish for when you care not for your health."
+	desc = "Скопление сочных паучьих яиц. Отличный гарнир, когда вам наплевать на своё здоровье."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "spidereggs"
 	food_reagents = list(
@@ -275,7 +274,7 @@
 
 /obj/item/food/spidereggs/processed
 	name = "processed spider eggs"
-	desc = "A cluster of juicy spider eggs. Pops in your mouth without making you sick."
+	desc = "Скопление сочных паучьих яиц. Легко лопаются во рту, не вызывая тошноты."
 	icon_state = "spidereggs"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4)
 	tastes = list("cobwebs" = 1)
@@ -285,7 +284,7 @@
 
 /obj/item/food/spiderling
 	name = "spiderling"
-	desc = "It's slightly twitching in your hand. Ew..."
+	desc = "Он слегка подёргивается в руке. Фу..."
 	icon = 'icons/mob/simple/arachnoid.dmi'
 	icon_state = "spiderling_dead"
 	food_reagents = list(
@@ -298,7 +297,7 @@
 
 /obj/item/food/melonfruitbowl
 	name = "melon fruit bowl"
-	desc = "For people who want to experience an explosion of flavour."
+	desc = "Для тех, кто хочет испытать взрыв вкуса."
 	icon_state = "melonfruitbowl"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 6,
@@ -312,7 +311,7 @@
 
 /obj/item/food/melonkeg
 	name = "melon keg"
-	desc = "Who knew vodka was a fruit?"
+	desc = "Если б фрукты были водкой?"
 	icon_state = "melonkeg"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 9,
@@ -327,7 +326,7 @@
 
 /obj/item/food/honeybar
 	name = "honey nut bar"
-	desc = "Oats and nuts compressed together into a bar, held together with a honey glaze."
+	desc = "Овсяные хлопья и орехи скреплены медовой глазурью и спрессованы в аккуратный питательный батончик."
 	icon_state = "honeybar"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 5,
@@ -341,7 +340,7 @@
 
 /obj/item/food/powercrepe
 	name = "powercrepe"
-	desc = "With great power, comes great crepes.  It looks like a pancake filled with jelly but packs quite a punch."
+	desc = "Большая сила порождает большие блинчики. На вид это блинчик с начинкой из желе, но на вкус он очень сытный."
 	icon_state = "powercrepe"
 	inhand_icon_state = "powercrepe"
 	food_reagents = list(
@@ -366,7 +365,7 @@
 
 /obj/item/food/branrequests
 	name = "bran requests cereal"
-	desc = "A dry cereal that satiates your requests for bran. Tastes uniquely like raisins and salt."
+	desc = "Сухие хлопья, которые удовлетворят вашу потребность в отрубях. Обладают уникальным вкусом изюма и соли."
 	icon_state = "bran_requests"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -380,7 +379,7 @@
 
 /obj/item/food/butter
 	name = "stick of butter"
-	desc = "A stick of delicious, golden, fatty goodness."
+	desc = "Брусок восхитительной, золотистой, жирной субстанции, придающей сливочный вкус любому блюду."
 	icon_state = "butter"
 	food_reagents = list(/datum/reagent/consumable/nutriment/fat = 6)
 	tastes = list("butter" = 1)
@@ -392,16 +391,16 @@
 /obj/item/food/butter/examine(mob/user)
 	. = ..()
 	if (can_stick)
-		. += span_notice("If you had a rod you could make <b>butter on a stick</b>.")
+		. += span_notice("При наличии металлических прутьев вы могли бы сделать <b>масло на палочке</b>.")
 
 /obj/item/food/butter/attackby(obj/item/item, mob/user, list/modifiers, list/attack_modifiers)
 	if(!istype(item, /obj/item/stack/rods) || !can_stick)
 		return ..()
 	var/obj/item/stack/rods/rods = item
 	if(!rods.use(1))//borgs can still fail this if they have no metal
-		to_chat(user, span_warning("You do not have enough iron to put [src] on a stick!"))
+		to_chat(user, span_warning("У вас недостаточно железа, чтобы нанизать [src.declent_ru(ACCUSATIVE)] на стержень!"))
 		return ..()
-	to_chat(user, span_notice("You stick the rod into the stick of butter."))
+	to_chat(user, span_notice("Вы вводите металлический стержень в брусок масла."))
 	user.temporarilyRemoveItemFromInventory(src)
 	var/obj/item/food/butter/on_a_stick/new_item = new(drop_location())
 	if (new_item.IsReachableBy(user))
@@ -411,7 +410,7 @@
 
 /obj/item/food/butter/on_a_stick //there's something so special about putting it on a stick.
 	name = "butter on a stick"
-	desc = "delicious, golden, fatty goodness on a stick."
+	desc = "Брусок восхитительной, золотистой, жирной субстанции на металлической палочке."
 	icon_state = "butteronastick"
 	trash_type = /obj/item/stack/rods
 	food_flags = FOOD_FINGER_FOOD
@@ -423,7 +422,7 @@
 
 /obj/item/food/butterslice
 	name = "butter slice"
-	desc = "A slice of butter, for your buttering needs."
+	desc = "Кусочек масла для всех ваших масляных нужд."
 	icon_state = "butterslice"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 5)
 	tastes = list("butter" = 1)
@@ -432,7 +431,7 @@
 
 /obj/item/food/onionrings
 	name = "onion rings"
-	desc = "Onion slices coated in batter."
+	desc = "Ломтики лука в густом кляре."
 	icon_state = "onionrings"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3)
 	gender = PLURAL
@@ -443,7 +442,7 @@
 
 /obj/item/food/pineappleslice
 	name = "pineapple slice"
-	desc = "A sliced piece of juicy pineapple."
+	desc = "Ломтики сочного ананаса в виде колец."
 	icon_state = "pineapple_slice"
 	tastes = list("pineapple" = 1)
 	foodtypes = FRUIT | PINEAPPLE
@@ -454,7 +453,7 @@
 
 /obj/item/food/crab_rangoon
 	name = "crab rangoon"
-	desc = "Has many names, like crab puffs, cheese won'tons, crab dumplings? Whatever you call them, they're a fabulous blast of cream cheesy crab."
+	desc = "У них много названий, например, крабовые пирожки, сырные вонтоны, крабовые пельмени? Как бы вы их ни называли, это восхитительное сочетание сливочного сыра и крабового мяса."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "crabrangoon"
 	food_reagents = list(
@@ -471,7 +470,7 @@
 
 /obj/item/food/pesto
 	name = "pesto"
-	desc = "A combination of firm cheese, salt, herbs, garlic, oil, and pine nuts. Frequently used as a sauce for pasta or pizza, or eaten on bread."
+	desc = "Сочетание твёрдого сыра, соли, трав, чеснока, масла и кедровых орехов. Часто используется в качестве соуса для пасты или пиццы, а также подаётся с хлебом."
 	icon_state = "pesto"
 	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 3)
 	tastes = list("pesto" = 1)
@@ -481,7 +480,7 @@
 
 /obj/item/food/tomato_sauce
 	name = "tomato sauce"
-	desc = "Tomato sauce, perfect for pizza or pasta. Mamma mia!"
+	desc = "Томатный соус, идеально подходящий для пиццы или пасты. Мамма миа!"
 	icon_state = "tomato_sauce"
 	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 3)
 	tastes = list("tomato" = 1, "herbs" = 1)
@@ -491,7 +490,7 @@
 
 /obj/item/food/bechamel_sauce
 	name = "béchamel sauce"
-	desc = "A classic white sauce common to several European cultures."
+	desc = "Классический белый соус, распространённый в нескольких европейских культурах."
 	icon_state = "bechamel_sauce"
 	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 3)
 	tastes = list("cream" = 1)
@@ -501,7 +500,7 @@
 
 /obj/item/food/roasted_bell_pepper
 	name = "roasted bell pepper"
-	desc = "A blackened, blistered bell pepper. Great for making sauces."
+	desc = "Почерневший, покрытый пузырьками болгарский перец. Отлично подходит для приготовления соусов."
 	icon_state = "roasted_bell_pepper"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -514,7 +513,7 @@
 
 /obj/item/food/pierogi
 	name = "pierogi"
-	desc = "A dumpling made by wrapping unleavened dough around a savoury or sweet filling and cooking in boiling water. This one is filled with a potato and onion mixture."
+	desc = "Родственники пельменей, приготовленные путем заворачивания пресного теста вокруг соленой или сладкой начинки и варки в кипящей воде. В данном случае начинка состоит из смеси картофеля и лука."
 	icon_state = "pierogi"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -527,7 +526,7 @@
 
 /obj/item/food/stuffed_cabbage
 	name = "stuffed cabbage"
-	desc = "A savoury mixture of ground meat and rice wrapped in cooked cabbage leaves and topped with a tomato sauce. To die for."
+	desc = "Аппетитная смесь из рубленого мяса и риса, завернутая в отварные капустные листья и политая томатным соусом. Просто объедение!"
 	icon_state = "stuffed_cabbage"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 10,
@@ -541,7 +540,7 @@
 
 /obj/item/food/seaweedsheet
 	name = "seaweed sheet"
-	desc = "A dried sheet of seaweed used for making sushi. Use an ingredient on it to start making custom sushi!"
+	desc = "Высушенный лист морских водорослей, используемый для приготовления суши. Используйте на нём какой-нибудь ингредиент, чтобы завернутть его в суши!"
 	icon_state = "seaweedsheet"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
@@ -557,8 +556,7 @@
 
 /obj/item/food/seaweedsheet/saltcane
 	name = "dried saltcane sheathe"
-	desc = "A dried sheet of saltcane sheathe can used for making sushi. Use an ingredient on it to start making custom sushi!"
-	icon_state = "seaweedsheet"
+	desc = "Высушенный и выпрямленный стебель солёного тростника, используемый для приготовления суши. Используйте на нём какой-нибудь ингредиент, чтобы завернутть его в суши!"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
 		/datum/reagent/consumable/nutriment/vitamin = 1,
@@ -569,7 +567,7 @@
 
 /obj/item/food/granola_bar
 	name = "granola bar"
-	desc = "A dried mixture of oats, nuts, fruits, and chocolate condensed into a chewy bar. Makes a great snack while space-hiking."
+	desc = "Сухая смесь овсяных хлопьев, орехов, фруктов и шоколада, спрессованная в жевательный батончик. Отличная закуска во время космических путешествий."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "granola_bar"
 	food_reagents = list(
@@ -584,7 +582,7 @@
 
 /obj/item/food/onigiri
 	name = "onigiri"
-	desc = "A ball of cooked rice surrounding a filling formed into a triangular shape and wrapped in seaweed. Can be added fillings!"
+	desc = "Шарик из вареного риса с начинкой, сформированный в форме треугольника и обернутый водорослями. Можно добавлять и другие начинки!"
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "onigiri"
 	food_reagents = list(
@@ -603,14 +601,14 @@
 // empty onigiri for custom onigiri
 /obj/item/food/onigiri/empty
 	name = "onigiri"
-	desc = "A ball of cooked rice surrounding a filling formed into a triangular shape and wrapped in seaweed."
+	desc = "Шарик из вареного риса, сформированный в форме треугольника и обернутый водорослями. Можно добавить начинку!"
 	icon_state = "onigiri"
 	foodtypes = VEGETABLES|GRAIN
 	tastes = list()
 
 /obj/item/food/pacoca
 	name = "paçoca"
-	desc = "A traditional Brazilian treat made of ground peanuts, sugar, and salt compressed into a cylinder."
+	desc = "Традиционное бразильское лакомство, приготовленное из молотого арахиса, сахара и соли, спрессованных в цилиндр."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "pacoca"
 	food_reagents = list(
@@ -625,7 +623,7 @@
 
 /obj/item/food/pickle
 	name = "pickle"
-	desc = "Slightly shriveled darkish cucumber. Smelling something sour, but incredibly inviting."
+	desc = "Слегка сморщенный и потемневший огурец. Запах кисловатый, но невероятно манящий."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "pickle"
 	food_reagents = list(
@@ -652,7 +650,7 @@
 
 /obj/item/food/springroll
 	name = "spring roll"
-	desc = "A plate of translucent rice wrappers filled with fresh vegetables, served with sweet chili sauce. You either love them or hate them."
+	desc = "Тарелка полупрозрачных рисовых оберток с начинкой из свежих овощей, подается со сладким соусом чили. На любителя."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "springroll"
 	food_reagents = list(
@@ -667,7 +665,7 @@
 
 /obj/item/food/cheese_pierogi
 	name = "cheese pierogi"
-	desc = "A dumpling made by wrapping unleavened dough around a savoury or sweet filling and cooking in boiling water. This one is filled with a potato and cheese mixture."
+	desc = "Родственники пельменей, приготовленные путем заворачивания пресного теста вокруг соленой или сладкой начинки и варки в кипящей воде. В данном случае начинка состоит из смеси картофеля и сыра."
 	icon_state = "cheese_pierogi"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -680,7 +678,7 @@
 
 /obj/item/food/meat_pierogi
 	name = "meat pierogi"
-	desc = "A dumpling made by wrapping unleavened dough around a savoury or sweet filling and cooking in boiling water. This one is filled with a potato and meat mixture."
+	desc = "Родственники пельменей, приготовленные путем заворачивания пресного теста вокруг соленой или сладкой начинки и варки в кипящей воде. В данном случае начинка состоит из смеси картофеля и мяса."
 	icon_state = "meat_pierogi"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -695,7 +693,7 @@
 
 /obj/item/food/stuffed_eggplant
 	name = "stuffed eggplant"
-	desc = "A cooked half of an eggplant, with the insides scooped out and mixed with meat, cheese, and veggies."
+	desc = "Отварная половинка баклажана, мякоть которого смешана с мясом, сыром и овощами."
 	icon_state = "stuffed_eggplant"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 10,
@@ -710,7 +708,7 @@
 
 /obj/item/food/moussaka
 	name = "moussaka"
-	desc = "A layered Mediterranean dish made of eggplants, mixed veggies, and meat with a topping of bechamel sauce. Sliceable"
+	desc = "Слоёное средиземноморское блюдо из баклажанов, овощей и мяса с соусом бешамель. Можно нарезать."
 	icon_state = "moussaka"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 30,
@@ -727,7 +725,7 @@
 
 /obj/item/food/moussaka_slice
 	name = "moussaka slice"
-	desc = "A layered Mediterranean dish made of eggplants, mixed veggies, and meat with a topping of bechamel sauce. Delish!"
+	desc = "Многослойное средиземноморское блюдо из баклажанов, овощей и мяса с соусом бешамель. Объедение!"
 	icon_state = "moussaka_slice"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 6,
@@ -741,7 +739,7 @@
 
 /obj/item/food/candied_pineapple
 	name = "candied pineapple"
-	desc = "A chunk of pineapple coated in sugar and dried into a chewy treat."
+	desc = "Кусочек ананаса, покрытый сахаром и высушенный до состояния жевательной массы."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
 		/datum/reagent/consumable/nutriment/vitamin = 3,
@@ -760,7 +758,7 @@
 
 /obj/item/food/raw_pita_bread
 	name = "raw pita bread"
-	desc = "a sticky disk of raw pita bread."
+	desc = "Сырой круг подслащенного теста - будущая пита."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "raw_pita_bread"
 	food_reagents = list(
@@ -780,7 +778,7 @@
 
 /obj/item/food/pita_bread
 	name = "pita bread"
-	desc = "a multi-purposed sweet flatbread of Mediterranean origins."
+	desc = "Универсальная сладкая лепешка средиземноморского происхождения."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "pita_bread"
 	food_reagents = list(
@@ -794,7 +792,7 @@
 
 /obj/item/food/tzatziki_sauce
 	name = "tzatziki sauce"
-	desc = "A garlic-based sauce or dip widely used in Mediterranean and Middle Eastern cuisine. Delicious on its own when dipped with pita bread or vegetables."
+	desc = "Соус или дип на основе чеснока, широко используемый в средиземноморской и ближневосточной кухне. Вкусен сам по себе, особенно с питой или овощами."
 	icon_state = "tzatziki_sauce"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 5,
@@ -807,7 +805,7 @@
 
 /obj/item/food/tzatziki_and_pita_bread
 	name = "tzatziki and pita bread"
-	desc = "Tzatziki sauce, now with pita bread for dipping. Very healthy and delicious all in one."
+	desc = "Соус дзадзики с питой для макания. Очень полезно и вкусно одновременно."
 	icon_state = "tzatziki_and_pita_bread"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 8,
@@ -820,7 +818,7 @@
 
 /obj/item/food/grilled_beef_gyro
 	name = "grilled beef gyro"
-	desc = "A traditional Greek dish of meat wrapped in pita bread with tomato, cabbage, onion, and tzatziki sauce."
+	desc = "Традиционное греческое блюдо из мяса, завернутого в питу, с помидорами, капустой, луком и соусом дзадзики."
 	icon_state = "grilled_beef_gyro"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 10,
@@ -835,7 +833,7 @@
 
 /obj/item/food/vegetarian_gyro
 	name = "vegetarian gyro"
-	desc = "A traditional Greek gyro with cucumbers substituted for meat. Still full of intense flavor and very nourishing."
+	desc = "Традиционный греческий гирос, где вместо мяса используются огурцы. Он по-прежнему обладает насыщенным вкусом и очень питателен."
 	icon_state = "vegetarian_gyro"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 10,
@@ -849,7 +847,7 @@
 ///Extracted from squids, or any fish with the ink fish trait.
 /obj/item/food/ink_sac
 	name = "ink sac"
-	desc = "the ink sac from some sort of fish or mollusk. It could be canned with a processor."
+	desc = "Чернильный мешок какой-то рыбы или моллюска. Его можно консервировать с помощью кухонного комбайна."
 	icon_state = "ink_sac"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/salt = 5)
 	tastes = list("seafood" = 3)
@@ -869,5 +867,5 @@
 	if(can_splat_on)
 		victim.adjust_temp_blindness_up_to(2.5 SECONDS, 3 SECONDS)
 		victim.adjust_confusion_up_to(2.5 SECONDS, 3 SECONDS)
-	victim.visible_message(span_warning("[victim] is inked by [src]!"), span_userdanger("You've been inked by [src]!"))
+	victim.visible_message(span_warning("[victim] [genderize_ru(victim.gender, "облит", "облита", "облито", "облиты")] чернилами из [src.declent_ru(GENITIVE)]!"), span_userdanger("Вы облиты чернилами из [src.declent_ru(GENITIVE)]!"))
 	playsound(victim, SFX_DESECRATION, 50, TRUE)

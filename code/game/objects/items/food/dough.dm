@@ -2,7 +2,7 @@
 
 /obj/item/food/dough
 	name = "dough"
-	desc = "A piece of dough."
+	desc = "Шар из теста."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "dough"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 6)
@@ -19,7 +19,7 @@
 
 /obj/item/food/flatdough
 	name = "flat dough"
-	desc = "A flattened dough."
+	desc = "Раскатанное тесто."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "flat dough"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 6)
@@ -36,7 +36,7 @@
 
 /obj/item/food/pizzabread
 	name = "pizza bread"
-	desc = "Add ingredients to make a pizza."
+	desc = "Добавьте ингредиенты, чтобы приготовить пиццу."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "pizzabread"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 7)
@@ -50,7 +50,7 @@
 
 /obj/item/food/doughslice
 	name = "dough slice"
-	desc = "A slice of dough. Can be cooked into a bun."
+	desc = "Кусочек теста. Из него можно выпечь булочки."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "doughslice"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 2)
@@ -67,7 +67,7 @@
 
 /obj/item/food/bun
 	name = "bun"
-	desc = "A base for any self-respecting burger."
+	desc = "Основа любого уважающего себя бургера."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "bun"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3)
@@ -82,7 +82,7 @@
 
 /obj/item/food/cakebatter
 	name = "cake batter"
-	desc = "Bake it to get a cake."
+	desc = "Запеките, чтобы приготовить торт."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "cakebatter"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 9)
@@ -98,7 +98,7 @@
 
 /obj/item/food/cakebatter/vegan
 	name = "vegan cake batter"
-	desc = "Bake it to get a vegan cake?."
+	desc = "Запеките, чтобы приготовить... вегетерианский торт?."
 	foodtypes = GRAIN
 
 /obj/item/food/cakebatter/vegan/make_bakeable()
@@ -106,7 +106,7 @@
 
 /obj/item/food/piedough
 	name = "pie dough"
-	desc = "Cook it to get a pie."
+	desc = "Запеките, чтобы приготовить пирог."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "piedough"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 9)
@@ -122,7 +122,7 @@
 
 /obj/item/food/rawpastrybase
 	name = "raw pastry base"
-	desc = "Must be cooked before use."
+	desc = "Перед использованием в рецептах следует запечь."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "rawpastrybase"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 2)
@@ -136,7 +136,7 @@
 
 /obj/item/food/pastrybase
 	name = "pastry base"
-	desc = "A base for any self-respecting pastry."
+	desc = "Основа любой уважающей себя выпечки."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "pastrybase"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3)

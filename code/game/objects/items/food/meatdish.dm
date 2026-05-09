@@ -5,7 +5,7 @@
 
 /obj/item/food/cubancarp
 	name = "\improper Cuban carp"
-	desc = "A grifftastic sandwich that burns your tongue and then leaves it numb!"
+	desc = "Фантастический сэндвич, который обжигает язык до полной немоты!"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "cubancarp"
 	bite_consumption = 3
@@ -22,7 +22,7 @@
 
 /obj/item/food/fishmeat
 	name = "fish fillet"
-	desc = "A fillet of some fish meat."
+	desc = "Филейная часть какой-то рыбы."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "fishfillet"
 	food_reagents = list(
@@ -48,7 +48,7 @@
 
 /obj/item/food/fishmeat/quality
 	name = "quality fish fillet"
-	desc = "A fillet of some precious fish meat."
+	desc = "Филейная часть какой-то очень дорогой рыбы."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 4,
 		/datum/reagent/consumable/nutriment/vitamin = 3,
@@ -62,7 +62,7 @@
 
 /obj/item/food/fishmeat/salmon
 	name = "salmon fillet"
-	desc = "A chunky, fatty fillet of salmon meat."
+	desc = "Крупное, жирное филе лосося."
 	icon_state = "salmon"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 4,
@@ -78,7 +78,7 @@
 
 /obj/item/food/fishmeat/carp
 	name = "carp fillet"
-	desc = "A fillet of spess carp meat."
+	desc = "Мясо филе космического карпа."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 4,
 		/datum/reagent/toxin/carpotoxin = 2,
@@ -94,7 +94,7 @@
 
 /obj/item/food/fishmeat/carp/imitation
 	name = "imitation carp fillet"
-	desc = "Almost just like the real thing, kinda."
+	desc = "Почти как настоящее мясо. Почти."
 	cell_line = null
 	starting_reagent_purity = 0.3
 
@@ -107,7 +107,7 @@
 
 /obj/item/food/fishmeat/moonfish
 	name = "moonfish fillet"
-	desc = "A fillet of moonfish."
+	desc = "Филейная часть лунной рыбы."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "moonfish_fillet"
 
@@ -116,7 +116,7 @@
 
 /obj/item/food/fishmeat/gunner_jellyfish
 	name = "gunner jellyfish fillet"
-	desc = "A gunner jellyfish with the stingers removed. Mildly hallucinogenic when raw."
+	desc = "Пороховая медуза без жала. В сыром виде обладает слабым галлюциногенным действием."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "jellyfish_fillet"
 	food_reagents = list(
@@ -129,7 +129,7 @@
 
 /obj/item/food/fishmeat/armorfish
 	name = "cleaned armorfish"
-	desc = "An armorfish with its guts and shell removed, ready for use in cooking."
+	desc = "Выпотрошенная бронерыба без панциря, готовая к использованию на кухне."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "armorfish_fillet"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3)
@@ -138,13 +138,13 @@
 ///donkfish fillets. The yuck reagent is now added by the fish trait of the same name.
 /obj/item/food/fishmeat/donkfish
 	name = "donkfillet"
-	desc = "The dreaded donkfish fillet. No sane spaceman would eat this, and it does not get better when cooked."
+	desc = "Ужасное филе донк-рыбы. Ни один здравомыслящий космонавт не станет его есть, ведь после приготовления оно становится ещё хуже."
 	icon_state = "donkfillet"
 	starting_reagent_purity = 0.3
 
 /obj/item/food/fishmeat/octopus
 	name = "octopus tentacle"
-	desc = "A large tentacle from an octopus."
+	desc = "Крупное щупальце осьминога."
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "octopus_fillet"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3)
@@ -155,7 +155,7 @@
 
 /obj/item/food/fishmeat/fish_tail
 	name = "fish tail fillet"
-	desc = "A precious fatty filet cut straight from the tail of a very large ...fish? Its rarity has it seen as a delicacy in certain spaces."
+	desc = "Ценное жирное филе, вырезанное прямо из хвоста очень крупной... рыбы? Из-за своей редкости оно считается деликатесом в определенных кругах."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 2,
 		/datum/reagent/consumable/nutriment/vitamin = 1,
@@ -171,7 +171,7 @@
 
 /obj/item/food/fishfingers
 	name = "fish fingers"
-	desc = "A finger of fish."
+	desc = "Палочки из рыбного фарша."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "fishfingers"
 	food_reagents = list(
@@ -188,7 +188,7 @@
 
 /obj/item/food/fishandchips
 	name = "fish and chips"
-	desc = "I do say so myself chap."
+	desc = "Британская классика. Со слов самих британцев."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "fishandchips"
 	food_reagents = list(
@@ -203,7 +203,7 @@
 
 /obj/item/food/fishfry
 	name = "fish fry"
-	desc = "All that and no bag of chips..."
+	desc = "Рыба, овощи... И никакой картошки."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "fishfry"
 	food_reagents = list (
@@ -217,7 +217,7 @@
 
 /obj/item/food/vegetariansushiroll
 	name = "vegetarian sushi roll"
-	desc = "A roll of simple vegetarian sushi with rice, carrots, and potatoes. Sliceable into pieces!"
+	desc = "Простой вегетарианский суши-ролл с рисом, морковью и картофелем. Можно нарезать на части!"
 	icon_state = "vegetariansushiroll"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 12,
@@ -233,7 +233,7 @@
 
 /obj/item/food/vegetariansushislice
 	name = "vegetarian sushi slice"
-	desc = "A slice of simple vegetarian sushi with rice, carrots, and potatoes."
+	desc = "Кусочек простого вегетарианского суши-ролла с рисом, морковью и картофелем"
 	icon_state = "vegetariansushislice"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -246,7 +246,7 @@
 
 /obj/item/food/spicyfiletsushiroll
 	name = "spicy filet sushi roll"
-	desc = "A roll of tasty, spicy sushi made with fish and vegetables. Sliceable into pieces!"
+	desc = "Острый и вкусный суши-ролл из рыбы и овощей. Можно нарезать на части!"
 	icon_state = "spicyfiletroll"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 12,
@@ -264,7 +264,7 @@
 
 /obj/item/food/spicyfiletsushislice
 	name = "spicy filet sushi slice"
-	desc = "A slice of tasty, spicy sushi made with fish and vegetables. Don't eat it too fast!."
+	desc = "Кусочек острого и вкусного суши-ролла из рыбы и овощей. Ешьте осторожно!"
 	icon_state = "spicyfiletslice"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -283,7 +283,7 @@
 	foodtypes = VEGETABLES
 	tastes = list()
 	icon_state = "vegetariansushiroll"
-	desc = "A roll of customized sushi."
+	desc = "Суши-ролл по собственному рецепту."
 	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/sushi/empty/make_processable()
@@ -294,12 +294,12 @@
 	foodtypes = VEGETABLES
 	tastes = list()
 	icon_state = "vegetariansushislice"
-	desc = "A slice of customized sushi."
+	desc = "Кусочек суши-ролла по собственному рецепту."
 	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/nigiri_sushi
 	name = "nigiri sushi"
-	desc = "A simple nigiri of fish atop a packed rice ball with a seaweed wrapping and a side of soy sauce."
+	desc = "Простые нигири из рыбы, выложенные на плотный рисовый шарик, завернутые в водоросли и подаваемые с соевым соусом."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "nigiri_sushi"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/consumable/nutriment/vitamin = 6, /datum/reagent/consumable/nutriment/protein = 2)
@@ -310,7 +310,7 @@
 
 /obj/item/food/meat_poke
 	name = "meat poke"
-	desc = "Simple poke, rice on the bottom, vegetables and meat on top. Should be mixed before eating."
+	desc = "Простой поке: рис снизу, овощи и мясо сверху. Перед употреблением все перемешать."
 	icon = 'icons/obj/food/soupsalad.dmi'
 	icon_state = "pokemeat"
 	food_reagents = list(
@@ -328,7 +328,7 @@
 
 /obj/item/food/fish_poke
 	name = "fish poke"
-	desc = "Simple poke, rice on the bottom, vegetables and fish on top. Should be mixed before eating."
+	desc = "Простой поке: рис снизу, овощи и рыба сверху. Перед употреблением все перемешать."
 	icon = 'icons/obj/food/soupsalad.dmi'
 	icon_state = "pokefish"
 	food_reagents = list(
@@ -347,7 +347,7 @@
 
 /obj/item/food/tempeh
 	name = "raw tempeh block"
-	desc = "Fungus fermented soybean cake, warm to the touch."
+	desc = "Соевый жмых, ферментированный с грибами. Теплый на ощупь."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "tempeh"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 8)
@@ -364,7 +364,7 @@
 //add an icon for slices
 /obj/item/food/tempehslice
 	name = "tempeh slice"
-	desc = "A slice of tempeh, a slice of wkwkwk."
+	desc = "Ломтик темпе, ломтик век-век-век."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "tempehslice"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 2)
@@ -375,7 +375,7 @@
 //add an icon for blends
 /obj/item/food/tempehstarter
 	name = "tempeh starter"
-	desc = "A mix of soy and joy. It's warm... and moving?"
+	desc = "Смесь сои и забавы. Теплая... ещё и шевелится?"
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "tempehstarter"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 2)
@@ -385,7 +385,7 @@
 
 /obj/item/food/tofu
 	name = "tofu"
-	desc = "We all love tofu."
+	desc = "Все мы любим тофу, тофу любят все."
 	icon_state = "tofu"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 2)
 	tastes = list("tofu" = 1)
@@ -396,13 +396,13 @@
 
 /obj/item/food/tofu/prison
 	name = "soggy tofu"
-	desc = "You refuse to eat this strange bean curd."
+	desc = "Вы отказываетесь есть эту странную пародию на тофу."
 	tastes = list("sour, rotten water" = 1)
 	foodtypes = GROSS
 
 /obj/item/food/spiderleg
 	name = "spider leg"
-	desc = "A still twitching leg of a giant spider... you don't really want to eat this, do you?"
+	desc = "Всё ещё подёргивающаяся лапка гигантского паука... вы ведь не собираетесь это есть, правда?"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "spiderleg"
 	food_reagents = list(
@@ -418,7 +418,7 @@
 
 /obj/item/food/cornedbeef
 	name = "corned beef and cabbage"
-	desc = "Now you can feel like a real tourist vacationing in Ireland."
+	desc = "Теперь вы можете почувствовать себя настоящим туристом, отдыхающим в Ирландии."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "cornedbeef"
 	food_reagents = list(
@@ -434,7 +434,7 @@
 
 /obj/item/food/bearsteak
 	name = "filet migrawr"
-	desc = "Because eating bear wasn't manly enough."
+	desc = "Просто съесть медвежатину было бы недостаточно по-мужицки."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "bearsteak"
 	food_reagents = list(
@@ -451,7 +451,7 @@
 
 /obj/item/food/raw_meatball
 	name = "raw meatball"
-	desc = "A great meal all round. Not a cord of wood. Kinda raw"
+	desc = "Отличная еда во всех отношениях. Кроме того, что она сырая."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "raw_meatball"
 	custom_materials = list(/datum/material/meat = MEATDISH_MATERIAL_AMOUNT)
@@ -495,7 +495,7 @@
 
 /obj/item/food/meatball
 	name = "meatball"
-	desc = "A great meal all round. Not a cord of wood."
+	desc = "Отличная еда во всех отношениях. Без опилок в фарше."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "meatball"
 	inhand_icon_state = "meatball"
@@ -529,7 +529,7 @@
 
 /obj/item/food/raw_patty
 	name = "raw patty"
-	desc = "I'm.....NOT REAAADDYY."
+	desc = "Я НЕ ГОТОВА!"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "raw_patty"
 	custom_materials = list(/datum/material/meat = MEATDISH_MATERIAL_AMOUNT)
@@ -567,7 +567,7 @@
 
 /obj/item/food/patty
 	name = "patty"
-	desc = "The Nanotrasen patty is the patty for you and me!"
+	desc = "Котлетка по рецептуре Nanotrasen! Для нас, для вас, и для ваших гостей."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "patty"
 	custom_materials = list(/datum/material/meat = MEATDISH_MATERIAL_AMOUNT)
@@ -601,7 +601,7 @@
 
 /obj/item/food/raw_sausage
 	name = "raw sausage"
-	desc = "A piece of mixed, long meat, but then raw."
+	desc = "Перемешанный мясной фарш со специями, сформированный в сырую колбаску."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "raw_sausage"
 	food_reagents = list(
@@ -620,7 +620,7 @@
 
 /obj/item/food/sausage
 	name = "sausage"
-	desc = "A piece of mixed, long meat."
+	desc = "Длинная колбаска из мясного фарша."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "sausage"
 	food_reagents = list(
@@ -643,7 +643,7 @@
 
 /obj/item/food/sausage/american
 	name = "american sausage"
-	desc = "Snip."
+	desc = "Есть целиком."
 	icon_state = "american_sausage"
 
 /obj/item/food/sausage/american/make_processable()
@@ -651,7 +651,7 @@
 
 /obj/item/food/salami
 	name = "salami"
-	desc = "A slice of cured salami."
+	desc = "Кусочек вяленого салями."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "salami"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 1)
@@ -664,7 +664,7 @@
 
 /obj/item/food/rawkhinkali
 	name = "raw khinkali"
-	desc = "One hundred khinkalis? Do I look like a pig?"
+	desc = "Сотня хинкалей? Я кто, по-вашему, кабан?"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "khinkali"
 	food_reagents = list(
@@ -684,7 +684,7 @@
 
 /obj/item/food/khinkali
 	name = "khinkali"
-	desc = "One hundred khinkalis? Do I look like a pig?"
+	desc = "Сотня хинкалей? Я кто, по-вашему, кабан?"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "khinkali"
 	food_reagents = list(
@@ -702,7 +702,7 @@
 
 /obj/item/food/meatbun
 	name = "meat bun"
-	desc = "Has the potential to not be human."
+	desc = "С определенной вероятностью сделана не из человечины."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "meatbun"
 	food_reagents = list(
@@ -718,7 +718,7 @@
 
 /obj/item/food/stewedsoymeat
 	name = "stewed soy meat"
-	desc = "Even non-vegetarians will LOVE this!"
+	desc = "Это понравится даже не вегетарианцам!"
 	icon_state = "stewedsoymeat"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 5,
@@ -733,7 +733,7 @@
 
 /obj/item/food/boiledspiderleg
 	name = "boiled spider leg"
-	desc = "A giant spider's leg that's still twitching after being cooked. Gross!"
+	desc = "Всё ещё подёргивающаяся лапка гигантского паука... Даже после обжарки. Гадость!"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "spiderlegcooked"
 	food_reagents = list(
@@ -748,7 +748,7 @@
 
 /obj/item/food/spidereggsham
 	name = "green eggs and ham"
-	desc = "Would you eat them on a train? Would you eat them on a plane? Would you eat them on a state of the art corporate deathtrap floating through space?"
+	desc = "Где бы вы это съели? В поезде? В самолете? Или может на борту ультрасовременной корпоративной смертельной ловушки, бесконечно дрейфующей в космосе?"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "spidereggsham"
 	food_reagents = list(
@@ -764,7 +764,7 @@
 
 /obj/item/food/sashimi
 	name = "spider sashimi"
-	desc = "Celebrate surviving an attack from hostile alien lifeforms by hospitalising yourself. You sure hope whoever made this is skilled."
+	desc = "Отпразднуйте выживание после нападения враждебных инопланетных существ, чтобы следом отправиться в больницу. Наверняка тот, кто это сделал, - настоящий профессионал."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "sashimi"
 	food_reagents = list(
@@ -785,7 +785,7 @@
 
 /obj/item/food/nugget
 	name = "chicken nugget"
-	desc = "A \"chicken\" nugget vaguely shaped like something."
+	desc = "Наггетс из \"курятины\", что-то отдаленно напоминающий."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
 		/datum/reagent/consumable/nutriment/protein = 2,
@@ -801,12 +801,13 @@
 	venue_value = FOOD_PRICE_CHEAP
 	crafting_complexity = FOOD_COMPLEXITY_1
 	custom_materials = list(/datum/material/meat = MEATDISH_MATERIAL_AMOUNT)
-	var/meat_source = "\"chicken\""
+	var/meat_source = "\"курятины\""
 
 /obj/item/food/nugget/Initialize(mapload)
 	. = ..()
 	var/shape = pick("lump", "star", "lizard", "corgi")
-	desc = "A [meat_source] nugget vaguely shaped like a [shape]."
+	var/shape_str = list("lump" = "камень", "star" = "звезду", "lizard" = "ящерку", "corgi" = "корги")
+	desc = "Наггетс из [meat_source], по форме отдаленно напоминающий [shape_str[shape]]."
 	icon_state = "nugget_[shape]"
 
 ///subtype harvested from fish caught from, you guess it, the deepfryer
@@ -815,11 +816,11 @@
 	tastes = list("fried fish" = 1)
 	foodtypes = MEAT|SEAFOOD|FRIED
 	venue_value = FOOD_PRICE_NORMAL
-	meat_source = "fish"
+	meat_source = "рыбы"
 
 /obj/item/food/pigblanket
 	name = "pig in a blanket"
-	desc = "A tiny sausage wrapped in a flakey, buttery roll. Free this pig from its blanket prison by eating it."
+	desc = "Маленькая сосиска, завёрнутая в слоёную маслянистую булочку. Освободите эту свинью из плена одеяла, съев её."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "pigblanket"
 	food_reagents = list(
@@ -836,7 +837,7 @@
 
 /obj/item/food/bbqribs
 	name = "bbq ribs"
-	desc = "BBQ ribs, slathered in a healthy coating of BBQ sauce. The least vegan thing to ever exist."
+	desc = "Рёбрышки на гриле, щедро политые соусом барбекю. Самое невеганское блюдо на свете."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "ribs"
 	w_class = WEIGHT_CLASS_NORMAL
@@ -852,7 +853,7 @@
 
 /obj/item/food/meatclown
 	name = "meat clown"
-	desc = "A delicious, round piece of meat clown. How horrifying."
+	desc = "Вкусный круглый кусок мяса, похожий на клоуна. Как ужасно."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "meatclown"
 	food_reagents = list(
@@ -872,7 +873,7 @@
 
 /obj/item/food/lasagna
 	name = "lasagna"
-	desc = "A slice of lasagna. Perfect for a Monday afternoon."
+	desc = "Кусочек лазаньи. Идеально на обед в понедельник."
 	icon_state = "lasagna"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 6,
@@ -900,7 +901,7 @@
 
 /obj/item/food/kebab/human
 	name = "human-kebab"
-	desc = "A human meat, on a stick."
+	desc = "Кусочки человечины на вертеле."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 16,
 		/datum/reagent/consumable/nutriment/vitamin = 6,
@@ -912,7 +913,7 @@
 
 /obj/item/food/kebab/monkey
 	name = "meat-kebab"
-	desc = "Delicious meat, on a stick."
+	desc = "Кусочки мяса на вертеле."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 16,
 		/datum/reagent/consumable/nutriment/vitamin = 2,
@@ -924,7 +925,7 @@
 
 /obj/item/food/kebab/tofu
 	name = "tofu-kebab"
-	desc = "Vegan meat, on a stick."
+	desc = "Вегетерианское мясо на вертеле."
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 15)
 	tastes = list("tofu" = 3, "metal" = 1)
 	foodtypes = VEGETABLES
@@ -932,7 +933,7 @@
 
 /obj/item/food/kebab/tail
 	name = "lizard-tail kebab"
-	desc = "Severed lizard tail on a stick."
+	desc = "Порезанный на кусочки хвост ящера, нанизанный на вертел."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 30,
 		/datum/reagent/consumable/nutriment/vitamin = 4,
@@ -942,7 +943,7 @@
 
 /obj/item/food/kebab/rat
 	name = "rat-kebab"
-	desc = "Not so delicious rat meat, on a stick."
+	desc = "Не такая вкусная крысятина на вертеле."
 	icon_state = "ratkebab"
 	w_class = WEIGHT_CLASS_NORMAL
 	trash_type = null
@@ -966,7 +967,7 @@
 
 /obj/item/food/kebab/fiesta
 	name = "fiesta skewer"
-	desc = "Variety of meats and vegetables on a stick."
+	desc = "Кусочки мяса и овощей на вертеле."
 	icon_state = "fiestaskewer"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 12,
@@ -980,7 +981,7 @@
 
 /obj/item/food/fried_chicken
 	name = "fried chicken"
-	desc = "A juicy hunk of chicken meat, fried to perfection."
+	desc = "Сочный кусок куриного мяса, идеально обжаренный."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "fried_chicken1"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 6, /datum/reagent/consumable/nutriment/vitamin = 2)
@@ -998,7 +999,7 @@
 
 /obj/item/food/beef_stroganoff
 	name = "beef stroganoff"
-	desc = "A Russian dish that consists of beef and sauce. Really popular in Japan, or at least that's what my animes would allude to."
+	desc = "Русское блюдо из говядины и соуса. Очень популярно в Японии, по крайней мере, так показывают в аниме."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "beefstroganoff"
 	trash_type = /obj/item/reagent_containers/cup/bowl
@@ -1017,7 +1018,7 @@
 
 /obj/item/food/beef_wellington
 	name = "beef wellington"
-	desc = "A luxurious log of beef, covered in a fine mushroom duxelle and pancetta ham, then bound in puff pastry."
+	desc = "Роскошный рулет из говядины, покрытый изысканным грибным дюкселем и ветчиной панчетта, заключенный в слоеное тесто."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "beef_wellington"
 	food_reagents = list(
@@ -1036,7 +1037,7 @@
 
 /obj/item/food/beef_wellington_slice
 	name = "beef wellington slice"
-	desc = "A slice of beef wellington, topped with a rich gravy. Simply delicious."
+	desc = "Кусочек биф-веллингтона, политый густым соусом. Просто восхитительно."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "beef_wellington_slice"
 	food_reagents = list(
@@ -1052,7 +1053,7 @@
 
 /obj/item/food/korta_wellington
 	name = "korta wellington"
-	desc = "A luxurious log of beef, covered in a fine mushroom duxelle and pancetta ham, then bound in korta pastry."
+	desc = "Роскошный рулет из говядины, покрытый изысканным грибным дюкселем и ветчиной панчетта, заключенный в тесто из корта."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "korta_wellington"
 	food_reagents = list(
@@ -1071,7 +1072,7 @@
 
 /obj/item/food/korta_wellington_slice
 	name = "korta wellington slice"
-	desc = "A slice of korta & beef wellington, topped with a rich gravy. Simply delicious."
+	desc = "Кусочек корта-веллингтона, политый густым соусом. Просто восхитительно!"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "korta_wellington_slice"
 	food_reagents = list(
@@ -1087,7 +1088,7 @@
 
 /obj/item/food/roast_dinner
 	name = "roast dinner"
-	desc = "A luxuriously roasted chicken, accompanied by cabbage, parsnip, potatoes, peas, stuffing and a small boat of gravy."
+	desc = "Изысканно запеченная курица в сопровождении капусты, пастернака, картофеля, гороха, начинки и небольшой плошки подливки."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "full_roast"
 	food_reagents = list(
@@ -1106,7 +1107,7 @@
 
 /obj/item/food/roast_slice
 	name = "plate of roast dinner"
-	desc = "A small plate of roast chicken, peas, cabbage, parsnips, potatoes, stuffing and... WAIT is this all the gravy I get?!"
+	desc = "Небольшая тарелка c кусочком запеченной курицы в сопровождении капусты, пастернака, картофеля, гороха, начинки и... ПОДОЖДИТЕ, и это вся подливка, которую мне налили?!"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "roast_slice"
 	food_reagents = list(
@@ -1122,7 +1123,7 @@
 
 /obj/item/food/roast_dinner_lizzy
 	name = "grain-free roast dinner"
-	desc = "A luxuriously roasted chicken, accompanied by cabbage, parsnip, potatoes, peas, korta stuffing and a small boat of korta-blood gravy."
+	desc = "Изысканно запеченная курица, подаваемая с капустой, пастернаком, картофелем, горошком, ореховой начинкой и небольшой лодочкой соуса из нектара корта."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "full_roast_lizzy"
 	food_reagents = list(
@@ -1141,7 +1142,7 @@
 
 /obj/item/food/roast_slice_lizzy
 	name = "plate of grain-free roast dinner"
-	desc = "A small plate of roast chicken, peas, cabbage, parsnips, potatoes, korta stuffing and... WAIT is this all the korta-blood gravy I get?!"
+	desc = "Небольшая тарелка c кусочком запеченной курицы в сопровождении капусты, пастернака, картофеля, гороха, ореховой начинки и... ПОГОДИТЕ, и это вся подливка, которую мне налили?!"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "roast_slice_lizzy"
 	food_reagents = list(
@@ -1157,7 +1158,7 @@
 
 /obj/item/food/roast_dinner_tofu
 	name = "tofu roast dinner"
-	desc = "A luxuriously roasted tofu-'chicken', accompanied by cabbage, parsnip, potatoes, peas, stuffing and a small boat of soy-based gravy."
+	desc = "Изысканно запеченная «курица» из тофу, подаваемая с капустой, пастернаком, картофелем, горошком, начинкой и небольшой лодочкой подливки из соевого соуса."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "full_roast_tofu"
 	food_reagents = list(
@@ -1175,7 +1176,7 @@
 
 /obj/item/food/roast_slice_tofu
 	name = "plate of tofu roast dinner"
-	desc = "A small plate of roast tofu-'chicken', peas, cabbage, parsnips, potatoes, stuffing and... WAIT is this all the soy gravy I get?!"
+	desc = "Небольшая тарелка c кусочком запеченного тофу в сопровождении капусты, пастернака, картофеля, гороха, начинки и... ПОГОДИТЕ, и это вся подливка, которую мне налили?!"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "roast_slice_tofu"
 	food_reagents = list(
@@ -1190,7 +1191,7 @@
 
 /obj/item/food/full_english
 	name = "full english breakfast"
-	desc = "A hearty plate with all the trimmings, representing the pinnacle of the breakfast art."
+	desc = "Сытное блюдо со всеми необходимыми дополнениями, представляющее собой пик искусства приготовления завтрака."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "full_english"
 	food_reagents = list(
@@ -1206,7 +1207,7 @@
 
 /obj/item/food/raw_meatloaf
 	name = "raw meatloaf"
-	desc = "A heavy 'loaf' of minced meat, onions, and garlic. Bake it in an oven!"
+	desc = "Тяжелый «батон» из рубленого мяса, лука и чеснока. Запекать в духовке!"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "raw_meatloaf"
 	food_reagents = list(
@@ -1225,7 +1226,7 @@
 
 /obj/item/food/meatloaf
 	name = "meatloaf"
-	desc = "A mixture of meat, onions, and garlic formed into a loaf and baked in an oven. It's covered in a generous slathering of ketchup. Use a knife to cut it into slices!"
+	desc = "Смесь мяса, лука и чеснока, сформированная в виде буханки и запеченная в духовке. Щедро смазана кетчупом. Можно нарезать ножом на ломтики!"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "meatloaf"
 	food_reagents = list(
@@ -1244,7 +1245,7 @@
 
 /obj/item/food/meatloaf_slice
 	name = "meatloaf slice"
-	desc = "A slice of delicious, juicy meatloaf with a ketchup topping."
+	desc = "Кусочек восхитительного, сочного мясного рулета с порцией кетчупа."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "meatloaf_slice"
 	food_reagents = list(
@@ -1260,7 +1261,7 @@
 
 /obj/item/food/sweet_and_sour_meatballs
 	name = "sweet and sour meatballs"
-	desc = "Golden meatballs glazed in a sticky savory sauce, served with pineapple and pepper chunks."
+	desc = "Золотистые фрикадельки, покрытые густым пикантным соусом. Подаются с кусочками ананаса и перца."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "sweet_and_sour_meatballs"
 	food_reagents = list(
@@ -1275,7 +1276,7 @@
 
 /obj/item/food/kebab/pineapple_skewer
 	name = "pineapple skewer"
-	desc = "Chunks of glazed meat skewered on a rod with pineapple slices. Surprisingly not bad!"
+	desc = "Кусочки глазированного мяса, нанизанные на шампур вместе с ломтиками ананаса. На удивление, неплохо!"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "pineapple_skewer"
 	food_reagents = list(
@@ -1289,7 +1290,7 @@
 
 /obj/item/food/futomaki_sushi_roll
 	name = "futomaki sushi roll"
-	desc = "A roll of futomaki sushi, made of boiled egg, fish, and cucumber. Sliceable"
+	desc = "Суши-ролл футомаки, приготовленный из вареного яйца, рыбы и огурца. Можно нарезать."
 	icon_state = "futomaki_sushi_roll"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 12,
@@ -1306,7 +1307,7 @@
 
 /obj/item/food/futomaki_sushi_slice
 	name = "futomaki sushi slice"
-	desc = "A slice of futomaki sushi, made of boiled egg, fish, and cucumber."
+	desc = "Кусочек суши футомаки, приготовленного из вареного яйца, рыбы и огурца."
 	icon_state = "futomaki_sushi_slice"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -1320,7 +1321,7 @@
 
 /obj/item/food/philadelphia_sushi_roll
 	name = "philadelphia sushi roll"
-	desc = "A roll of Philadelphia sushi, made of cheese, fish, and cucumber. Sliceable"
+	desc = "Суши-ролл «Филадельфия», приготовленный из сыра, рыбы и огурца. Можно нарезать."
 	icon_state = "philadelphia_sushi_roll"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 12,
@@ -1337,7 +1338,7 @@
 
 /obj/item/food/philadelphia_sushi_slice
 	name = "philadelphia sushi slice"
-	desc = "A roll of Philadelphia sushi, made of cheese, fish, and cucumber."
+	desc = "Кусочек ролла «Филадельфия», приготовленного из сыра, рыбы и огурца."
 	icon_state = "philadelphia_sushi_slice"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
